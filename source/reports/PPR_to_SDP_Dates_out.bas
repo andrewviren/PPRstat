@@ -1,0 +1,704 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    OrderByOn = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =12045
+    DatasheetFontHeight =11
+    ItemSuffix =399
+    DatasheetGridlinesColor =14806254
+    OrderBy ="[PPR_to_SDP_Dates_out].[PublishID]"
+    RecSrcDt = Begin
+        0x683e98929379e440
+    End
+    RecordSource ="PPR_to_SDP_Dates_out"
+    Caption ="PPR_to_SDP_Dates_out"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x68010000680100006801000068010000000000000d2f00008601000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =12632256
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin BreakLevel
+            ControlSource ="LocUsageDateStart"
+        End
+        Begin BreakLevel
+            ControlSource ="LocUsageDateFinish"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =420
+            BackColor =15849926
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+            Begin
+                Begin Label
+                    TextAlign =1
+                    Left =3975
+                    Top =30
+                    Width =1500
+                    Height =315
+                    BorderColor =8355711
+                    Name ="LocUsageDateTimeEventStart_Label"
+                    Caption ="EventStart"
+                    Tag ="DetachedLabel"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3975
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =5475
+                    LayoutCachedHeight =345
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =195
+                    Top =30
+                    Width =1440
+                    Height =315
+                    BorderColor =8355711
+                    Name ="LocUsageDateStart_Label"
+                    Caption ="DateStart"
+                    Tag ="DetachedLabel"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =195
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =1635
+                    LayoutCachedHeight =345
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =1695
+                    Top =30
+                    Width =2220
+                    Height =315
+                    BorderColor =8355711
+                    Name ="LocUsageDateFinish_Label"
+                    Caption ="DateFinish"
+                    Tag ="DetachedLabel"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1695
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3915
+                    LayoutCachedHeight =345
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =5535
+                    Top =30
+                    Width =1500
+                    Height =315
+                    BorderColor =8355711
+                    Name ="LocUsageDateTimeEventFinish_Label"
+                    Caption ="EventFinish"
+                    Tag ="DetachedLabel"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =5535
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7035
+                    LayoutCachedHeight =345
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    TextAlign =1
+                    Left =10575
+                    Top =30
+                    Width =1440
+                    Height =315
+                    BorderColor =8355711
+                    Name ="LocUsageDateSpaces_Label"
+                    Caption ="Spaces"
+                    Tag ="DetachedLabel"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =10575
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12015
+                    LayoutCachedHeight =345
+                    ColumnStart =11
+                    ColumnEnd =11
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =10155
+                    Top =30
+                    Width =360
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label322"
+                    Caption ="Sun"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =10155
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10515
+                    LayoutCachedHeight =345
+                    ColumnStart =10
+                    ColumnEnd =10
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =9735
+                    Top =30
+                    Width =360
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label342"
+                    Caption ="Sat"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =9735
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10095
+                    LayoutCachedHeight =345
+                    ColumnStart =9
+                    ColumnEnd =9
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =9360
+                    Top =30
+                    Width =315
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label352"
+                    Caption ="Fri"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =9675
+                    LayoutCachedHeight =345
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =8805
+                    Top =30
+                    Width =495
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label360"
+                    Caption ="Thur"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8805
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =9300
+                    LayoutCachedHeight =345
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =8235
+                    Top =30
+                    Width =510
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label372"
+                    Caption ="Wed"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =8235
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8745
+                    LayoutCachedHeight =345
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =7665
+                    Top =30
+                    Width =510
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label383"
+                    Caption ="Tues"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =7665
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8175
+                    LayoutCachedHeight =345
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =1
+                    Left =7095
+                    Top =30
+                    Width =510
+                    Height =315
+                    BorderColor =8355711
+                    Name ="Label392"
+                    Caption ="Mon"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    LayoutCachedLeft =7095
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7605
+                    LayoutCachedHeight =345
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    ForeTint =100.0
+                    GroupTable =6
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =390
+            Name ="Detail"
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =3975
+                    Top =30
+                    Width =1500
+                    Height =330
+                    ColumnWidth =3135
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LocUsageDateTimeEventStart"
+                    ControlSource ="LocUsageDateTimeEventStart"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    ShowDatePicker =1
+
+                    LayoutCachedLeft =3975
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =5475
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =195
+                    Top =30
+                    Height =330
+                    ColumnWidth =2145
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LocUsageDateStart"
+                    ControlSource ="LocUsageDateStart"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =195
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =1635
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =30
+                    Width =2220
+                    Height =330
+                    ColumnWidth =2265
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LocUsageDateFinish"
+                    ControlSource ="LocUsageDateFinish"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1695
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =3915
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =5535
+                    Top =30
+                    Width =1500
+                    Height =330
+                    ColumnWidth =3255
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LocUsageDateTimeEventFinish"
+                    ControlSource ="LocUsageDateTimeEventFinish"
+                    GroupTable =6
+                    GridlineColor =10921638
+                    ShowDatePicker =1
+
+                    LayoutCachedLeft =5535
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7035
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =10575
+                    Top =30
+                    Height =330
+                    ColumnWidth =2340
+                    TabIndex =11
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="LocUsageDateSpaces"
+                    ControlSource ="LocUsageDateSpaces"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =10575
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =12015
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =11
+                    ColumnEnd =11
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =10155
+                    Top =30
+                    Width =360
+                    Height =330
+                    ColumnWidth =2940
+                    TabIndex =10
+                    BorderColor =10921638
+                    Name ="Check321"
+                    ControlSource ="LocUsageDateDaySun"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =10155
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10515
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =10
+                    ColumnEnd =10
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =9735
+                    Top =30
+                    Width =360
+                    Height =330
+                    ColumnWidth =2340
+                    TabIndex =9
+                    BorderColor =10921638
+                    Name ="Check341"
+                    ControlSource ="LocUsageDateDaySat"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9735
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =10095
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =9
+                    ColumnEnd =9
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =9360
+                    Top =30
+                    Width =315
+                    Height =330
+                    ColumnWidth =2295
+                    TabIndex =8
+                    BorderColor =10921638
+                    Name ="Check351"
+                    ControlSource ="LocUsageDateDayFri"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =9360
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =9675
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =8
+                    ColumnEnd =8
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =8805
+                    Top =30
+                    Width =495
+                    Height =330
+                    ColumnWidth =930
+                    TabIndex =7
+                    BorderColor =10921638
+                    Name ="Check359"
+                    ControlSource ="LocUsageDateDayThur"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8805
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =9300
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =8235
+                    Top =30
+                    Width =510
+                    Height =330
+                    ColumnWidth =930
+                    TabIndex =6
+                    BorderColor =10921638
+                    Name ="Check371"
+                    ControlSource ="LocUsageDateDayWed"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =8235
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8745
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =7665
+                    Top =30
+                    Width =510
+                    Height =330
+                    ColumnWidth =1185
+                    TabIndex =5
+                    BorderColor =10921638
+                    Name ="LocUsageDateDayTues"
+                    ControlSource ="LocUsageDateDayTues"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =7665
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =8175
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+                Begin CheckBox
+                    Left =7095
+                    Top =30
+                    Width =510
+                    Height =330
+                    ColumnWidth =2475
+                    TabIndex =4
+                    BorderColor =10921638
+                    Name ="LocUsageDateDayMon"
+                    ControlSource ="LocUsageDateDayMon"
+                    GroupTable =6
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =7095
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =7605
+                    LayoutCachedHeight =360
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =6
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="ReportFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

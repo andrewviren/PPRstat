@@ -1,0 +1,25 @@
+﻿dbMemo "SQL" ="SELECT tblPermit.PublishID\015\012FROM tblPermit INNER JOIN ((qryScheduleAmenity"
+    "NamesConcat LEFT JOIN qryScheduleAmenityNamesConcat_enforcefacility ON qrySchedu"
+    "leAmenityNamesConcat.ActivityScheduleID=qryScheduleAmenityNamesConcat_enforcefac"
+    "ility.ActivityScheduleID) INNER JOIN tblActivitySchedule ON qryScheduleAmenityNa"
+    "mesConcat.ActivityScheduleID=tblActivitySchedule.ActivityScheduleID) ON tblPermi"
+    "t.ActivityID=tblActivitySchedule.ActivityID\015\012GROUP BY tblPermit.PublishID,"
+    " qryScheduleAmenityNamesConcat.ActivityScheduleID, qryScheduleAmenityNamesConcat"
+    "_enforcefacility.ActivityScheduleID\015\012HAVING (((qryScheduleAmenityNamesConc"
+    "at_enforcefacility.ActivityScheduleID) Is Null));\015\012"
+dbMemo "Connect" =""
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
+dbBoolean "TotalsRow" ="0"
+Begin
+    Begin
+        dbText "Name" ="tblPermit.PublishID"
+        dbLong "AggregateType" ="-1"
+    End
+End
