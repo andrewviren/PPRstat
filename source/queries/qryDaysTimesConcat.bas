@@ -1,6 +1,6 @@
 ﻿Operation =2
 Name ="tblDaysTimesConcat"
-Database ="S:\\PROGRAMMING\\db\\PPR_Activities.accdb"
+Database ="P:\\PERFORMANCE MGMT\\data\\PPR_Activities.accdb"
 Option =0
 Begin InputTables
     Name ="qryTimesConcat"
@@ -56,12 +56,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =303
+    Right =1309
+    Bottom =252
     Left =0
     Top =0
     ColumnsShown =543

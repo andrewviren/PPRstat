@@ -25,20 +25,20 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblFacility.FacilityID=tblFacilityAmenities.FacilityID"
+    Expression ="tblFacility.FacilityID = tblFacilityAmenities.FacilityID"
     Flag =1
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
-        "leID"
+    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
+        "duleID"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 Begin Groups
@@ -104,12 +104,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1066
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1050
-    Bottom =154
+    Right =1309
+    Bottom =137
     Left =0
     Top =0
     ColumnsShown =543

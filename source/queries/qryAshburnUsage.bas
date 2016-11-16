@@ -1,7 +1,7 @@
 ﻿Operation =1
 Option =0
-Where ="(((tblfacilityamenities.AmenityName) Like \"*ashburn*\") AND ((DateAdd(\"ww\",[C"
-    "ountID],[StartDate]))<=[EndDate]))"
+Where ="(((DateAdd(\"ww\",[CountID],[StartDate]))<=[EndDate]) AND ((tblfacilityamenities"
+    ".AmenityName) Like \"*ashburn*\"))"
 Begin InputTables
     Name ="tblPermit"
     Name ="tblActivitySchedule"
@@ -328,12 +328,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =562
+    Right =1309
+    Bottom =545
     Left =0
     Top =0
     ColumnsShown =539

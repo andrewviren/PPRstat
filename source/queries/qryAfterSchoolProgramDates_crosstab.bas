@@ -7,8 +7,6 @@ Begin InputTables
     Name ="tblAfterSchoolProgramFacilityDateExceptions"
 End
 Begin OutputColumns
-    Alias ="DayYesNo"
-    Expression ="NZ(Count([DateSerial])*-1,0)"
     Expression ="qryAfterSchoolProgramDates_cartesian.MonthNumber"
     GroupLevel =2
     Alias ="Year"
@@ -19,17 +17,19 @@ Begin OutputColumns
     Expression ="qryAfterSchoolProgramDates_cartesian.Dates In (1,2,3,4,5,6,7,8,9,10,11,12,13,14,"
         "15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31)"
     GroupLevel =1
+    Alias ="DayYesNo"
+    Expression ="Nz(Count([DateSerial])*-1,0)"
 End
 Begin Joins
     LeftTable ="qryAfterSchoolProgramDates_cartesian"
     RightTable ="tblAfterSchoolProgramFacilityDateExceptions"
-    Expression ="qryAfterSchoolProgramDates_cartesian.DateSerial=tblAfterSchoolProgramFacilityDat"
-        "eExceptions.AllASPdates"
+    Expression ="qryAfterSchoolProgramDates_cartesian.DateSerial = tblAfterSchoolProgramFacilityD"
+        "ateExceptions.AllASPdates"
     Flag =2
     LeftTable ="qryAfterSchoolProgramDates_cartesian"
     RightTable ="tblAfterSchoolProgramFacilityDateExceptions"
-    Expression ="qryAfterSchoolProgramDates_cartesian.FacilityName=tblAfterSchoolProgramFacilityD"
-        "ateExceptions.FacilityName"
+    Expression ="qryAfterSchoolProgramDates_cartesian.FacilityName = tblAfterSchoolProgramFacilit"
+        "yDateExceptions.FacilityName"
     Flag =2
 End
 Begin OrderBy
@@ -203,12 +203,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =498
+    Right =1309
+    Bottom =481
     Left =0
     Top =0
     ColumnsShown =559

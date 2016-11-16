@@ -53,10 +53,6 @@ End
 Begin Groups
     Expression ="tblFacility.PlanningAnalysisSection"
     GroupLevel =0
-    Expression ="qry75footfieldsbooked.AmenityID"
-    GroupLevel =0
-    Expression ="tblFacility.FacilityName"
-    GroupLevel =0
     Expression ="tblFacilityAmenities.AmenityName"
     GroupLevel =0
     Expression ="tblFacility.District"
@@ -68,6 +64,10 @@ Begin Groups
     Expression ="tblFacility_1.FacilityName"
     GroupLevel =0
     Expression ="tblFacility_1.ContactPhone"
+    GroupLevel =0
+    Expression ="qry75footfieldsbooked.AmenityID"
+    GroupLevel =0
+    Expression ="tblFacility.FacilityName"
     GroupLevel =0
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -122,12 +122,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1646
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1630
-    Bottom =564
+    Right =1309
+    Bottom =547
     Left =0
     Top =0
     ColumnsShown =543

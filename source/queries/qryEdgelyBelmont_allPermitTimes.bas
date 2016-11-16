@@ -38,11 +38,6 @@ Begin Joins
     Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
         "duleID"
     Flag =1
-    LeftTable ="tblActivitySchedule"
-    RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
-    Flag =1
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
     Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
@@ -54,6 +49,11 @@ Begin Joins
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
     Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Flag =1
+    LeftTable ="tblActivitySchedule"
+    RightTable ="tblActivityScheduleDays"
+    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
+        "eID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
@@ -168,12 +168,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =578
+    Right =1309
+    Bottom =561
     Left =0
     Top =0
     ColumnsShown =543

@@ -1,6 +1,5 @@
 ﻿Version =20
 VersionRequired =20
-Checksum =887944274
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
@@ -15,60 +14,9 @@ Begin Report
     Width =10786
     DatasheetFontHeight =11
     ItemSuffix =65
-    Right =17610
-    Bottom =10200
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0x56fe7b236e80e440
-    End
-    GUID = Begin
-        0x19a3b35d1f2af743b04020a86b9b5eac
-    End
-    NameMap = Begin
-        0x0acc0e550000000025315a0c09efd24b92ef766af36ba0030000000045dcff21 ,
-        0x6e80e4400000000000000000740062006c005000650072006d00690074004d00 ,
-        0x610069006c004d006500720067006500000000000000d757bbd2ab9ad0449063 ,
-        0xabc2fbbac86f0700000025315a0c09efd24b92ef766af36ba003530074006100 ,
-        0x720074004400610074006500000000000000bfd4175cbf79d249836380d1bfdf ,
-        0xd21f0700000025315a0c09efd24b92ef766af36ba00345006e00640044006100 ,
-        0x7400650000000000000030a060ec7763d744a74022cdb71628d5070000002531 ,
-        0x5a0c09efd24b92ef766af36ba0034100700070006c006900630061006e007400 ,
-        0x4e0061006d006500000000000000eb451da2c000d445a784530cfecd20020700 ,
-        0x000025315a0c09efd24b92ef766af36ba0034f007200670061006e0069007a00 ,
-        0x6100740069006f006e004e0061006d006500000000000000c89858c8ed9d8943 ,
-        0x92905bcd1e272cc80700000025315a0c09efd24b92ef766af36ba00341006400 ,
-        0x64007200650073007300000000000000a61490a11c06144cba87a9348fa145fc ,
-        0x0700000025315a0c09efd24b92ef766af36ba003500068006f006e0065000000 ,
-        0x000000006ab26e71d75a014c95d18a36f31c1c710700000025315a0c09efd24b ,
-        0x92ef766af36ba003410063007400690076006900740079005400790070006500 ,
-        0x00000000000011ad0b7871175e44b57e942f89dc6b700700000025315a0c09ef ,
-        0xd24b92ef766af36ba00345007800700065006300740065006400470072006f00 ,
-        0x75007000530069007a006500000000000000ec1087f34007ec45b261559f5670 ,
-        0x39930700000025315a0c09efd24b92ef766af36ba00343006900740079005300 ,
-        0x74006100740065005a00490050000000000000009aa475c3eabe8244a5c1ed23 ,
-        0xe870c71f0700000025315a0c09efd24b92ef766af36ba0035000750062006c00 ,
-        0x69007300680049004400000000000000418a0d61aa36e84180dea8fc04dc442a ,
-        0x0700000025315a0c09efd24b92ef766af36ba003440061007400650020006f00 ,
-        0x6600200049007300730075006500000000000000f11aac2a8d97504bb8c08b20 ,
-        0x11129b820700000025315a0c09efd24b92ef766af36ba0034100700070007200 ,
-        0x6f00760061006c0044006100740065000000000000006c936115114e70478239 ,
-        0xa6ba62b0fbc30700000025315a0c09efd24b92ef766af36ba003540069006d00 ,
-        0x6500730043006f006e00630061007400460069006e0061006c00000000000000 ,
-        0x44b021e9a866b24fbffa57c0231bdde40700000025315a0c09efd24b92ef766a ,
-        0xf36ba003440061007400650073000000000000009ef3de1982d11f4ea9c834ad ,
-        0x5ec697190700000025315a0c09efd24b92ef766af36ba00341006d0065006e00 ,
-        0x6900740079004e0061006d00650043006f006e00630061007400000000000000 ,
-        0x9b29a2fd453ae944898c1070ab85a2cd0700000025315a0c09efd24b92ef766a ,
-        0xf36ba0035300700065006300690061006c0043006f006e006400690074006900 ,
-        0x6f006e0073000000000000001787e7aa762f5942816ed21c48c043bd07000000 ,
-        0x25315a0c09efd24b92ef766af36ba00341007000700072006f00760065006400 ,
-        0x42007900000000000000cf895d3e6b756448b02503385d50a73a070000002531 ,
-        0x5a0c09efd24b92ef766af36ba00343006f006e00740061006300740046006100 ,
-        0x630069006c00690074007900000000000000c0ce0d6021569a4f8c67810c67c8 ,
-        0x6d900700000025315a0c09efd24b92ef766af36ba00343006f006e0074006100 ,
-        0x6300740046006100630069006c00690074007900500068006f006e0065000000 ,
-        0x00000000000000000000000000000000000000000c0000000500000000000000 ,
-        0x00000000000000000000
     End
     RecordSource ="SELECT [StartDate] & IIf([EndDate]<>[StartDate],\"-\" & [EndDate]) AS Dates, tbl"
         "PermitMailMerge.* FROM tblPermitMailMerge; "
@@ -79,233 +27,6 @@ Begin Report
         0xd0020000d0020000d0020000d002000000000000222a00005901000001000000 ,
         0x010000006801000000000000a10700000100000001000000
     End
-    PrtDevMode = Begin
-        0x0087ca6e00000000743c2700000000003698ce6e4499ce6ec6480a30679cfc2f ,
-        0x010400069c00d81a43ff800701000100ea0a6f08640001000f00580202000100 ,
-        0x5802030000004c65747465722028382e352078203131222900ea916ef02ca503 ,
-        0x581aa86e60240000000000000000000000000000010000000000000004000000 ,
-        0x0200000001000000000000000000000000000000000000000000000050524956 ,
-        0xe210000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000180000000000102710271027 ,
-        0x000010270000000000000000c000940300000000000000000000000000000000 ,
-        0x00000000000000000300000000000000441710005c4b03006843040000000000 ,
-        0x000000000100010000000000000000000000000000000000bd4d6b0105000000 ,
-        0xff000100ff000100040000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x01000000000000000000000000000000c0000000534d544a000000001000b000 ,
-        0x5800650072006f007800200057006f0072006b00430065006e00740072006500 ,
-        0x2000350038003700350020005000530000004c656164696e6745646765000050 ,
-        0x61676553697a65004c65747465720050616765526567696f6e00004475706c65 ,
-        0x78004475706c65784e6f54756d626c65005265736f6c7574696f6e0036303078 ,
-        0x3630306470690000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000044170000314e5258010000000c170000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000003c14b65108000100910a1000000001000720e71420030000 ,
-        0x00004d53434600000000740a0000000000002c00000000000000030101000100 ,
-        0x0000393000005200000001000100df3800000000000000000000000000002f2f ,
-        0x556e636f6d707265737365642d446174612f2f0090d1ee071a0adf38434bc55b ,
-        0x6b6c14d7153e33bb80cd2b044c4bc66016ef12db75ecd8ebf58b564db1890dc1 ,
-        0x718ded2a542545c6988030b6f183d88dd4a2fe6cffa4424d230a04f282549b90 ,
-        0x42c323a46909d0222a85368a529aaa11aa5091daa851695aaa56b4fdce3d33bb ,
-        0xb32fd841b3b377747dcf9eb9f7ce37e79e7bcf63bd2b5b3a7bae17057c84b2b2 ,
-        0x654dc7ca96ee8e420d1f66116d98cebcee0e3d84cf3af9df2b415309da47dc43 ,
-        0xaf127670219a6aa1ab980e0b7d7a299a3aa17b991f117a1bd38f0bddb91ccdd7 ,
-        0x4117d27a9d54f5913e26377b3e8b66523d8f8b3e1527bf2b3d3e5e84e669413b ,
-        0x8f04ed74927ba37c6f4ffa7b1ff2bd1f2a7a9a4635a4ef13be7f319afd42372f ,
-        0x417340e800f30faac76f66ce21615772974bea115abbf908fd21b9b797dff257 ,
-        0x7c4fa34afbe3d1b7d8eafb94aefaae2b45b31bf44c79bbf7a45bb9d5ed359972 ,
-        0xa381e6a8393dd36785be85f9f4df0abd9a915e013d0dedef84778661fe5ee8c7 ,
-        0xf9fe75a1cf31fd6ff5566b99734bd8c5dc7d9ea6e82e5ef22542df08a029d178 ,
-        0x6a4d6f14de23bcc64d1a4fb16019c8662db6441d1abfbb76c57a892e19718c67 ,
-        0xd920f4511efd65a18f307f9dd04b98fe9ad0af709fed9a12c86e6bae417cf6f3 ,
-        0x43462c625c8b2fe0a402f1670853dfa1c5d778a7d577428b2fea90c51cb5885d ,
-        0x72b7e43e34c316f34935e57001c84eb93f9f317ed5ba7f5013891f32db13a698 ,
-        0x4e9aed29b3fd40063fb700cd1fe4a5baad973257bdc5fafca27c36accf511005 ,
-        0xb4612d36c8ab8adcdaea27fd08c5e1da75e32399bd2d69f686bb9fbd44e7975d ,
-        0x48eb69804669982629408fa11da5edd40ade108d831e00b79e9aa8117ff5a56a ,
-        0x889f5651077d851e253da0c74e8f6e45067cd78bf41e3da635bde688490ad33a ,
-        0x9e62a36c9185bc4586859e627a4475ac44976aaac3df5ab44da835d4090461b4 ,
-        0xb514519fc3f85b4bcdf479f057016917ad5094402a4f99a1962a48ff8e3cea6d ,
-        0x1c7dfa3b428ff15975415762b30e14fdbcdc7b8aeffd458f0beb13a13f607e81 ,
-        0x4f94a2c4a77891fbd12c157a15d301a11f62baca17df57ab85dec9fc1784be58 ,
-        0x86e6b039df51e17dccbce3424ff2b37f22f42de6bf21f47f993e21349f2bfa59 ,
-        0x738e73c29bcbbc0b3e539bdf15e617997959e82f31fd6ba15b98fe8df9024cdf ,
-        0x12baad088de197f5c299a797f9e521e5c27b907915fe988e16fae4747e2c6c0a ,
-        0x1332c311f829ce9c9b2f7cf8ed6b97974e945d3e357aba7d6d0f9b0e8d9e513b ,
-        0x903736cb7815cea957fa08eb3800cd1b575a19c07af21ad68362fdacc5558af5 ,
-        0xcc6599463f50b8aecd210a24e17a82fa68300daa48ce51114da77d3401f133b6 ,
-        0x65365c3d90559f92d70e73d706cc5d60e113acb9423883f6537806d176ac63a9 ,
-        0x0dd7c378f600f5d304106da35dea2429c739528d1d1c975c4dceb0cda5034a56 ,
-        0x7f9a4d546ec395b8727578b6b7e55e7a4ee9fc47387496da70f562153741bb86 ,
-        0x21adcd4a56aced16cec69c6bd8037490fe6aeec7b00d5773c2def3be14d2218a ,
-        0x00d75e1c2d21e06a3571adc4ae632985951609c630d036a2dd812bd7fbb1809e ,
-        0x5798b6621d8309b8ea4c5c828571459405f306d72c7a912ee29c60992d4fc055 ,
-        0x6f6a55047bc09257ad67b866d34b3413bad53497e87e1bae47680dceb000b5c4 ,
-        0xd6b33e26b73a6a50dc5ce29b432fd3629c5f8cad2c2d2e4b6e4dc066c9ad3ee7 ,
-        0x7ab68c7e46e70b892ec10ed5d870d9e554139353bdd23a2fd6b1947e4e5711fa ,
-        0x30b6c6045c969c1ab16a713979a55f6d7498d85b51ba9fa0f70d26ae9a048bdd ,
-        0xe411aef57444b94dac630d69f5cbc2178eed4b4bd772896f139da53f425ebc96 ,
-        0x5f4858c7389e7a9bfd69f0485e3fc5d5045c9390d96e1bae2e58c631f812fdb0 ,
-        0x93a3a6858c247813f539f573dec675c9b443bb52ec90586fd99771445ed8a377 ,
-        0x706d01ae4ef839dd365c7cb6d7c7ce07a119875765015da02b0809de05b621d3 ,
-        0x9ff8117075621dab8185fd8a87e1afb267c85ecf88e921d6e16eb3cd736d7679 ,
-        0x458be817b408fab503e757451a5c6211d3218ba868529035bbae6bcbe9bc92d7 ,
-        0x4e9c130fda703d0a04434ae7fb696b16326b74195931fd923a20af67b18e9f33 ,
-        0xf58b7171c49d1e4d6d8247962bcf67319da35e9c5d3780abd286ab55697a7a5c ,
-        0x0d360b1e5612731f97862b39ae8d26c5b59497b8765a4a5c1b4d886b294f71ed ,
-        0xf494b8369a36ae258fe3da1929716d346d5c4b1ec7b57353e25ac6d5064d1f04 ,
-        0xa261f4c94f5c7b6f4a5ccbb858b72795074179896b17e04ab643b28ec9274410 ,
-        0x27027968878a52ec50265cac4fe4991d5a9e6287d2e34ab44c94633bf400aee4 ,
-        0xfc4454e52726954651def2138529f989a8e917525ef3130529f989a8999fa0bc ,
-        0xe62766a5e427a2667e82f29a9f989d929f88dae26d89d71885d7f9893929f989 ,
-        0xa82dde8ee3f2363f518c2bd92f4c7f4eb0a7481efa858b53fcc2f4b85a631ae7 ,
-        0x855fb80c57723e273dae1675727897cf294dc9e764c2c5f2f22e9fd39692cf89 ,
-        0x9af91cca6b3e677d4a3e276acb9bc4f7a3d7f99c4d29f99ca8ca9b7443d30369 ,
-        0xfd0ab604f9c8e7885f5863934f24a65794c77c4e54e54dd2e76fc823fbedd37c ,
-        0xdabfe07f714c14a9845e01d7abeafba1adf0b586683b9e3f85359c406be5c2bc ,
-        0x287ecd1fc3d5901697a0f21293157027c7dbafab3cc084ca170e63ad02d891db ,
-        0xe81b2a56f3aae8fcef4133691f9ab6f69981f96563874ac0b90795ffc367a50a ,
-        0x20195c9f0a24fb55083e08213258dea61c648ec7df5223ba59cce21e45cf29e5 ,
-        0x60670503e3fe9930ae214b3524fa47c23871375a408f803386ab22ad9a107d9a ,
-        0x302e925d7a02e3fe9e30ae2ebbf401c6dd481817ce2ebcc7b8bf258cabcd6adc ,
-        0x6b41a9326e085218510acf298a7e9aca38ee58506a8b0a9ab2df1ec783523b54 ,
-        0x8299f5622cab716f04a5266e835eb57a03b779db1341a999c66592eec9a0d44c ,
-        0xe332ade6a9a0d44ce33269cfe9a0d44ce3ea338c7b332835d3b84cbbe34c506a ,
-        0xa6719976e35b41a95d58b93eecf3a16ccd66506ab2d9be53391f94daa574b24a ,
-        0xe11d8f7d4191b9cc0f496d358f6f79c77e1ceb7748af84a476e0dd9e802918a7 ,
-        0x27f15c8b0e649cefbe90540b27b7db549a6fe0b6bbc308495dadd25d2cf92ebc ,
-        0xe1904a41dc6e644548aafd39a32a3819a02dc03881d9c66d2b6a95ca90d46e75 ,
-        0x1e4fa10ede01a194ea90547bda9711f6dd616c7b486a36f6e19bb65d7cb44c6a ,
-        0xbbd2143e9da7b2b30f4165a636c30bfa4ff8c4fef7bb8f1ff90c38cf1ace8f2a ,
-        0xb7cbcb86737574bb1c309cabb6dbe594e1fc1877bb9c369c9b04b7cb9b8673f3 ,
-        0xe27639633837556e97b70ce766cff5a8ce706e425d8fe00ce7e6d8edf28ce1dc ,
-        0x44bb5dbe6f38770fdd2e7b0ce72e87dbe569c3b99be576f9b1e1dc3571bb1cbe ,
-        0x0b37c0edb2d770ee6ab95dbe67380fd3dc2e2f19ce5d40b7cb49c3b9fbea7639 ,
-        0x663877f5dd2ed70ce76917d7b34201e56eb3abf07cd59ebd6b069bbef58946ea ,
-        0x27345cee298bd36bcd5a54c249caabf3def72df2eb37ffa77e53017668c5968d ,
-        0x571b5614f9283ec4fad15d03d5e09a34db00a43c8277759252237add2fb5567d ,
-        0x5353a3be650ddfc57cfc2b908b66b566ba9b79b8fc1f02ffffffff000038df43 ,
-        0x4f4d35020018006d0073006100630063006500730073002e0065007800650004 ,
-        0x00140041006e00640079002e0056006900720065006e000c0004000000000014 ,
-        0x001c00310034002e0030002e0037003000310035002e00310030003000300016 ,
-        0x001e003100370030002e003100310035002e003100320031002e003100300039 ,
-        0x0017000400ef2e5dbf1800040000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000
-    End
-    PrtDevNames = Begin
-        0x0800210034000100000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000585f3137305f3131355f3132 ,
-        0x315f343300
-    End
     FilterOnLoad =0
     AllowReportView =0
     AllowReportView =0
@@ -314,7 +35,7 @@ Begin Report
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
-    PrtDevModeW = Begin
+    UnknownProp = {419 ,0 ,0 ,0 ,7092 } Begin
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x5000530000000000000000000000000000000000000000000000000000000000 ,
         0x01040006dc00d81a43ff800701000100ea0a6f08640001000f00580202000100 ,
@@ -538,14 +259,13 @@ Begin Report
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000
     End
-    PrtDevNamesW = Begin
+    UnknownProp = {420 ,0 ,0 ,0 ,130 } Begin
         0x04001d0030000100000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x58005f003100370030005f003100310035005f003100320031005f0034003300 ,
         0x0000
     End
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -571,7 +291,9 @@ Begin Report
             ForeColor =-2147483630
             FontName ="Calibri"
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            UnknownProp = {324 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin OptionButton
             BorderLineStyle =0
@@ -647,14 +369,18 @@ Begin Report
             ForeColor =-2147483630
             FontName ="Calibri"
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            UnknownProp = {321 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin Tab
             TextFontFamily =0
             FontSize =11
             FontName ="Calibri"
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            UnknownProp = {311 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin Attachment
             BackStyle =0
@@ -687,9 +413,6 @@ Begin Report
         Begin PageHeader
             Height =1815
             Name ="PageHeaderSection"
-            GUID = Begin
-                0xca6c41f33532c241afdad82c4cab4f2a
-            End
             Begin
                 Begin Label
                     TextAlign =2
@@ -702,9 +425,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label0"
                     Caption =" Outdoor Sports Permit"
-                    GUID = Begin
-                        0xa0ed3323670bea4888a458a48f23e970
-                    End
                     TopPadding =0
                     GridlineColor =0
                     GridlineWidthTop =0
@@ -719,9 +439,6 @@ Begin Report
                     Height =1080
                     Name ="Auto_Logo0"
                     Picture ="PRR_BLK_lrg.jpg"
-                    GUID = Begin
-                        0x6f4c27003fbbb84c949ac1c198003bc2
-                    End
                     ImageData = Begin
                         0xffd8ffe000104a46494600010101006000600000ffdb00430001010101010101 ,
                         0x0101010101010101010101010101010101010101010101010101010101020201 ,
@@ -1996,9 +1713,6 @@ Begin Report
             ForceNewPage =1
             Height =4830
             Name ="GroupHeader0"
-            GUID = Begin
-                0xaee9da3536583744957e627b4af822cb
-            End
             Begin
                 Begin Label
                     FontUnderline = NotDefault
@@ -2012,9 +1726,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label16"
                     Caption ="PERMISSION IS HEREBY GRANTED FOR"
-                    GUID = Begin
-                        0x1cdaf8f1097c99408a6137776ddaade4
-                    End
                     GridlineColor =0
                     LayoutCachedLeft =1290
                     LayoutCachedTop =390
@@ -2031,9 +1742,6 @@ Begin Report
                     FontSize =13
                     Name ="txtApplicantName"
                     ControlSource ="ApplicantName"
-                    GUID = Begin
-                        0xe778b79bd5985647bff244fe60bab1b8
-                    End
                     TopPadding =288
                     GridlineColor =0
 
@@ -2051,9 +1759,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label25"
                             Caption ="Permitee Information"
-                            GUID = Begin
-                                0x4c95dde242f77f47aee4d38cdc87de8a
-                            End
                             GridlineColor =0
                             LayoutCachedWidth =2655
                             LayoutCachedHeight =390
@@ -2071,9 +1776,6 @@ Begin Report
                     TabIndex =1
                     Name ="txtOrganizationName"
                     ControlSource ="tblPermitMailMerge.OrganizationName"
-                    GUID = Begin
-                        0x4c00c5e046359040b5a17e143bfd6dc4
-                    End
                     TopPadding =288
                     GridlineColor =0
 
@@ -2093,9 +1795,6 @@ Begin Report
                     TabIndex =2
                     Name ="txtAddress"
                     ControlSource ="Address"
-                    GUID = Begin
-                        0xb13b7c73b5fce94cb22d56edb70b1f00
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -2116,9 +1815,6 @@ Begin Report
                     Name ="txtFacilityName"
                     ControlSource ="=[tblPermitMailMerge.FacilityName] & \", District \" & [tblPermitMailMerge.Distr"
                         "ict]"
-                    GUID = Begin
-                        0x9775b320a364c8499e1075b4ef681293
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2143,9 +1839,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="lblFacilities"
                             Caption ="FOR THE FACILITY"
-                            GUID = Begin
-                                0x19954f14f67ba047a57775edf5d0efc9
-                            End
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
                             GridlineWidthTop =0
@@ -2168,9 +1861,6 @@ Begin Report
                     Name ="txtDayPhone"
                     ControlSource ="Phone"
                     InputMask ="\\(999\") \"000\\-0000"
-                    GUID = Begin
-                        0xab195c9efa64dd4c821b85e9925170c8
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -2190,9 +1880,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label24"
                             Caption ="CONTACT PHONE"
-                            GUID = Begin
-                                0x46595436e5feb748b75454eda980491a
-                            End
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
                             GridlineWidthTop =0
@@ -2217,9 +1904,6 @@ Begin Report
                     TabIndex =5
                     Name ="Text17"
                     ControlSource ="=[ActivityType] & \" \" & [ExpectedGroupSize]"
-                    GUID = Begin
-                        0x6f6e58039375c94c875ed11904525d6b
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2244,9 +1928,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label18"
                             Caption ="ACTIVITY TYPE AND NUMBER OF PARTICIPANTS"
-                            GUID = Begin
-                                0xc7036fa6df4abb4f86be290eb6a22dda
-                            End
                             GridlineStyleBottom =1
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
@@ -2271,9 +1952,6 @@ Begin Report
                     TabIndex =6
                     Name ="Text19"
                     ControlSource ="CityStateZIP"
-                    GUID = Begin
-                        0x0c88e4d309b47749a3f689743df0edf8
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -2291,9 +1969,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label26"
                     Caption ="Permit Information"
-                    GUID = Begin
-                        0x7acce105ff15df40894c9ee8be56d08c
-                    End
                     GridlineColor =0
                     LayoutCachedTop =3510
                     LayoutCachedWidth =2355
@@ -2303,9 +1978,6 @@ Begin Report
                     Top =3510
                     Width =10786
                     Name ="Line43"
-                    GUID = Begin
-                        0x9a8bbfa406a5c243896248e79d496918
-                    End
                     LayoutCachedTop =3510
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =3510
@@ -2322,9 +1994,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label3"
                     Caption ="FOR THE DAY(S) AND TIME(S)"
-                    GUID = Begin
-                        0x3c4eb24ab8c43549ac7d05628fd6529f
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2348,9 +2017,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label10"
                     Caption ="FOR THE DATE(S)"
-                    GUID = Begin
-                        0xecf689a51e65ba46b6d408c6c2b5c08a
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2373,9 +2039,6 @@ Begin Report
                     TabIndex =7
                     Name ="txtPublishID"
                     ControlSource ="=\"# \" & [PublishID]"
-                    GUID = Begin
-                        0x6ce1278c79655b4aad5b862dd8b5c0c2
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =8130
@@ -2392,9 +2055,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label49"
                             Caption =" "
-                            GUID = Begin
-                                0x1e007b945a1cd2418af980ee1e5bae6f
-                            End
                             LayoutCachedLeft =7635
                             LayoutCachedWidth =8130
                             LayoutCachedHeight =735
@@ -2410,9 +2070,6 @@ Begin Report
                     TabIndex =8
                     Name ="txtDateofIssue"
                     ControlSource ="=DateValue([Date of Issue])"
-                    GUID = Begin
-                        0x434381d67aec1b4996ac394a80444f9e
-                    End
 
                     LayoutCachedLeft =9270
                     LayoutCachedTop =1050
@@ -2427,9 +2084,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label51"
                             Caption ="Date of Issue:"
-                            GUID = Begin
-                                0x118e41936ca8194f963c6b92c1ab8251
-                            End
                             LayoutCachedLeft =7815
                             LayoutCachedTop =1050
                             LayoutCachedWidth =9270
@@ -2446,9 +2100,6 @@ Begin Report
                     TabIndex =9
                     Name ="ApprovalDate"
                     ControlSource ="ApprovalDate"
-                    GUID = Begin
-                        0xa7eaf33254705a4b969e80028b4f5113
-                    End
 
                     LayoutCachedLeft =9270
                     LayoutCachedTop =735
@@ -2463,9 +2114,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label52"
                             Caption ="Approval Date:"
-                            GUID = Begin
-                                0xe7be8562a22110489b365dce5354c177
-                            End
                             LayoutCachedLeft =7815
                             LayoutCachedTop =735
                             LayoutCachedWidth =9270
@@ -2481,9 +2129,6 @@ Begin Report
                     Width =5400
                     BorderColor =-2147483617
                     Name ="Line55"
-                    GUID = Begin
-                        0xf062cf2ff4910348b908682c289ac55e
-                    End
                     LayoutCachedLeft =3420
                     LayoutCachedTop =3120
                     LayoutCachedWidth =8820
@@ -2501,9 +2146,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label62"
                     Caption ="FOR THESES SPACE(S)"
-                    GUID = Begin
-                        0x8cb886ae6460b14d884304bd26eb3ecc
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2523,9 +2165,6 @@ Begin Report
             CanShrink = NotDefault
             Height =345
             Name ="Detail"
-            GUID = Begin
-                0x4a82a5b65d36ed4dbb5ad4eaca242e59
-            End
             AlternateBackColor =-2147483610
             Begin
                 Begin TextBox
@@ -2538,9 +2177,6 @@ Begin Report
                     FontSize =12
                     Name ="txtTimesConcatFinal"
                     ControlSource ="TimesConcatFinal"
-                    GUID = Begin
-                        0xb1004c31358b97478b028f14fff5b041
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2565,9 +2201,6 @@ Begin Report
                     TabIndex =1
                     Name ="StartAndEndDates"
                     ControlSource ="Dates"
-                    GUID = Begin
-                        0xc2aad56d17eaf048984c163ed45d22d2
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2589,9 +2222,6 @@ Begin Report
                     TabIndex =2
                     Name ="Text60"
                     ControlSource ="[AmenityNameConcat]"
-                    GUID = Begin
-                        0xf238ee954a0c3e4abe3134cc6f9c72ba
-                    End
 
                     LayoutCachedLeft =3708
                     LayoutCachedWidth =6876
@@ -2605,17 +2235,11 @@ Begin Report
             CanShrink = NotDefault
             Height =4290
             Name ="GroupFooter0"
-            GUID = Begin
-                0x2c85a3f7b88b7448a2cd957185e584d8
-            End
             Begin
                 Begin Line
                     Top =630
                     Width =10786
                     Name ="Line39"
-                    GUID = Begin
-                        0x863f80e91b5bf840b0bc408aefc0d726
-                    End
                     LayoutCachedTop =630
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =630
@@ -2631,9 +2255,6 @@ Begin Report
                     FontSize =12
                     Name ="txtSpecialConditions"
                     ControlSource ="SpecialConditions"
-                    GUID = Begin
-                        0x222f6b33e2e1c446bd29ca96b8599bc8
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2657,9 +2278,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="lblSpecialConditions"
                             Caption ="SPECIAL CONDITIONS"
-                            GUID = Begin
-                                0x4ad486b1b85c454689085dbf1ad2d76b
-                            End
                             GridlineStyleBottom =1
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
@@ -2682,9 +2300,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label32"
                     Caption ="Department Contact Information"
-                    GUID = Begin
-                        0x4322aa165b520e43ab84c9765374f7e4
-                    End
                     GridlineColor =0
                     LayoutCachedTop =630
                     LayoutCachedWidth =3975
@@ -2701,9 +2316,6 @@ Begin Report
                     TabIndex =1
                     Name ="txtApprovedBy"
                     ControlSource ="=[ApprovedBy] & \" at \" & [ContactFacility]"
-                    GUID = Begin
-                        0x8e187133dd0d26438ad4f1368f95b593
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =540
@@ -2723,9 +2335,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label21"
                             Caption ="FOR ISSUES REGARDING THIS PERMIT, CONTACT"
-                            GUID = Begin
-                                0xad18835e3efcd745947ce0c419d4022f
-                            End
                             GridlineColor =0
                             LayoutCachedLeft =360
                             LayoutCachedTop =1020
@@ -2743,9 +2352,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label47"
                     Caption ="PRIVILEGES"
-                    GUID = Begin
-                        0x771370602e22c345b089a9aaa5378e41
-                    End
                     LayoutCachedTop =1740
                     LayoutCachedWidth =1110
                     LayoutCachedHeight =2070
@@ -2767,9 +2373,6 @@ Begin Report
                         "t holders are responsible for field lining and equipment. \015\012The permit is "
                         "null & void if any of the rules/regulations are violated. \015\012This Permit is"
                         " non-transferable."
-                    GUID = Begin
-                        0xb6d721997ff02f489f5d116dbd14236d
-                    End
                     LayoutCachedLeft =720
                     LayoutCachedTop =2070
                     LayoutCachedWidth =8700
@@ -2779,9 +2382,6 @@ Begin Report
                     Top =2040
                     Width =10786
                     Name ="Line54"
-                    GUID = Begin
-                        0x0d26763ce2085a43992d88a2878e169a
-                    End
                     LayoutCachedTop =2040
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =2040
@@ -2798,9 +2398,6 @@ Begin Report
                     Name ="ContactFacilityPhone"
                     ControlSource ="ContactFacilityPhone"
                     InputMask ="\\(999\") \"000\\-0000"
-                    GUID = Begin
-                        0x58d6cddad9f66f4ca5074561b7783613
-                    End
 
                     LayoutCachedLeft =4860
                     LayoutCachedTop =1320
@@ -2812,9 +2409,6 @@ Begin Report
         Begin PageFooter
             Height =0
             Name ="PageFooterSection"
-            GUID = Begin
-                0x3164c6d39a393445b09df50360c6bb51
-            End
         End
     End
 End

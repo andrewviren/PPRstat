@@ -14,10 +14,6 @@ Begin OutputColumns
     Expression ="tblActivityScheduleAmenity.AmenityID"
 End
 Begin Joins
-    LeftTable ="tblStaff"
-    RightTable ="tblActivityApproval"
-    Expression ="tblStaff.EmployeeNumber = tblActivityApproval.StaffApprover"
-    Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
     Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
@@ -27,13 +23,17 @@ Begin Joins
     RightTable ="tblActivityApproval"
     Expression ="tblActivitySchedule.ActivityID = tblActivityApproval.ActivityID"
     Flag =1
+    LeftTable ="tblAmenityType"
+    RightTable ="tblFacilityAmenities"
+    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
     Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
     Flag =1
-    LeftTable ="tblAmenityType"
-    RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    LeftTable ="tblStaff"
+    RightTable ="tblActivityApproval"
+    Expression ="tblStaff.EmployeeNumber = tblActivityApproval.StaffApprover"
     Flag =1
 End
 Begin Groups
@@ -65,12 +65,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1517
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =596
+    Right =1501
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =543

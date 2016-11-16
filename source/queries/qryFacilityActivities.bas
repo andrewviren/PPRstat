@@ -2,10 +2,10 @@
 Option =0
 Where ="(((qryAllActivity_FacilityProgramsPermits.StartFiscalYear)=2015)) OR (((qryAllAc"
     "tivity_FacilityProgramsPermits.EndFiscalYear)=2015))"
-Having ="(((IIf(qryFacilityPrograms.FacilityName Is Null,qryFacilityPermits.FacilityName,"
-    "qryFacilityPrograms.FacilityName))=\"hawthorne\")) Or (((IIf(qryFacilityPrograms"
-    ".FacilityName Is Null,qryFacilityPermits.FacilityName,qryFacilityPrograms.Facili"
-    "tyName))=\"hawthorne\"))"
+Having ="(((IIf([qryFacilityPrograms].[FacilityName] Is Null,[qryFacilityPermits].[Facili"
+    "tyName],[qryFacilityPrograms].[FacilityName]))=\"hawthorne\" Or (IIf([qryFacilit"
+    "yPrograms].[FacilityName] Is Null,[qryFacilityPermits].[FacilityName],[qryFacili"
+    "tyPrograms].[FacilityName]))=\"hawthorne\"))"
 Begin InputTables
     Name ="qryAllActivity_FacilityProgramsPermits"
 End
@@ -166,12 +166,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1886
-    Bottom =835
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1870
-    Bottom =355
+    Right =1309
+    Bottom =338
     Left =0
     Top =0
     ColumnsShown =543

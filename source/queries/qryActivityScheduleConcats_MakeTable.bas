@@ -1,40 +1,14 @@
-﻿Operation =2
-Name ="tblActivityScheduleConcats"
-Database ="S:\\PROGRAMMING\\db\\PPR_Activities.accdb"
-Option =0
-Begin InputTables
-    Name ="tblPermit"
-    Name ="tblActivitySchedule"
-    Name ="tblDaysTimesConcat"
-    Name ="tblScheduleAmenityNamesConcat"
-    Name ="qrySelectedPermits"
-End
-Begin OutputColumns
-    Expression ="tblDaysTimesConcat.TimesConcatFinal"
-    Expression ="tblScheduleAmenityNamesConcat.AmenityNameConcat"
-    Expression ="tblActivitySchedule.ActivityID"
-    Expression ="tblActivitySchedule.StartDate"
-    Expression ="tblActivitySchedule.EndDate"
-End
-Begin Joins
-    LeftTable ="tblPermit"
-    RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
-    Flag =1
-    LeftTable ="tblActivitySchedule"
-    RightTable ="tblDaysTimesConcat"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblDaysTimesConcat.ActivityScheduleID"
-    Flag =1
-    LeftTable ="tblActivitySchedule"
-    RightTable ="tblScheduleAmenityNamesConcat"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblScheduleAmenityNamesConcat.ActivityS"
-        "cheduleID"
-    Flag =1
-    LeftTable ="tblPermit"
-    RightTable ="qrySelectedPermits"
-    Expression ="tblPermit.ActivityID = qrySelectedPermits.ActivityID"
-    Flag =1
-End
+﻿dbMemo "SQL" ="SELECT tblDaysTimesConcat.TimesConcatFinal, tblScheduleAmenityNamesConcat.Amenit"
+    "yNameConcat, tblActivitySchedule.ActivityID, tblActivitySchedule.StartDate, tblA"
+    "ctivitySchedule.EndDate INTO tblActivityScheduleConcats IN 'P:\\PERFORMANCE MGMT"
+    "\\data\\PPR_Activities.accdb'\015\012FROM (((tblPermit INNER JOIN tblActivitySch"
+    "edule ON tblPermit.ActivityID = tblActivitySchedule.ActivityID) INNER JOIN tblDa"
+    "ysTimesConcat ON tblActivitySchedule.ActivityScheduleID = tblDaysTimesConcat.Act"
+    "ivityScheduleID) INNER JOIN tblScheduleAmenityNamesConcat ON tblActivitySchedule"
+    ".ActivityScheduleID = tblScheduleAmenityNamesConcat.ActivityScheduleID) INNER JO"
+    "IN qrySelectedPermits ON tblPermit.ActivityID = qrySelectedPermits.ActivityID;\015"
+    "\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbBoolean "UseTransaction" ="-1"
@@ -108,64 +82,5 @@ Begin
     Begin
         dbText "Name" ="tblActivitySchedule.EndDate"
         dbLong "AggregateType" ="-1"
-    End
-End
-Begin
-    State =0
-    Left =0
-    Top =0
-    Right =1424
-    Bottom =841
-    Left =-1
-    Top =-1
-    Right =1408
-    Bottom =402
-    Left =0
-    Top =0
-    ColumnsShown =539
-    Begin
-        Left =309
-        Top =10
-        Right =453
-        Bottom =154
-        Top =0
-        Name ="tblPermit"
-        Name =""
-    End
-    Begin
-        Left =503
-        Top =15
-        Right =690
-        Bottom =215
-        Top =0
-        Name ="tblActivitySchedule"
-        Name =""
-    End
-    Begin
-        Left =793
-        Top =8
-        Right =1096
-        Bottom =96
-        Top =0
-        Name ="tblDaysTimesConcat"
-        Name =""
-    End
-    Begin
-        Left =781
-        Top =125
-        Right =1094
-        Bottom =232
-        Top =0
-        Name ="tblScheduleAmenityNamesConcat"
-        Name =""
-    End
-    Begin
-        Left =44
-        Top =20
-        Right =224
-        Bottom =210
-        Top =0
-        Name ="qrySelectedPermits"
-        Name =""
     End
 End

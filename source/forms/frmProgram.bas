@@ -52,6 +52,50 @@ Begin Form
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
+    UnknownProp = {419 ,0 ,0 ,0 ,1000 } Begin
+        0x00000000206f40002e05a168001000004c6e4000c6fea068defea068df31fb11 ,
+        0xe498f20ce498f20c206f40004c07fb0d00a0fe0d00000000ff00000008000000 ,
+        0x01040006dc000c0343ff800701000100ea0a6f08640001000f00580202000100 ,
+        0x5802030001004c00650074007400650072000000e498f20c00000000a7200000 ,
+        0x94950100206f4000886e4000e5fba068e498f20c206f4000846e4000e498f20c ,
+        0xe0035b0694950000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000ffffffff0000000000000000000000000000000044494e55 ,
+        0x2200d0000c030000c2ac90510000000000000000000000000000000000000000 ,
+        0x0000000000000000050000000000070000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x000000000000000000000000010000000000000000000000d0000000534d544a ,
+        0x000000001000c000530065006e006400200054006f0020004d00690063007200 ,
+        0x6f0073006f006600740020004f006e0065004e006f0074006500200032003000 ,
+        0x3100300020004400720069007600650072000000524553444c4c00556e697265 ,
+        0x73444c4c00506170657253697a65004c4554544552004f7269656e746174696f ,
+        0x6e00504f525452414954005265736f6c7574696f6e0044504936303000436f6c ,
+        0x6f724d6f64650032346270700000000000000000000000000000000000000000 ,
+        0x0000000000000000
+    End
+    UnknownProp = {420 ,0 ,0 ,0 ,240 } Begin
+        0x04002a003f000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000006e00 ,
+        0x75006c003a000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000
+    End
     Begin
         Begin Label
             BackStyle =0
@@ -70,7 +114,9 @@ Begin Form
             FontWeight =400
             ForeColor =-2147483630
             FontName ="Calibri"
-            BorderLineStyle =0
+            UnknownProp = {324 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin CheckBox
             SpecialEffect =2
@@ -1942,8 +1988,12 @@ Begin Form
                     LayoutCachedTop =60
                     LayoutCachedWidth =6750
                     LayoutCachedHeight =419
-                    ColumnStart =1
-                    ColumnEnd =1
+                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -2004,10 +2054,18 @@ Begin Form
                     LayoutCachedTop =495
                     LayoutCachedWidth =6750
                     LayoutCachedHeight =855
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =1
-                    ColumnEnd =1
+                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -2029,8 +2087,12 @@ Begin Form
                             LayoutCachedTop =495
                             LayoutCachedWidth =2264
                             LayoutCachedHeight =855
-                            RowStart =1
-                            RowEnd =1
+                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
+                                0x01000000
+                            End
+                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
+                                0x01000000
+                            End
                         End
                     End
                 End
@@ -2059,10 +2121,18 @@ Begin Form
                     LayoutCachedTop =2040
                     LayoutCachedWidth =6750
                     LayoutCachedHeight =2400
-                    RowStart =3
-                    RowEnd =3
-                    ColumnStart =1
-                    ColumnEnd =1
+                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
+                        0x03000000
+                    End
+                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
+                        0x03000000
+                    End
+                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -2084,8 +2154,12 @@ Begin Form
                             LayoutCachedTop =2040
                             LayoutCachedWidth =2264
                             LayoutCachedHeight =2400
-                            RowStart =3
-                            RowEnd =3
+                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
+                                0x03000000
+                            End
+                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
+                                0x03000000
+                            End
                         End
                     End
                 End
@@ -2167,10 +2241,18 @@ Begin Form
                     LayoutCachedTop =930
                     LayoutCachedWidth =6750
                     LayoutCachedHeight =1515
-                    RowStart =2
-                    RowEnd =2
-                    ColumnStart =1
-                    ColumnEnd =1
+                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -2192,8 +2274,12 @@ Begin Form
                             LayoutCachedTop =930
                             LayoutCachedWidth =2264
                             LayoutCachedHeight =1320
-                            RowStart =2
-                            RowEnd =2
+                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
+                                0x02000000
+                            End
+                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
+                                0x02000000
+                            End
                         End
                     End
                 End
@@ -2228,10 +2314,18 @@ Begin Form
                     LayoutCachedTop =2460
                     LayoutCachedWidth =6750
                     LayoutCachedHeight =2820
-                    RowStart =4
-                    RowEnd =4
-                    ColumnStart =1
-                    ColumnEnd =1
+                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
+                        0x04000000
+                    End
+                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
+                        0x04000000
+                    End
+                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                     Begin
                         Begin Label
                             OverlapFlags =85
@@ -2253,8 +2347,12 @@ Begin Form
                             LayoutCachedTop =2460
                             LayoutCachedWidth =2264
                             LayoutCachedHeight =2820
-                            RowStart =4
-                            RowEnd =4
+                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
+                                0x04000000
+                            End
+                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
+                                0x04000000
+                            End
                         End
                     End
                 End
@@ -2611,11 +2709,21 @@ Begin Form
                     LayoutCachedLeft =5472
                     LayoutCachedWidth =6498
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =95
@@ -2704,11 +2812,21 @@ Begin Form
                     LayoutCachedLeft =4446
                     LayoutCachedWidth =5472
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =255
@@ -2796,11 +2914,21 @@ Begin Form
                     LayoutCachedLeft =6498
                     LayoutCachedWidth =7524
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =255
@@ -2872,11 +3000,21 @@ Begin Form
                     LayoutCachedLeft =7524
                     LayoutCachedWidth =8550
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -2965,11 +3103,21 @@ Begin Form
                     LayoutCachedLeft =3420
                     LayoutCachedWidth =4446
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =255
@@ -3037,11 +3185,21 @@ Begin Form
 
                     LayoutCachedWidth =1026
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =247
@@ -3093,11 +3251,21 @@ Begin Form
                     LayoutCachedLeft =1026
                     LayoutCachedWidth =2052
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin CommandButton
                     OverlapFlags =127
@@ -3185,11 +3353,21 @@ Begin Form
                     LayoutCachedLeft =8550
                     LayoutCachedWidth =9576
                     LayoutCachedHeight =359
-                    WebImagePaddingLeft =2
-                    WebImagePaddingTop =2
-                    WebImagePaddingRight =1
-                    WebImagePaddingBottom =1
-                    Overlaps =1
+                    UnknownProp = {356 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {357 ,0 ,0 ,0 ,4 } Begin
+                        0x02000000
+                    End
+                    UnknownProp = {358 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {359 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
+                    UnknownProp = {360 ,0 ,0 ,0 ,4 } Begin
+                        0x01000000
+                    End
                 End
                 Begin TextBox
                     Visible = NotDefault

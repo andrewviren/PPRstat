@@ -37,18 +37,19 @@ Begin
     End
     Begin
         dbText "Name" ="Expr1"
+        dbLong "AggregateType" ="-1"
     End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =462
+    Right =1309
+    Bottom =445
     Left =0
     Top =0
     ColumnsShown =543

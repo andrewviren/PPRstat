@@ -1,0 +1,8 @@
+2
+Reference
+tblActivityType
+tblPermitActivityType
+Field = Begin
+ID
+ActivityType
+End

@@ -12,8 +12,8 @@ Begin OutputColumns
     Expression ="tblFacility.District"
     Expression ="tblProgram.ActivityID"
     Alias ="ProgramNameDescription"
-    Expression ="tblActivityType.TypeName & \" \" & ProgramName & \" \" & Gender & \" \" & AgeDes"
-        "cription & \" \" & FacilitatorType"
+    Expression ="[tblActivityType].[ActivityTypeName] & \" \" & [ProgramName] & \" \" & [Gender] "
+        "& \" \" & [AgeDescription] & \" \" & [FacilitatorType]"
 End
 Begin Joins
     LeftTable ="tblActivityType"
@@ -66,12 +66,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1406
+    Bottom =645
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =372
+    Right =1390
+    Bottom =355
     Left =0
     Top =0
     ColumnsShown =539
@@ -87,8 +87,8 @@ Begin
     Begin
         Left =240
         Top =12
-        Right =384
-        Bottom =156
+        Right =405
+        Bottom =200
         Top =0
         Name ="tblActivityType"
         Name =""

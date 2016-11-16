@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
-Where ="(((tblFacility.FacilityName)=\"picariello\") And ((tblActivitySchedule.StartDate"
-    ")<=Forms!frmWelcome!txtDateEnd) And ((tblActivitySchedule.EndDate)>=Forms!frmWel"
-    "come!txtDateStart) And ((tblPermit.PublishID)>=Forms!frmWelcome.txtPermitStart A"
-    "nd (tblPermit.PublishID)<=forms!frmwelcome.txtPermitEnd))"
+Where ="(((tblActivitySchedule.StartDate)<=[Forms]![frmWelcome]![txtDateEnd]) AND ((tblA"
+    "ctivitySchedule.EndDate)>=[Forms]![frmWelcome]![txtDateStart]) AND ((tblPermit.P"
+    "ublishID)>=[Forms]![frmWelcome].[txtPermitStart] And (tblPermit.PublishID)<=[for"
+    "ms]![frmwelcome].[txtPermitEnd]))"
 Begin InputTables
     Name ="tblPermit"
     Name ="qryOutdoorPermits"
@@ -99,12 +99,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =835
+    Right =1517
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =245
+    Right =1501
+    Bottom =228
     Left =0
     Top =0
     ColumnsShown =539

@@ -15,13 +15,13 @@ Begin OutputColumns
     Expression ="tblFacility.ContactPhone"
 End
 Begin Joins
-    LeftTable ="tblStaff"
-    RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
-    Flag =1
     LeftTable ="tblFacility"
     RightTable ="fields_with_lights"
     Expression ="tblFacility.FacilityName = fields_with_lights.Facility"
+    Flag =1
+    LeftTable ="tblStaff"
+    RightTable ="tblFacility"
+    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin OrderBy
@@ -71,12 +71,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1517
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =596
+    Right =1501
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =539

@@ -1,138 +1,42 @@
-﻿Operation =2
-Name ="tblPermitMailMerge"
-Database ="S:\\PROGRAMMING\\db\\PPR_Activities.accdb"
-Option =0
-Having ="(((qryOutdoorPermits.Address) Is Not Null))"
-Begin InputTables
-    Name ="tblMeasures"
-    Name ="qrySelectedPermits"
-    Name ="qryPermitApprovalName"
-    Name ="tblFacility"
-    Name ="qryOutdoorPermits"
-    Name ="tblActivityScheduleConcats"
-End
-Begin OutputColumns
-    Expression ="qryOutdoorPermits.ActivityID"
-    Expression ="qryOutdoorPermits.PublishID"
-    Expression ="tblActivityScheduleConcats.TimesConcatFinal"
-    Expression ="tblActivityScheduleConcats.AmenityNameConcat"
-    Expression ="qryOutdoorPermits.ApplicantName"
-    Expression ="qryOutdoorPermits.OrganizationName"
-    Expression ="qryOutdoorPermits.ActivityType"
-    Alias ="Phone"
-    Expression ="Format([DayPhone],\"General Number\")"
-    Alias ="ApprovedBy"
-    Expression ="qryPermitApprovalName.[FULL NAME]"
-    Expression ="qryPermitApprovalName.ApprovalDate"
-    Alias ="Date of Issue"
-    Expression ="qryOutdoorPermits.DateTimeEntered"
-    Expression ="tblFacility.FacilityName"
-    Expression ="qryOutdoorPermits.SpecialConditions"
-    Expression ="qryOutdoorPermits.Address"
-    Expression ="qryPermitApprovalName.ContactFacility"
-    Expression ="qryPermitApprovalName.ContactFacilityPhone"
-    Expression ="qryOutdoorPermits.ExpectedGroupSizeMin"
-    Expression ="qryOutdoorPermits.ExpectedGroupSizeMax"
-    Expression ="tblMeasures.Measure"
-    Alias ="ExpectedGroupSize"
-    Expression ="[ExpectedGroupSizeMin] & IIf([ExpectedGroupSizeMax] Is Not Null,\" - \" & [Expec"
-        "tedGroupSizeMax]) & IIf([Measure]=\"total\",\" \" & [Measure],\" per \" & [Measu"
-        "re])"
-    Expression ="qryOutdoorPermits.District"
-    Expression ="qrySelectedPermits.StartDate"
-    Expression ="qrySelectedPermits.EndDate"
-    Expression ="qryOutdoorPermits.Email"
-    Expression ="qryOutdoorPermits.City"
-    Expression ="qryOutdoorPermits.AddressState"
-    Expression ="qryOutdoorPermits.ZIP"
-    Expression ="qryOutdoorPermits.AgeGroupText"
-    Alias ="CityStateZIP"
-    Expression ="[City] & \", \" & [AddressState] & \" \" & [qryOutdoorPermits].[ZIP]"
-End
-Begin Joins
-    LeftTable ="tblFacility"
-    RightTable ="qryOutdoorPermits"
-    Expression ="tblFacility.FacilityID = qryOutdoorPermits.FacilityID"
-    Flag =1
-    LeftTable ="qryPermitApprovalName"
-    RightTable ="qryOutdoorPermits"
-    Expression ="qryPermitApprovalName.ActivityID = qryOutdoorPermits.ActivityID"
-    Flag =1
-    LeftTable ="qryOutdoorPermits"
-    RightTable ="tblActivityScheduleConcats"
-    Expression ="qryOutdoorPermits.ActivityID = tblActivityScheduleConcats.ActivityID"
-    Flag =1
-    LeftTable ="qrySelectedPermits"
-    RightTable ="qryOutdoorPermits"
-    Expression ="qrySelectedPermits.ActivityID = qryOutdoorPermits.ActivityID"
-    Flag =1
-    LeftTable ="tblMeasures"
-    RightTable ="qryOutdoorPermits"
-    Expression ="tblMeasures.ID = qryOutdoorPermits.Per"
-    Flag =1
-End
-Begin Groups
-    Expression ="qryOutdoorPermits.ActivityID"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.PublishID"
-    GroupLevel =0
-    Expression ="tblActivityScheduleConcats.TimesConcatFinal"
-    GroupLevel =0
-    Expression ="tblActivityScheduleConcats.AmenityNameConcat"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.ApplicantName"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.OrganizationName"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.ActivityType"
-    GroupLevel =0
-    Expression ="Format([DayPhone],\"General Number\")"
-    GroupLevel =0
-    Expression ="qryPermitApprovalName.[FULL NAME]"
-    GroupLevel =0
-    Expression ="qryPermitApprovalName.ApprovalDate"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.DateTimeEntered"
-    GroupLevel =0
-    Expression ="tblFacility.FacilityName"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.SpecialConditions"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.Address"
-    GroupLevel =0
-    Expression ="qryPermitApprovalName.ContactFacility"
-    GroupLevel =0
-    Expression ="qryPermitApprovalName.ContactFacilityPhone"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.ExpectedGroupSizeMin"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.ExpectedGroupSizeMax"
-    GroupLevel =0
-    Expression ="tblMeasures.Measure"
-    GroupLevel =0
-    Expression ="[ExpectedGroupSizeMin] & IIf([ExpectedGroupSizeMax] Is Not Null,\" - \" & [Expec"
-        "tedGroupSizeMax]) & IIf([Measure]=\"total\",\" \" & [Measure],\" per \" & [Measu"
-        "re])"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.District"
-    GroupLevel =0
-    Expression ="qrySelectedPermits.StartDate"
-    GroupLevel =0
-    Expression ="qrySelectedPermits.EndDate"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.Email"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.City"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.AddressState"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.ZIP"
-    GroupLevel =0
-    Expression ="qryOutdoorPermits.AgeGroupText"
-    GroupLevel =0
-    Expression ="[City] & \", \" & [AddressState] & \" \" & [qryOutdoorPermits].[ZIP]"
-    GroupLevel =0
-End
+﻿dbMemo "SQL" ="SELECT qryOutdoorPermits.ActivityID, qryOutdoorPermits.PublishID, tblActivitySch"
+    "eduleConcats.TimesConcatFinal, tblActivityScheduleConcats.AmenityNameConcat, qry"
+    "OutdoorPermits.ApplicantName, qryOutdoorPermits.OrganizationName, qryOutdoorPerm"
+    "its.ActivityType, Format([DayPhone],\"General Number\") AS Phone, qryPermitAppro"
+    "valName.[FULL NAME] AS ApprovedBy, qryPermitApprovalName.ApprovalDate, qryOutdoo"
+    "rPermits.DateTimeEntered AS [Date of Issue], tblFacility.FacilityName, qryOutdoo"
+    "rPermits.SpecialConditions, qryOutdoorPermits.Address, qryPermitApprovalName.Con"
+    "tactFacility, qryPermitApprovalName.ContactFacilityPhone, qryOutdoorPermits.Expe"
+    "ctedGroupSizeMin, qryOutdoorPermits.ExpectedGroupSizeMax, tblMeasures.Measure, ["
+    "ExpectedGroupSizeMin] & IIf([ExpectedGroupSizeMax] Is Not Null,\" - \" & [Expect"
+    "edGroupSizeMax]) & IIf([Measure]=\"total\",\" \" & [Measure],\" per \" & [Measur"
+    "e]) AS ExpectedGroupSize, qryOutdoorPermits.District, qrySelectedPermits.StartDa"
+    "te, qrySelectedPermits.EndDate, qryOutdoorPermits.Email, qryOutdoorPermits.City,"
+    " qryOutdoorPermits.AddressState, qryOutdoorPermits.ZIP, qryOutdoorPermits.AgeGro"
+    "upText, [City] & \", \" & [AddressState] & \" \" & [qryOutdoorPermits].[ZIP] AS "
+    "CityStateZIP INTO tblPermitMailMerge IN 'P:\\PERFORMANCE MGMT\\data\\PPR_Activit"
+    "ies.accdb'\015\012FROM tblMeasures INNER JOIN (qrySelectedPermits INNER JOIN ((q"
+    "ryPermitApprovalName INNER JOIN (tblFacility INNER JOIN qryOutdoorPermits ON tbl"
+    "Facility.FacilityID = qryOutdoorPermits.FacilityID) ON qryPermitApprovalName.Act"
+    "ivityID = qryOutdoorPermits.ActivityID) INNER JOIN tblActivityScheduleConcats ON"
+    " qryOutdoorPermits.ActivityID = tblActivityScheduleConcats.ActivityID) ON qrySel"
+    "ectedPermits.ActivityID = qryOutdoorPermits.ActivityID) ON tblMeasures.ID = qryO"
+    "utdoorPermits.Per\015\012GROUP BY qryOutdoorPermits.ActivityID, qryOutdoorPermit"
+    "s.PublishID, tblActivityScheduleConcats.TimesConcatFinal, tblActivityScheduleCon"
+    "cats.AmenityNameConcat, qryOutdoorPermits.ApplicantName, qryOutdoorPermits.Organ"
+    "izationName, qryOutdoorPermits.ActivityType, Format([DayPhone],\"General Number\""
+    "), qryPermitApprovalName.[FULL NAME], qryPermitApprovalName.ApprovalDate, qryOut"
+    "doorPermits.DateTimeEntered, tblFacility.FacilityName, qryOutdoorPermits.Special"
+    "Conditions, qryOutdoorPermits.Address, qryPermitApprovalName.ContactFacility, qr"
+    "yPermitApprovalName.ContactFacilityPhone, qryOutdoorPermits.ExpectedGroupSizeMin"
+    ", qryOutdoorPermits.ExpectedGroupSizeMax, tblMeasures.Measure, [ExpectedGroupSiz"
+    "eMin] & IIf([ExpectedGroupSizeMax] Is Not Null,\" - \" & [ExpectedGroupSizeMax])"
+    " & IIf([Measure]=\"total\",\" \" & [Measure],\" per \" & [Measure]), qryOutdoorP"
+    "ermits.District, qrySelectedPermits.StartDate, qrySelectedPermits.EndDate, qryOu"
+    "tdoorPermits.Email, qryOutdoorPermits.City, qryOutdoorPermits.AddressState, qryO"
+    "utdoorPermits.ZIP, qryOutdoorPermits.AgeGroupText, [City] & \", \" & [AddressSta"
+    "te] & \" \" & [qryOutdoorPermits].[ZIP]\015\012HAVING (((qryOutdoorPermits.Addre"
+    "ss) Is Not Null));\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
@@ -405,73 +309,5 @@ Begin
         dbInteger "ColumnWidth" ="2220"
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
-    End
-End
-Begin
-    State =0
-    Left =0
-    Top =0
-    Right =1544
-    Bottom =835
-    Left =-1
-    Top =-1
-    Right =1528
-    Bottom =330
-    Left =0
-    Top =0
-    ColumnsShown =543
-    Begin
-        Left =348
-        Top =281
-        Right =492
-        Bottom =425
-        Top =0
-        Name ="tblMeasures"
-        Name =""
-    End
-    Begin
-        Left =982
-        Top =39
-        Right =1331
-        Bottom =185
-        Top =0
-        Name ="qrySelectedPermits"
-        Name =""
-    End
-    Begin
-        Left =495
-        Top =171
-        Right =671
-        Bottom =359
-        Top =0
-        Name ="qryPermitApprovalName"
-        Name =""
-    End
-    Begin
-        Left =746
-        Top =129
-        Right =959
-        Bottom =553
-        Top =0
-        Name ="tblFacility"
-        Name =""
-    End
-    Begin
-        Left =60
-        Top =14
-        Right =326
-        Bottom =487
-        Top =0
-        Name ="qryOutdoorPermits"
-        Name =""
-    End
-    Begin
-        Left =408
-        Top =19
-        Right =642
-        Bottom =150
-        Top =0
-        Name ="tblActivityScheduleConcats"
-        Name =""
     End
 End

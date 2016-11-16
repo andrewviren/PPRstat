@@ -20,10 +20,6 @@ Begin Joins
     RightTable ="tblActivityScheduleAmenity"
     Expression ="qryFacilityAmenitiesType.AmenityID = tblActivityScheduleAmenity.AmenityID"
     Flag =3
-    LeftTable ="tblDaySortNormal"
-    RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
-    Flag =1
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblActivityScheduleDays"
     Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleDays.ActivityS"
@@ -33,6 +29,10 @@ Begin Joins
     RightTable ="tblActivityScheduleAmenity"
     Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleAmenity.Activi"
         "tyScheduleID"
+    Flag =1
+    LeftTable ="tblDaySortNormal"
+    RightTable ="tblActivityScheduleDays"
+    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -98,12 +98,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =835
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =361
+    Right =1309
+    Bottom =344
     Left =0
     Top =0
     ColumnsShown =539

@@ -24,14 +24,14 @@ Begin Joins
     Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
         "duleID"
     Flag =1
+    LeftTable ="tblFacilityAmenities"
+    RightTable ="tblActivityScheduleAmenity"
+    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
     Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
         "eID"
-    Flag =1
-    LeftTable ="tblFacilityAmenities"
-    RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 Begin Groups
@@ -63,12 +63,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =530
+    Right =1309
+    Bottom =513
     Left =0
     Top =0
     ColumnsShown =543

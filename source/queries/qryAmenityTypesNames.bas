@@ -12,7 +12,7 @@ End
 Begin Joins
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -44,12 +44,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =547
+    Right =1309
+    Bottom =530
     Left =0
     Top =0
     ColumnsShown =539

@@ -19,19 +19,19 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblActivityApproval"
-    Expression ="tblProgram.ActivityID=tblActivityApproval.ActivityID"
+    Expression ="tblProgram.ActivityID = tblActivityApproval.ActivityID"
     Flag =3
     LeftTable ="tblActivityApproval"
     RightTable ="tblPermit"
-    Expression ="tblActivityApproval.ActivityID=tblPermit.ActivityID"
+    Expression ="tblActivityApproval.ActivityID = tblPermit.ActivityID"
     Flag =2
     LeftTable ="tblStaff"
     RightTable ="tblActivityApproval"
-    Expression ="tblStaff.EmployeeNumber=tblActivityApproval.StaffApprover"
+    Expression ="tblStaff.EmployeeNumber = tblActivityApproval.StaffApprover"
     Flag =1
     LeftTable ="tblStaffTitle"
     RightTable ="tblStaff"
-    Expression ="tblStaffTitle.ID=tblStaff.StaffTitleID"
+    Expression ="tblStaffTitle.ID = tblStaff.StaffTitleID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -75,12 +75,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =211
+    Right =1309
+    Bottom =194
     Left =0
     Top =0
     ColumnsShown =539

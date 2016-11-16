@@ -1,6 +1,5 @@
 ﻿Version =20
 VersionRequired =20
-Checksum =-1943001703
 Begin Report
     LayoutForPrint = NotDefault
     DividingLines = NotDefault
@@ -15,62 +14,9 @@ Begin Report
     Width =10786
     DatasheetFontHeight =11
     ItemSuffix =65
-    Right =21105
-    Bottom =11550
     DatasheetGridlinesColor =15062992
     RecSrcDt = Begin
         0x8e6782e43077e440
-    End
-    GUID = Begin
-        0x3d75733726f55c4fa5929f3555f90efc
-    End
-    NameMap = Begin
-        0x0acc0e550000000025315a0c09efd24b92ef766af36ba0030000000045dcff21 ,
-        0x6e80e4400000000000000000740062006c005000650072006d00690074004d00 ,
-        0x610069006c004d00650072006700650000000000000030a060ec7763d744a740 ,
-        0x22cdb71628d50700000025315a0c09efd24b92ef766af36ba003410070007000 ,
-        0x6c006900630061006e0074004e0061006d006500000000000000eb451da2c000 ,
-        0xd445a784530cfecd20020700000025315a0c09efd24b92ef766af36ba0034f00 ,
-        0x7200670061006e0069007a006100740069006f006e004e0061006d0065000000 ,
-        0x00000000c89858c8ed9d894392905bcd1e272cc80700000025315a0c09efd24b ,
-        0x92ef766af36ba0034100640064007200650073007300000000000000ed54bad4 ,
-        0xb1ce2748b8a244d6bc7876a50700000025315a0c09efd24b92ef766af36ba003 ,
-        0x46006100630069006c006900740079004e0061006d006500000000000000a614 ,
-        0x90a11c06144cba87a9348fa145fc0700000025315a0c09efd24b92ef766af36b ,
-        0xa003500068006f006e0065000000000000006ab26e71d75a014c95d18a36f31c ,
-        0x1c710700000025315a0c09efd24b92ef766af36ba00341006300740069007600 ,
-        0x690074007900540079007000650000000000000011ad0b7871175e44b57e942f ,
-        0x89dc6b700700000025315a0c09efd24b92ef766af36ba0034500780070006500 ,
-        0x6300740065006400470072006f0075007000530069007a006500000000000000 ,
-        0xec1087f34007ec45b261559f567039930700000025315a0c09efd24b92ef766a ,
-        0xf36ba0034300690074007900530074006100740065005a004900500000000000 ,
-        0x00009aa475c3eabe8244a5c1ed23e870c71f0700000025315a0c09efd24b92ef ,
-        0x766af36ba0035000750062006c0069007300680049004400000000000000418a ,
-        0x0d61aa36e84180dea8fc04dc442a0700000025315a0c09efd24b92ef766af36b ,
-        0xa003440061007400650020006f00660020004900730073007500650000000000 ,
-        0x0000f11aac2a8d97504bb8c08b2011129b820700000025315a0c09efd24b92ef ,
-        0x766af36ba00341007000700072006f00760061006c0044006100740065000000 ,
-        0x000000006c936115114e70478239a6ba62b0fbc30700000025315a0c09efd24b ,
-        0x92ef766af36ba003540069006d006500730043006f006e006300610074004600 ,
-        0x69006e0061006c00000000000000d757bbd2ab9ad0449063abc2fbbac86f0700 ,
-        0x000025315a0c09efd24b92ef766af36ba0035300740061007200740044006100 ,
-        0x740065000000000000009ef3de1982d11f4ea9c834ad5ec69719070000002531 ,
-        0x5a0c09efd24b92ef766af36ba00341006d0065006e006900740079004e006100 ,
-        0x6d00650043006f006e006300610074000000000000009b29a2fd453ae944898c ,
-        0x1070ab85a2cd0700000025315a0c09efd24b92ef766af36ba003530070006500 ,
-        0x6300690061006c0043006f006e0064006900740069006f006e00730000000000 ,
-        0x00001787e7aa762f5942816ed21c48c043bd0700000025315a0c09efd24b92ef ,
-        0x766af36ba00341007000700072006f0076006500640042007900000000000000 ,
-        0xcf895d3e6b756448b02503385d50a73a0700000025315a0c09efd24b92ef766a ,
-        0xf36ba00343006f006e00740061006300740046006100630069006c0069007400 ,
-        0x7900000000000000c0ce0d6021569a4f8c67810c67c86d900700000025315a0c ,
-        0x09efd24b92ef766af36ba00343006f006e007400610063007400460061006300 ,
-        0x69006c00690074007900500068006f006e006500000000000000e198e20b411e ,
-        0x2d4fa6b86e57cc3a56380700000025315a0c09efd24b92ef766af36ba0034400 ,
-        0x6900730074007200690063007400000000000000bfd4175cbf79d249836380d1 ,
-        0xbfdfd21f0700000025315a0c09efd24b92ef766af36ba00345006e0064004400 ,
-        0x610074006500000000000000000000000000000000000000000000000c000000 ,
-        0x050000000000000000000000000000000000
     End
     RecordSource ="tblPermitMailMerge"
     OnCurrent ="[Event Procedure]"
@@ -80,73 +26,16 @@ Begin Report
         0xd0020000d0020000d0020000d002000000000000222a00005901000001000000 ,
         0x010000006801000000000000a10700000100000001000000
     End
-    PrtDevMode = Begin
-        0x41646f6265205044460000006c51270036f7a26effffffff3148956e00000000 ,
-        0x010400069c00b40553ef800101000100ea0a6f08640001000f00b00402000100 ,
-        0xb004030000004c65747465720000000000000000fb14f92f1191517002000000 ,
-        0x0000000000000000000000000000000000000000010000000000000001000000 ,
-        0x0200000001000000000000000000000000000000000000000000000050524956 ,
-        0xe220000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000180000000000102710271027 ,
-        0x000010270000000000000000b000840300000000000000000000000000000000 ,
-        0x00000000000000000300000000000000300210005c4b03006843040000000000 ,
-        0x00000000000000000000000000000000000000000000000046469ff205000000 ,
-        0x04000000ff00ff00010000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x01000000000000000000000000000000b0000000534d544a000000001000a000 ,
-        0x410064006f00620065002000500044004600200043006f006e00760065007200 ,
-        0x74006500720000005265736f6c7574696f6e0031323030647069005061676553 ,
-        0x697a65004c65747465720050616765526567696f6e00004c656164696e674564 ,
-        0x67650000496e707574536c6f74004f6e6c794f6e650000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x3002000045424441000001000100000001000000010000000100000000000000 ,
-        0x5300740061006e00640061007200640000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000000000000001000000
-    End
-    PrtDevNames = Begin
-        0x080011001b00000077696e73706f6f6c0041646f62652050444600446f63756d ,
-        0x656e74735c2a2e70646600000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000
-    End
     FilterOnLoad =0
     AllowReportView =0
     AllowReportView =0
+    DatasheetBackColor12 =16777215
     FitToPage =1
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
-    PrtDevModeW = Begin
+    UnknownProp = {419 ,0 ,0 ,0 ,1680 } Begin
         0x410064006f006200650020005000440046000000000000000000000000000000 ,
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x01040006dc00b40553ef800101000100ea0a6f08640001000f00b00402000100 ,
@@ -201,7 +90,7 @@ Begin Report
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x00000000000000000000000001000000
     End
-    PrtDevNamesW = Begin
+    UnknownProp = {420 ,0 ,0 ,0 ,166 } Begin
         0x04000d0017000000770069006e00730070006f006f006c000000410064006f00 ,
         0x620065002000500044004600000044006f00630075006d0065006e0074007300 ,
         0x5c002a002e007000640066000000000000000000000000000000000000000000 ,
@@ -209,7 +98,6 @@ Begin Report
         0x0000000000000000000000000000000000000000000000000000000000000000 ,
         0x000000000000
     End
-    NoSaveCTIWhenDisabled =1
     Begin
         Begin Label
             BackStyle =0
@@ -217,117 +105,303 @@ Begin Report
             FontSize =11
             ForeColor =-2147483615
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
-        End
-        Begin Line
-            BorderLineStyle =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin Image
             OldBorderStyle =0
-            BorderLineStyle =0
             SizeMode =3
             PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin CommandButton
             FontSize =11
             FontWeight =400
             ForeColor =-2147483630
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            UnknownProp = {324 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin OptionButton
-            BorderLineStyle =0
             LabelX =230
             LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin CheckBox
-            BorderLineStyle =0
             LabelX =230
             LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin OptionGroup
             BackStyle =1
-            BorderLineStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin BoundObjectFrame
             SizeMode =3
-            BorderLineStyle =0
             LabelX =-1800
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin TextBox
             FELineBreak = NotDefault
             OldBorderStyle =0
             TextFontFamily =0
-            BorderLineStyle =0
             LabelX =-1800
             FontSize =11
             FontName ="Calibri"
             AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             ShowDatePicker =0
         End
         Begin ListBox
             TextFontFamily =0
-            BorderLineStyle =0
             LabelX =-1800
             FontSize =11
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             AllowValueListEdits =1
             InheritValueList =1
         End
         Begin ComboBox
             OldBorderStyle =0
             TextFontFamily =0
-            BorderLineStyle =0
             LabelX =-1800
             FontSize =11
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             AllowValueListEdits =1
             InheritValueList =1
         End
         Begin Chart
             OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin UnboundObjectFrame
             OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin CustomControl
             SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin ToggleButton
             FontSize =11
             FontWeight =400
             ForeColor =-2147483630
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            UnknownProp = {321 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin Tab
             TextFontFamily =0
             FontSize =11
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
-            BorderLineStyle =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            UnknownProp = {311 ,0 ,0 ,0 ,1 } Begin
+                0x00
+            End
         End
         Begin Attachment
             BackStyle =0
-            BorderLineStyle =0
             PictureSizeMode =3
             Width =4800
             Height =3840
             BorderColor =12632256
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
             GridlineColor =-2147483609
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             LabelX =-1800
         End
         Begin BreakLevel
@@ -356,9 +430,6 @@ Begin Report
         Begin PageHeader
             Height =1815
             Name ="PageHeaderSection"
-            GUID = Begin
-                0x5d888e7f4aa68c4d85fdcd0dfb939956
-            End
             Begin
                 Begin Label
                     TextAlign =2
@@ -371,9 +442,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label0"
                     Caption =" Outdoor Sports Permit"
-                    GUID = Begin
-                        0xeea1d5e9a8f1694987e1497a92f57b02
-                    End
                     TopPadding =0
                     GridlineColor =0
                     GridlineWidthTop =0
@@ -388,9 +456,6 @@ Begin Report
                     Height =1080
                     Name ="Auto_Logo0"
                     Picture ="PRR_BLK_lrg.jpg"
-                    GUID = Begin
-                        0xbb19b4a894e7f94486d78b01ce866224
-                    End
                     ImageData = Begin
                         0xffd8ffe000104a46494600010101006000600000ffdb00430001010101010101 ,
                         0x0101010101010101010101010101010101010101010101010101010101020201 ,
@@ -1666,9 +1731,6 @@ Begin Report
             Height =4830
             BreakLevel =2
             Name ="GroupHeader0"
-            GUID = Begin
-                0x4b75a517adcd80498da937b4a4e02de7
-            End
             Begin
                 Begin Label
                     FontUnderline = NotDefault
@@ -1682,9 +1744,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label16"
                     Caption ="PERMISSION IS HEREBY GRANTED FOR"
-                    GUID = Begin
-                        0xbee201e9422ae04085b1105f66f72a03
-                    End
                     GridlineColor =0
                     LayoutCachedLeft =1290
                     LayoutCachedTop =390
@@ -1701,9 +1760,6 @@ Begin Report
                     FontSize =13
                     Name ="txtApplicantName"
                     ControlSource ="ApplicantName"
-                    GUID = Begin
-                        0x1d1b24d7d5d66d429a6903e908215e24
-                    End
                     TopPadding =288
                     GridlineColor =0
 
@@ -1721,9 +1777,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label25"
                             Caption ="Permitee Information"
-                            GUID = Begin
-                                0xd14786e3633e8944b5dd204ba5860871
-                            End
                             GridlineColor =0
                             LayoutCachedWidth =2655
                             LayoutCachedHeight =390
@@ -1741,9 +1794,6 @@ Begin Report
                     TabIndex =1
                     Name ="txtOrganizationName"
                     ControlSource ="tblPermitMailMerge.OrganizationName"
-                    GUID = Begin
-                        0xcf9f2ee2568a914181429f23a55b9979
-                    End
                     TopPadding =288
                     GridlineColor =0
 
@@ -1763,9 +1813,6 @@ Begin Report
                     TabIndex =2
                     Name ="txtAddress"
                     ControlSource ="Address"
-                    GUID = Begin
-                        0x62e37a0e52890346a67fe97fe999f3b5
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -1785,9 +1832,6 @@ Begin Report
                     TabIndex =3
                     Name ="txtFacilityName"
                     ControlSource ="=[FacilityName] & \", District \" & [tblPermitMailMerge.District]"
-                    GUID = Begin
-                        0xb7d0d60940b6ec43aa9aa9d86a3eec11
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -1812,9 +1856,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="lblFacilities"
                             Caption ="FOR THE FACILITY"
-                            GUID = Begin
-                                0x46538b717d6c9245a516b26823730e8a
-                            End
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
                             GridlineWidthTop =0
@@ -1837,9 +1878,6 @@ Begin Report
                     Name ="txtDayPhone"
                     ControlSource ="Phone"
                     InputMask ="\\(999\") \"000\\-0000"
-                    GUID = Begin
-                        0x8c6805ea3bbf5e4b9aeb4f2dceb34030
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -1859,9 +1897,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label24"
                             Caption ="CONTACT PHONE"
-                            GUID = Begin
-                                0x7a2fd47432b88941bf750f3de644fefe
-                            End
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
                             GridlineWidthTop =0
@@ -1886,9 +1921,6 @@ Begin Report
                     TabIndex =5
                     Name ="Text17"
                     ControlSource ="=[ActivityType] & \" \" & [ExpectedGroupSize]"
-                    GUID = Begin
-                        0xaf0186e85f42da4f893c0af82f310a7a
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -1913,9 +1945,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label18"
                             Caption ="ACTIVITY TYPE AND NUMBER OF PARTICIPANTS"
-                            GUID = Begin
-                                0x4d4f3e4fe0ac9248a537428fa3b84729
-                            End
                             GridlineStyleBottom =1
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
@@ -1940,9 +1969,6 @@ Begin Report
                     TabIndex =6
                     Name ="Text19"
                     ControlSource ="CityStateZIP"
-                    GUID = Begin
-                        0xfe7cc68e73d5d64ba46b4d6fc28554b8
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =1440
@@ -1960,9 +1986,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label26"
                     Caption ="Permit Information"
-                    GUID = Begin
-                        0x97fa4716ef731149acf90b0374fae82c
-                    End
                     GridlineColor =0
                     LayoutCachedTop =3510
                     LayoutCachedWidth =2355
@@ -1972,9 +1995,18 @@ Begin Report
                     Top =3510
                     Width =10786
                     Name ="Line43"
-                    GUID = Begin
-                        0xd4c0b5b1612f85469b4f85e38e238898
-                    End
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
                     LayoutCachedTop =3510
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =3510
@@ -1991,9 +2023,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label3"
                     Caption ="FOR THE DAY(S) AND TIME(S)"
-                    GUID = Begin
-                        0x91d2dad08f494745b03057c27deac4eb
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2017,9 +2046,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label10"
                     Caption ="FOR THE DATE(S)"
-                    GUID = Begin
-                        0x484f4a373bea3748a366c1b858a2355a
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2042,9 +2068,6 @@ Begin Report
                     TabIndex =7
                     Name ="txtPublishID"
                     ControlSource ="=\"# \" & [PublishID]"
-                    GUID = Begin
-                        0xc22a828a85a25a4cb0d267c542238ba8
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =8130
@@ -2061,9 +2084,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label49"
                             Caption =" "
-                            GUID = Begin
-                                0xe9afb696ce897f459d9be68993b0f7fb
-                            End
                             LayoutCachedLeft =7635
                             LayoutCachedWidth =8130
                             LayoutCachedHeight =735
@@ -2079,9 +2099,6 @@ Begin Report
                     TabIndex =8
                     Name ="txtDateofIssue"
                     ControlSource ="=DateValue([Date of Issue])"
-                    GUID = Begin
-                        0x7d7b84199bfd3b478410288d8f19d930
-                    End
 
                     LayoutCachedLeft =9270
                     LayoutCachedTop =1050
@@ -2096,9 +2113,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label51"
                             Caption ="Date of Issue:"
-                            GUID = Begin
-                                0x4c257e589d378041a0b3e70f60091346
-                            End
                             LayoutCachedLeft =7815
                             LayoutCachedTop =1050
                             LayoutCachedWidth =9270
@@ -2115,9 +2129,6 @@ Begin Report
                     TabIndex =9
                     Name ="ApprovalDate"
                     ControlSource ="ApprovalDate"
-                    GUID = Begin
-                        0xcd80d9296bd7194e818ea59ca92f05fe
-                    End
 
                     LayoutCachedLeft =9270
                     LayoutCachedTop =735
@@ -2132,9 +2143,6 @@ Begin Report
                             ForeColor =0
                             Name ="Label52"
                             Caption ="Approval Date:"
-                            GUID = Begin
-                                0x5d48fe3a7dc13b4a9b86df3a180820b8
-                            End
                             LayoutCachedLeft =7815
                             LayoutCachedTop =735
                             LayoutCachedWidth =9270
@@ -2150,9 +2158,18 @@ Begin Report
                     Width =5400
                     BorderColor =-2147483617
                     Name ="Line55"
-                    GUID = Begin
-                        0x53d4959c285f184baa96fa849e706cf3
-                    End
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
                     LayoutCachedLeft =3420
                     LayoutCachedTop =3120
                     LayoutCachedWidth =8820
@@ -2170,9 +2187,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label62"
                     Caption ="FOR THESES SPACE(S)"
-                    GUID = Begin
-                        0xb57e2634e8394c469e8b4ded27a7246c
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2192,9 +2206,6 @@ Begin Report
             CanShrink = NotDefault
             Height =345
             Name ="Detail"
-            GUID = Begin
-                0x0f68b78f0e647f4495f9a469f27c1511
-            End
             AlternateBackColor =-2147483610
             Begin
                 Begin TextBox
@@ -2207,9 +2218,6 @@ Begin Report
                     FontSize =12
                     Name ="txtTimesConcatFinal"
                     ControlSource ="TimesConcatFinal"
-                    GUID = Begin
-                        0x50d2f333038ca949b049cb12eb2beedd
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2234,9 +2242,6 @@ Begin Report
                     TabIndex =1
                     Name ="StartAndEndDates"
                     ControlSource ="StartDate"
-                    GUID = Begin
-                        0xb95d288be1f8b34aaabde0213a6b6fa1
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2258,9 +2263,6 @@ Begin Report
                     TabIndex =2
                     Name ="Text60"
                     ControlSource ="[AmenityNameConcat]"
-                    GUID = Begin
-                        0x4893dfd61868474ba4c69f81e7190aa2
-                    End
 
                     LayoutCachedLeft =3708
                     LayoutCachedWidth =6876
@@ -2275,17 +2277,23 @@ Begin Report
             Height =4290
             BreakLevel =2
             Name ="GroupFooter0"
-            GUID = Begin
-                0x3d67951fc5a4e145bcf3f37b6648b0d2
-            End
             Begin
                 Begin Line
                     Top =630
                     Width =10786
                     Name ="Line39"
-                    GUID = Begin
-                        0x60123a68ca0a4648b24b9555550b0a91
-                    End
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
                     LayoutCachedTop =630
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =630
@@ -2301,9 +2309,6 @@ Begin Report
                     FontSize =12
                     Name ="txtSpecialConditions"
                     ControlSource ="SpecialConditions"
-                    GUID = Begin
-                        0x6cf6ec67e091474e8f75291c356214ba
-                    End
                     GridlineStyleBottom =1
                     GridlineColor =-2147483617
                     GridlineWidthLeft =0
@@ -2327,9 +2332,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="lblSpecialConditions"
                             Caption ="SPECIAL CONDITIONS"
-                            GUID = Begin
-                                0xa4d079220f177441b394b7a9573eb617
-                            End
                             GridlineStyleBottom =1
                             GridlineColor =-2147483617
                             GridlineWidthLeft =0
@@ -2352,9 +2354,6 @@ Begin Report
                     ForeColor =0
                     Name ="Label32"
                     Caption ="Department Contact Information"
-                    GUID = Begin
-                        0x4724f71453638b4d96e55d0d8d198d97
-                    End
                     GridlineColor =0
                     LayoutCachedTop =630
                     LayoutCachedWidth =3975
@@ -2371,9 +2370,6 @@ Begin Report
                     TabIndex =1
                     Name ="txtApprovedBy"
                     ControlSource ="=[ApprovedBy] & \" at \" & [ContactFacility]"
-                    GUID = Begin
-                        0x8d096b6895e75a49b8b611d44d4cd5bc
-                    End
                     GridlineColor =0
 
                     LayoutCachedLeft =540
@@ -2393,9 +2389,6 @@ Begin Report
                             ForeColor =8355711
                             Name ="Label21"
                             Caption ="FOR ISSUES REGARDING THIS PERMIT, CONTACT"
-                            GUID = Begin
-                                0x84df3474ee5e77448219810a9c1c715d
-                            End
                             GridlineColor =0
                             LayoutCachedLeft =360
                             LayoutCachedTop =1020
@@ -2413,9 +2406,6 @@ Begin Report
                     ForeColor =8355711
                     Name ="Label47"
                     Caption ="PRIVILEGES"
-                    GUID = Begin
-                        0xd7b5402cdff4d44b946b8b36d8a474ff
-                    End
                     LayoutCachedTop =1740
                     LayoutCachedWidth =1110
                     LayoutCachedHeight =2070
@@ -2437,9 +2427,6 @@ Begin Report
                         "t holders are responsible for field lining and equipment. \015\012The permit is "
                         "null & void if any of the rules/regulations are violated. \015\012This Permit is"
                         " non-transferable."
-                    GUID = Begin
-                        0x9985477ac853df48a0ea2fbff00a509b
-                    End
                     LayoutCachedLeft =720
                     LayoutCachedTop =2070
                     LayoutCachedWidth =8700
@@ -2449,9 +2436,18 @@ Begin Report
                     Top =2040
                     Width =10786
                     Name ="Line54"
-                    GUID = Begin
-                        0x8d2be225f6363649ad12310f2d82a4c0
-                    End
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
                     LayoutCachedTop =2040
                     LayoutCachedWidth =10786
                     LayoutCachedHeight =2040
@@ -2468,9 +2464,6 @@ Begin Report
                     Name ="ContactFacilityPhone"
                     ControlSource ="ContactFacilityPhone"
                     InputMask ="\\(999\") \"000\\-0000"
-                    GUID = Begin
-                        0x6e7be5714f86594c95cb87ab275491cb
-                    End
 
                     LayoutCachedLeft =4860
                     LayoutCachedTop =1320
@@ -2482,9 +2475,6 @@ Begin Report
         Begin PageFooter
             Height =0
             Name ="PageFooterSection"
-            GUID = Begin
-                0x9fb6b38991125c44ab3f10d99e05f996
-            End
         End
     End
 End

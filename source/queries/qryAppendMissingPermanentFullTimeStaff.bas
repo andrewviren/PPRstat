@@ -1,48 +1,21 @@
-﻿Operation =3
-Name ="tblStaff"
-Option =0
-Where ="(((paylast.[YTD GROSS])>0) AND ((tblStaff.EmployeeNumber) Is Null) AND ((paylast"
-    ".[CURRENT GROSS PAY])>0) AND ((tblStaffTitle.PositionType)=\"P, F\"))"
-Begin InputTables
-    Name ="paylast"
-    Name ="tblStaff"
-    Name ="tblStaffTitle"
-End
-Begin OutputColumns
-    Name ="EmployeeNumber"
-    Expression ="paylast.[EMPLOYEE NUMBER]"
-    Alias ="FirstName"
-    Name ="FirstName"
-    Expression ="StrConv([FIRST NAME],3)"
-    Name ="MiddleInitial"
-    Expression ="paylast.[MIDDLE INITIAL]"
-    Alias ="LastName"
-    Name ="LastName"
-    Expression ="StrConv([LAST NAME],3)"
-    Name ="StaffTitleID"
-    Expression ="tblStaffTitle.ID"
-    Alias ="FullName"
-    Name ="Full Name"
-    Expression ="StrConv([FIRST NAME],3) & \" \" & StrConv([LAST NAME],3)"
-End
-Begin Joins
-    LeftTable ="paylast"
-    RightTable ="tblStaff"
-    Expression ="paylast.[EMPLOYEE NUMBER] = tblStaff.EmployeeNumber"
-    Flag =2
-    LeftTable ="paylast"
-    RightTable ="tblStaffTitle"
-    Expression ="paylast.[CLASS CODE] = tblStaffTitle.ClassCode"
-    Flag =1
-End
-Begin OrderBy
-    Expression ="StrConv([LAST NAME],3)"
-    Flag =0
-End
+﻿dbMemo "SQL" ="INSERT INTO tblStaff ( EmployeeNumber, FirstName, MiddleInitial, LastName, Staff"
+    "TitleID, [Full Name] )\015\012SELECT paylast.[EMPLOYEE NUMBER], StrConv([FIRST N"
+    "AME],3) AS FirstName, paylast.[MIDDLE INITIAL], StrConv([LAST NAME],3) AS LastNa"
+    "me, tblStaffTitle.ID, StrConv([FIRST NAME],3) & \" \" & StrConv([LAST NAME],3) A"
+    "S FullName\015\012FROM (paylast LEFT JOIN tblStaff ON paylast.[EMPLOYEE NUMBER] "
+    "= tblStaff.EmployeeNumber) INNER JOIN tblStaffTitle ON paylast.[CLASS CODE] = tb"
+    "lStaffTitle.ClassCode\015\012WHERE (((paylast.[YTD GROSS])>0) AND ((tblStaff.Emp"
+    "loyeeNumber) Is Null) AND ((paylast.[CURRENT GROSS PAY])>0) AND ((tblStaffTitle."
+    "PositionType)=\"P, F\"))\015\012ORDER BY StrConv([LAST NAME],3);\015\012"
+dbMemo "Connect" =""
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbBoolean "UseTransaction" ="-1"
 dbByte "Orientation" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "DefaultView" ="2"
+dbBoolean "FilterOnLoad" ="0"
+dbBoolean "OrderByOnLoad" ="-1"
 Begin
     Begin
         dbText "Name" ="StrConv([LAST NAME],3) & "
@@ -109,46 +82,5 @@ Begin
     Begin
         dbText "Name" ="tblStaff.[Full Name]"
         dbLong "AggregateType" ="-1"
-    End
-End
-Begin
-    State =0
-    Left =0
-    Top =0
-    Right =1424
-    Bottom =841
-    Left =-1
-    Top =-1
-    Right =1408
-    Bottom =596
-    Left =0
-    Top =0
-    ColumnsShown =651
-    Begin
-        Left =42
-        Top =77
-        Right =301
-        Bottom =597
-        Top =0
-        Name ="paylast"
-        Name =""
-    End
-    Begin
-        Left =401
-        Top =35
-        Right =606
-        Bottom =321
-        Top =0
-        Name ="tblStaff"
-        Name =""
-    End
-    Begin
-        Left =388
-        Top =379
-        Right =558
-        Bottom =568
-        Top =0
-        Name ="tblStaffTitle"
-        Name =""
     End
 End

@@ -18,6 +18,10 @@ Begin OutputColumns
 End
 Begin Joins
     LeftTable ="tblFacility"
+    RightTable ="tblProgramManagerInfo"
+    Expression ="tblFacility.District = tblProgramManagerInfo.District"
+    Flag =1
+    LeftTable ="tblFacility"
     RightTable ="tblPermit"
     Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
     Flag =2
@@ -25,10 +29,6 @@ Begin Joins
     RightTable ="tblProgram"
     Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
     Flag =2
-    LeftTable ="tblFacility"
-    RightTable ="tblProgramManagerInfo"
-    Expression ="tblFacility.District = tblProgramManagerInfo.District"
-    Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
     Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
@@ -95,12 +95,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =543

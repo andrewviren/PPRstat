@@ -29,12 +29,12 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
-        "D"
+    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
+        "eID"
     Flag =1
 End
 Begin Groups
@@ -70,12 +70,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1244
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1228
-    Bottom =337
+    Right =1309
+    Bottom =320
     Left =0
     Top =0
     ColumnsShown =543

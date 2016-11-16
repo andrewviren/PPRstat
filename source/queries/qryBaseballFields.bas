@@ -16,7 +16,7 @@ End
 Begin Joins
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
     Flag =1
 End
 Begin Groups
@@ -64,24 +64,15 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1563
-    Bottom =839
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1547
-    Bottom =594
+    Right =1309
+    Bottom =577
     Left =0
     Top =0
     ColumnsShown =543
-    Begin
-        Left =111
-        Top =56
-        Right =332
-        Bottom =400
-        Top =0
-        Name ="tblFacilityAmenities"
-        Name =""
-    End
     Begin
         Left =491
         Top =62
@@ -89,6 +80,15 @@ Begin
         Bottom =202
         Top =0
         Name ="tblAmenityType"
+        Name =""
+    End
+    Begin
+        Left =111
+        Top =56
+        Right =332
+        Bottom =400
+        Top =0
+        Name ="tblFacilityAmenities"
         Name =""
     End
 End

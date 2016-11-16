@@ -24,22 +24,22 @@ End
 Begin Joins
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivitySchedule_Filter"
-    Expression ="tblActivitySchedule.ActivityScheduleID=qryActivitySchedule_Filter.ActivitySchedu"
-        "leID"
+    Expression ="tblActivitySchedule.ActivityScheduleID = qryActivitySchedule_Filter.ActivitySche"
+        "duleID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
-        "leID"
+    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
+        "duleID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
-        "D"
+    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
+        "eID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -103,12 +103,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =861
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =326
+    Right =1309
+    Bottom =309
     Left =0
     Top =0
     ColumnsShown =539
