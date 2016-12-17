@@ -3,10 +3,10 @@ Option =0
 Where ="(((tblSchool.PlanningArea)=\"Northeast\") AND ((qryActivitySchedule_FYYSQ.StartF"
     "iscalYear)=2015) AND ((tblActivityScheduleDays.DayNumber)=7))"
 Begin InputTables
+    Name ="tblFacility"
+    Name ="qryActivitySchedule_FYYSQ"
     Name ="tblPermit"
     Name ="tblSchool"
-    Name ="qryActivitySchedule_FYYSQ"
-    Name ="tblFacility"
     Name ="tblActivityScheduleDays"
 End
 Begin OutputColumns
@@ -19,20 +19,20 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblPermit"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityID = tblPermit.ActivityID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityID=tblPermit.ActivityID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblActivityScheduleDays"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleDays.ActivityS"
-        "cheduleID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID=tblActivityScheduleDays.ActivitySch"
+        "eduleID"
     Flag =1
 End
 Begin Groups
@@ -66,12 +66,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =616
+    Right =1309
+    Bottom =599
     Left =0
     Top =0
     ColumnsShown =543

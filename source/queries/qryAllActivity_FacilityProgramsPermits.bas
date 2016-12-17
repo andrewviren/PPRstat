@@ -3,9 +3,9 @@ Option =0
 Where ="(((qryFacilityPermits.ActivityID) Is Not Null)) OR (((qryFacilityPrograms.Activi"
     "tyID) Is Not Null))"
 Begin InputTables
+    Name ="qryAllActivity"
     Name ="qryFacilityPermits"
     Name ="qryFacilityPrograms"
-    Name ="qryAllActivity"
 End
 Begin OutputColumns
     Expression ="qryAllActivity.*"
@@ -15,11 +15,11 @@ End
 Begin Joins
     LeftTable ="qryAllActivity"
     RightTable ="qryFacilityPermits"
-    Expression ="qryAllActivity.ActivityID = qryFacilityPermits.ActivityID"
+    Expression ="qryAllActivity.ActivityID=qryFacilityPermits.ActivityID"
     Flag =2
     LeftTable ="qryAllActivity"
     RightTable ="qryFacilityPrograms"
-    Expression ="qryAllActivity.ActivityID = qryFacilityPrograms.ActivityID"
+    Expression ="qryAllActivity.ActivityID=qryFacilityPrograms.ActivityID"
     Flag =2
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -42,12 +42,6 @@ Begin
     End
     Begin
         dbText "Name" ="qryAllActivity.tblActivityScheduleDays.EndTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAllActivity.tblActivitySchedule.ActivityID"
-        dbInteger "ColumnWidth" ="4275"
-        dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
     Begin
@@ -149,14 +143,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="qryAllActivity.tblActivitySchedule.StartDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAllActivity.tblActivitySchedule.EndDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="qryAllActivity.qryFacilityAmenitiesType.AmenityName"
         dbLong "AggregateType" ="-1"
     End
@@ -185,212 +171,91 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="OrganizationName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.FacilityName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="AgeDescription"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.ActivityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.DateTimeEntered"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.EnteredBy"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.Spectators"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.AttendanceWeek"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.Attended"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.DateTimeUpdated"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.WeeklyAttendanceGUID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.Registered"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.tblWeeklyAttendance.UpdatedBy"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="AttendanceWeek"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="SchoolName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.District"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Gender"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="UpdatedBy"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblWeeklyAttendance.ActivityID"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="qryFacilityPermits.FacilityID"
     End
     Begin
         dbText "Name" ="qryFacilityPermits.District"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="AgeGroupText"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ProgramID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="AgeHigh"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Attended"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPermits.FacilityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ActivityType"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblProgram.ActivityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="AgeLow"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Registered"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPermits.ActivityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ExpectedGroupSizeMin"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ProgramName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Category"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="DateTimeEntered"
-        dbLong "AggregateType" ="-1"
     End
     Begin
         dbText "Name" ="qryFacilityPermits.FacilityName"
-        dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="PoliceDistrict"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="ActivityTypeName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="IsActive"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Spectators"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="SchoolID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryFacilityPrograms.FacilityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="FacilitatorType"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="EnteredBy"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="WeeklyAttendanceGUID"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="qryFacilityPermits.ActivityID"
     End
     Begin
         dbText "Name" ="PublishID"
-        dbLong "AggregateType" ="-1"
+    End
+    Begin
+        dbText "Name" ="SchoolID"
+    End
+    Begin
+        dbText "Name" ="SchoolName"
+    End
+    Begin
+        dbText "Name" ="OrganizationName"
+    End
+    Begin
+        dbText "Name" ="ActivityType"
+    End
+    Begin
+        dbText "Name" ="AgeGroupText"
+    End
+    Begin
+        dbText "Name" ="PoliceDistrict"
+    End
+    Begin
+        dbText "Name" ="ExpectedGroupSizeMin"
     End
     Begin
         dbText "Name" ="ExpectedGroupSizeMax"
-        dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="ProgramDescription"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="qryFacilityPrograms.FacilityID"
     End
     Begin
-        dbText "Name" ="DateTimeUpdated"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="qryFacilityPrograms.District"
     End
     Begin
-        dbText "Name" ="ProgName"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="qryFacilityPrograms.FacilityName"
     End
     Begin
         dbText "Name" ="qryFacilityPrograms.ActivityID"
-        dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.*"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="ProgramID"
     End
     Begin
-        dbText "Name" ="qryAllActivity.*"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="ActivityTypeName"
+    End
+    Begin
+        dbText "Name" ="ProgramName"
+    End
+    Begin
+        dbText "Name" ="ProgramDescription"
+    End
+    Begin
+        dbText "Name" ="FacilitatorType"
+    End
+    Begin
+        dbText "Name" ="Gender"
+    End
+    Begin
+        dbText "Name" ="AgeDescription"
+    End
+    Begin
+        dbText "Name" ="AgeLow"
+    End
+    Begin
+        dbText "Name" ="AgeHigh"
+    End
+    Begin
+        dbText "Name" ="IsActive"
+    End
+    Begin
+        dbText "Name" ="Category"
+    End
+    Begin
+        dbText "Name" ="ProgName"
     End
 End
 Begin

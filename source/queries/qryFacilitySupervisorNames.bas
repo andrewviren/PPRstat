@@ -93,15 +93,24 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1563
-    Bottom =839
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1547
-    Bottom =545
+    Right =1309
+    Bottom =528
     Left =0
     Top =0
     ColumnsShown =543
+    Begin
+        Left =1172
+        Top =164
+        Right =1316
+        Bottom =308
+        Top =0
+        Name ="tblAmenityType"
+        Name =""
+    End
     Begin
         Left =719
         Top =442
@@ -136,15 +145,6 @@ Begin
         Bottom =375
         Top =0
         Name ="tblFacilityAmenities"
-        Name =""
-    End
-    Begin
-        Left =1172
-        Top =164
-        Right =1316
-        Bottom =308
-        Top =0
-        Name ="tblAmenityType"
         Name =""
     End
 End

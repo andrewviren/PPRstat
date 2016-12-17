@@ -21,7 +21,7 @@ End
 Begin Joins
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblFacility"
-    Expression ="tblFacilityAmenities.FacilityID = tblFacility.FacilityID"
+    Expression ="tblFacilityAmenities.FacilityID=tblFacility.FacilityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"

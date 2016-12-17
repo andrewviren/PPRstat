@@ -18,11 +18,11 @@ End
 Begin Joins
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -66,12 +66,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1406
-    Bottom =645
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1390
-    Bottom =355
+    Right =1309
+    Bottom =338
     Left =0
     Top =0
     ColumnsShown =539

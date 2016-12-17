@@ -15,11 +15,11 @@ End
 Begin Joins
     LeftTable ="tblSchool"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblSchool.FacilityID = tblFacilityAmenities.FacilityID"
+    Expression ="tblSchool.FacilityID=tblFacilityAmenities.FacilityID"
     Flag =1
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
     Flag =1
 End
 Begin Groups
@@ -62,12 +62,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =426
+    Right =1309
+    Bottom =409
     Left =0
     Top =0
     ColumnsShown =543

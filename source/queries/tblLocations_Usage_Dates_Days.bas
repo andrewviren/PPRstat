@@ -4,12 +4,6 @@ Begin InputTables
     Name ="ActivityScheduleAmenities_Schools"
 End
 Begin OutputColumns
-    Alias ="LocUsageDateStart"
-    Expression ="Min(ActivityScheduleAmenities_Schools.StartDateExact)"
-    GroupLevel =2
-    Alias ="LocUsageDateFinish"
-    Expression ="Max(ActivityScheduleAmenities_Schools.EndDateExact)"
-    GroupLevel =2
     Alias ="LocUsageDateTimeEventStart"
     Expression ="ActivityScheduleAmenities_Schools.StartTime"
     GroupLevel =2
@@ -21,6 +15,9 @@ Begin OutputColumns
     GroupLevel =1
     Alias ="LocUsageDateInputDateTime"
     Expression ="ActivityScheduleAmenities_Schools.tblActivitySchedule.DateTimeEntered"
+    GroupLevel =2
+    Alias ="LocUsageInputDateTime"
+    Expression ="ActivityScheduleAmenities_Schools.tblPermit.DateTimeEntered"
     GroupLevel =2
     Alias ="LocUsageInputEmpID"
     Expression ="ActivityScheduleAmenities_Schools.Issuer"
@@ -36,8 +33,11 @@ Begin OutputColumns
     Alias ="LocUsageDateTimeOccupyEnd"
     Expression ="[EndTime]+(30*(1/24/60))"
     GroupLevel =2
-    Alias ="LocUsageInputDateTime"
-    Expression ="ActivityScheduleAmenities_Schools.tblPermit.DateTimeEntered"
+    Alias ="LocUsageDateStart"
+    Expression ="Min(ActivityScheduleAmenities_Schools.StartDateExact)"
+    GroupLevel =2
+    Alias ="LocUsageDateFinish"
+    Expression ="Max(ActivityScheduleAmenities_Schools.EndDateExact)"
     GroupLevel =2
     Alias ="Expr1"
     Expression ="IIf(-1*(Nz(Count([tblActivitySchedule].[ActivityScheduleID]),0))=-1,\"Yes\",\"No"
@@ -193,12 +193,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =289
+    Right =1309
+    Bottom =272
     Left =0
     Top =0
     ColumnsShown =559

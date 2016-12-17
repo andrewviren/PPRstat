@@ -132,15 +132,24 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1646
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1630
-    Bottom =479
+    Right =1309
+    Bottom =462
     Left =0
     Top =0
     ColumnsShown =543
+    Begin
+        Left =977
+        Top =189
+        Right =1179
+        Bottom =495
+        Top =0
+        Name ="tblStaff"
+        Name =""
+    End
     Begin
         Left =126
         Top =18
@@ -175,15 +184,6 @@ Begin
         Bottom =228
         Top =0
         Name ="tblActivitySchedule"
-        Name =""
-    End
-    Begin
-        Left =977
-        Top =189
-        Right =1179
-        Bottom =495
-        Top =0
-        Name ="tblStaff"
         Name =""
     End
 End

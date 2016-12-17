@@ -27,19 +27,19 @@ End
 Begin Joins
     LeftTable ="Facilities JABG funded"
     RightTable ="tblFacility"
-    Expression ="[Facilities JABG funded].FacilityID = tblFacility.FacilityID"
+    Expression ="[Facilities JABG funded].FacilityID=tblFacility.FacilityID"
     Flag =1
     LeftTable ="tblWeeklyAttendance"
     RightTable ="tblProgram"
-    Expression ="tblWeeklyAttendance.ActivityID = tblProgram.ActivityID"
+    Expression ="tblWeeklyAttendance.ActivityID=tblProgram.ActivityID"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -101,12 +101,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1304
-    Bottom =838
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1288
-    Bottom =374
+    Right =1309
+    Bottom =357
     Left =0
     Top =0
     ColumnsShown =539

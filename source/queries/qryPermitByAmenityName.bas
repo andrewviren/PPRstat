@@ -3,8 +3,8 @@ Option =0
 Where ="(((tblFacility.FacilityName)=\"shot tower\") AND ((tblFacilityAmenities.AmenityN"
     "ame) Like \"*gym*\") AND ((tblActivityScheduleDays.DayNumber) In (1,2,3,4,5)))"
 Begin InputTables
-    Name ="tblFacilityAmenities"
     Name ="tblFacility"
+    Name ="tblFacilityAmenities"
     Name ="tblActivitySchedule"
     Name ="tblActivityScheduleAmenity"
     Name ="tblActivityScheduleDays"
@@ -19,21 +19,21 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblFacility.FacilityID = tblFacilityAmenities.FacilityID"
+    Expression ="tblFacility.FacilityID=tblFacilityAmenities.FacilityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 Begin OrderBy
@@ -79,12 +79,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =547
+    Right =1309
+    Bottom =530
     Left =0
     Top =0
     ColumnsShown =539

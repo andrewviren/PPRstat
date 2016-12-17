@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="qryPermitIDs_Duplicate_MaxID"
     Name ="tblPermit"
+    Name ="qryPermitIDs_Duplicate_MaxID"
 End
 Begin OutputColumns
     Expression ="tblPermit.ActivityID"
@@ -11,11 +11,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="qryPermitIDs_Duplicate_MaxID"
-    Expression ="tblPermit.PublishID = qryPermitIDs_Duplicate_MaxID.PublishID"
+    Expression ="tblPermit.DateTimeEntered=qryPermitIDs_Duplicate_MaxID.MaxOfDateTimeEntered"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="qryPermitIDs_Duplicate_MaxID"
-    Expression ="tblPermit.DateTimeEntered = qryPermitIDs_Duplicate_MaxID.MaxOfDateTimeEntered"
+    Expression ="tblPermit.PublishID=qryPermitIDs_Duplicate_MaxID.PublishID"
     Flag =1
 End
 Begin Groups
@@ -50,12 +50,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1232
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1216
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =543

@@ -15,7 +15,7 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 Begin OrderBy
@@ -31,9 +31,9 @@ Begin Groups
     GroupLevel =0
     Expression ="tblFacility.Address"
     GroupLevel =0
-    Expression ="tblFacility.ZIP"
-    GroupLevel =0
     Expression ="tblFacility.ContactPhone"
+    GroupLevel =0
+    Expression ="tblFacility.ZIP"
     GroupLevel =0
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -76,12 +76,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =905
-    Bottom =528
+    Right =1309
+    Bottom =511
     Left =0
     Top =0
     ColumnsShown =543

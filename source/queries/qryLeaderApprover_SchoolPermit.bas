@@ -2,13 +2,13 @@
 Option =0
 Where ="(((tblStaff.Status)<>\"retired\" Or (tblStaff.Status) Is Null))"
 Begin InputTables
-    Name ="tblActivityApproval"
-    Name ="tblStaff"
     Name ="tblStaffTitle"
-    Name ="tblPermit"
-    Name ="tblSchool"
+    Name ="tblStaff"
     Name ="tblFacility"
     Name ="SchoolsPermitted2013"
+    Name ="tblSchool"
+    Name ="tblActivityApproval"
+    Name ="tblPermit"
 End
 Begin OutputColumns
     Expression ="tblFacility.PlanningAnalysisSection"
@@ -22,27 +22,27 @@ End
 Begin Joins
     LeftTable ="tblActivityApproval"
     RightTable ="tblPermit"
-    Expression ="tblActivityApproval.ActivityID = tblPermit.ActivityID"
+    Expression ="tblActivityApproval.ActivityID=tblPermit.ActivityID"
     Flag =1
     LeftTable ="tblSchool"
     RightTable ="tblPermit"
-    Expression ="tblSchool.FacilityID = tblPermit.SchoolID"
+    Expression ="tblSchool.FacilityID=tblPermit.SchoolID"
     Flag =1
     LeftTable ="SchoolsPermitted2013"
     RightTable ="tblSchool"
-    Expression ="SchoolsPermitted2013.SchoolName = tblSchool.SchoolName"
+    Expression ="SchoolsPermitted2013.SchoolName=tblSchool.SchoolName"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblActivityApproval"
-    Expression ="tblStaff.EmployeeNumber = tblActivityApproval.StaffApprover"
+    Expression ="tblStaff.EmployeeNumber=tblActivityApproval.StaffApprover"
     Flag =1
     LeftTable ="tblStaffTitle"
     RightTable ="tblStaff"
-    Expression ="tblStaffTitle.ID = tblStaff.StaffTitleID"
+    Expression ="tblStaffTitle.ID=tblStaff.StaffTitleID"
     Flag =1
 End
 Begin OrderBy
@@ -110,12 +110,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =445
+    Right =1309
+    Bottom =428
     Left =0
     Top =0
     ColumnsShown =543

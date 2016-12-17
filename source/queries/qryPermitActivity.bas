@@ -26,35 +26,35 @@ Begin OutputColumns
     Expression ="tblDaySortNormal.*"
 End
 Begin Joins
+    LeftTable ="tblAmenityType"
+    RightTable ="tblFacilityAmenities"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
-    Flag =1
-    LeftTable ="tblAmenityType"
-    RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -488,12 +488,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =397
+    Right =1309
+    Bottom =380
     Left =0
     Top =0
     ColumnsShown =539

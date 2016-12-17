@@ -2,9 +2,9 @@
 Option =0
 Where ="(((SaturdayHoursList20141210.[Saturday Times])<>\"closed\"))"
 Begin InputTables
+    Name ="tblFacility"
     Name ="SaturdayHoursList20141210"
     Name ="qryGymsByNeighborhood"
-    Name ="tblFacility"
 End
 Begin OutputColumns
     Expression ="tblFacility.CouncilDistrict"
@@ -17,11 +17,11 @@ End
 Begin Joins
     LeftTable ="SaturdayHoursList20141210"
     RightTable ="qryGymsByNeighborhood"
-    Expression ="SaturdayHoursList20141210.Facility = qryGymsByNeighborhood.FacilityName"
+    Expression ="SaturdayHoursList20141210.Facility=qryGymsByNeighborhood.FacilityName"
     Flag =2
     LeftTable ="tblFacility"
     RightTable ="SaturdayHoursList20141210"
-    Expression ="tblFacility.FacilityName = SaturdayHoursList20141210.Facility"
+    Expression ="tblFacility.FacilityName=SaturdayHoursList20141210.Facility"
     Flag =1
 End
 Begin OrderBy
@@ -94,12 +94,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =992
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =976
-    Bottom =562
+    Right =1309
+    Bottom =545
     Left =0
     Top =0
     ColumnsShown =543

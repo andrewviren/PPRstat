@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="fields_with_lights"
-    Name ="tblFacility"
     Name ="tblStaff"
+    Name ="tblFacility"
+    Name ="fields_with_lights"
 End
 Begin OutputColumns
     Alias ="ContactName"
@@ -17,11 +17,11 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="fields_with_lights"
-    Expression ="tblFacility.FacilityName = fields_with_lights.Facility"
+    Expression ="tblFacility.FacilityName=fields_with_lights.Facility"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin OrderBy

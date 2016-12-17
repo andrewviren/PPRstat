@@ -1,7 +1,7 @@
 ﻿Operation =1
 Option =0
-Where ="(((qryAssignedStaff.[AssignedFacility]) Like '*A92B4177-AEA0-4B84-915F-A3C3136D3"
-    "1F7*')) OR (((qryAssignedStaff.[tblStaff].[staffTitleID])=96))"
+Where ="(((qryAssignedStaff.AssignedFacility) Like '*A92B4177-AEA0-4B84-915F-A3C3136D31F"
+    "7*')) OR (((qryAssignedStaff.tblStaff.staffTitleID)=96))"
 Begin InputTables
     Name ="qryAssignedStaff"
 End
@@ -11,7 +11,7 @@ Begin OutputColumns
     Expression ="qryAssignedStaff.AssignedFacility"
 End
 Begin OrderBy
-    Expression ="qryAssignedStaff.[staffTitleID]"
+    Expression ="qryAssignedStaff.staffTitleID"
     Flag =0
     Expression ="qryAssignedStaff.[Full Name]"
     Flag =0
@@ -23,7 +23,7 @@ Begin Groups
     GroupLevel =0
     Expression ="qryAssignedStaff.AssignedFacility"
     GroupLevel =0
-    Expression ="qryAssignedStaff.[staffTitleID]"
+    Expression ="qryAssignedStaff.staffTitleID"
     GroupLevel =0
     Expression ="qryAssignedStaff.[Full Name]"
     GroupLevel =0
@@ -67,12 +67,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1517
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =599
+    Right =1309
+    Bottom =582
     Left =0
     Top =0
     ColumnsShown =543

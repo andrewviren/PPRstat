@@ -14,11 +14,11 @@ End
 Begin Joins
     LeftTable ="qryFacilityActivities"
     RightTable ="qryWeeklyAttendanceSumWeekCount"
-    Expression ="qryFacilityActivities.ActivityID = qryWeeklyAttendanceSumWeekCount.ActivityID"
+    Expression ="qryFacilityActivities.ActivityID=qryWeeklyAttendanceSumWeekCount.ActivityID"
     Flag =2
     LeftTable ="qryFacilityActivities"
     RightTable ="qryPermitExpectedGroupSize"
-    Expression ="qryFacilityActivities.ActivityID = qryPermitExpectedGroupSize.ActivityID"
+    Expression ="qryFacilityActivities.ActivityID=qryPermitExpectedGroupSize.ActivityID"
     Flag =2
 End
 Begin Groups
@@ -58,12 +58,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1024
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1008
-    Bottom =562
+    Right =1309
+    Bottom =545
     Left =0
     Top =0
     ColumnsShown =543

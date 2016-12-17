@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblSchool"
     Name ="tblPermit"
+    Name ="tblSchool"
     Name ="tblActivityApproval"
 End
 Begin OutputColumns
@@ -15,11 +15,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblActivityApproval"
-    Expression ="tblPermit.ActivityID = tblActivityApproval.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivityApproval.ActivityID"
     Flag =1
 End
 Begin Groups
@@ -55,12 +55,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =543

@@ -23,9 +23,9 @@ Begin Groups
     GroupLevel =0
     Expression ="qryRedFlagPrograms_2014_Days.ProgramName"
     GroupLevel =0
-    Expression ="qryRedFlagPrograms_2014_Days.ActivityScheduleID"
-    GroupLevel =0
     Expression ="qryRedFlagPrograms_2014_Days.FacilityName"
+    GroupLevel =0
+    Expression ="qryRedFlagPrograms_2014_Days.ActivityScheduleID"
     GroupLevel =0
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -79,30 +79,6 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="CountOfDayName"
-        dbInteger "ColumnWidth" ="2100"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="SumOfTotalHoursPerDay"
-        dbInteger "ColumnWidth" ="2715"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryRedFlagPrograms_2014_Days.DayName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryRedFlagPrograms_2014_Days.TotalHoursPerDay"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryRedFlagPrograms_2014_Days.ActivityScheduleID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="qryRedFlagPrograms_2014_Days.FacilityName"
         dbLong "AggregateType" ="-1"
     End
@@ -111,12 +87,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =259
+    Right =1309
+    Bottom =242
     Left =0
     Top =0
     ColumnsShown =543

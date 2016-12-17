@@ -17,8 +17,8 @@ Begin Form
     ItemSuffix =54
     Left =6045
     Top =2490
-    Right =6045
-    Bottom =2490
+    Right =22740
+    Bottom =15015
     DatasheetGridlinesColor =15132391
     RecSrcDt = Begin
         0x34c54402d28ee440
@@ -37,257 +37,12 @@ Begin Form
     DatasheetAlternateBackColor =15921906
     DatasheetGridlinesColor12 =0
     FitToScreen =1
-    UnknownProp = {404 ,0 ,0 ,0 ,4 } Begin
-        0x01000000
-    End
-    UnknownProp = {407 ,0 ,0 ,0 ,4 } Begin
-        0x03000000
-    End
-    UnknownProp = {410 ,0 ,0 ,0 ,4 } Begin
-        0x01000000
-    End
-    UnknownProp = {411 ,0 ,0 ,0 ,4 } Begin
-        0x00000000
-    End
-    UnknownProp = {414 ,0 ,0 ,0 ,4 } Begin
-        0x01000000
-    End
-    UnknownProp = {416 ,0 ,0 ,0 ,4 } Begin
-        0x0000be42
-    End
-    UnknownProp = {419 ,0 ,0 ,0 ,7092 } Begin
-        0x0000650072002e006500780065000000820000006f006e000ce4bd7702625a76 ,
-        0x0ce4bd77000000000200000200fef712c80000c8010004072a01000000000000 ,
-        0x01040006dc00d81a53ff000201000100ea0a6f08640001000f00580201000200 ,
-        0x5802030001004c00650074007400650072002000280038002e00350020007800 ,
-        0x200031003100220029000000ce36f46ff8932400ae4e571d2000000020000000 ,
-        0x2894240001000000000000000000000000000000010000000000000004000000 ,
-        0x0200000001000000000000000000000000000000000000000000000050524956 ,
-        0xe210000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000180000000000102710271027 ,
-        0x000010270000000000000000c000940300000000000000000000000000000000 ,
-        0x00000000000000000300000000000000441710005c4b03006843040000000000 ,
-        0x000000000100010000000000000000000000000000000000bd4d6b0105000000 ,
-        0xff000100ff000100040000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x01000000000000000000000000000000c0000000534d544a000000001000b000 ,
-        0x5800650072006f007800200057006f0072006b00430065006e00740072006500 ,
-        0x2000350038003700350020005000530000004c656164696e6745646765000050 ,
-        0x61676553697a65004c65747465720050616765526567696f6e00004475706c65 ,
-        0x78004475706c65784e6f54756d626c65005265736f6c7574696f6e0036303078 ,
-        0x3630306470690000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000044170000314e5258010000000c170000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000c8a904fe08000100a30a1000000001000720e71420030000 ,
-        0x00004d53434600000000860a0000000000002c00000000000000030101000100 ,
-        0x00003930000052000000010001003f3900000000000000000000000000002f2f ,
-        0x556e636f6d707265737365642d446174612f2f0030b94e7e2c0a3f39434bc55b ,
-        0x7d6c14d7119fdd3bc0e62b2498962c600eeec0761d3bf6f9ce1f344a6a9b1808 ,
-        0x8e6b6c57a52a2935c60484b18db189dd482d7ff4afb65252a1a6880281340924 ,
-        0x3a0281868f90a4e5ab45544ad328a2b4552354a5456aa346a5e9871a91f6376f ,
-        0x76eff6bec08bf6f666f5eecdbd7defed6fe7cd9b3733673736b5755e2f0af808 ,
-        0xd4d8b4a2b5b1a9a3b550c39729446b26725b47ab1ec2779dfcef16a32a07ef23 ,
-        0xeea15748737016aa4ae12b980f0b7f7a3eaa1ae1bbb83d22fc26e61f13be6d11 ,
-        0xaaaf812fa4d53aa9e2237d9bdcecfc2caa51f53c267d2cc17e577a7c381bd5d3 ,
-        0x82760609da8924f786f8dececcf77ec7f77ea4f8091a5591be47dafd7351ed15 ,
-        0xbe611eaa7dc207b87dbf7afc7a6e3920cde5dce5b27a84b6cc7c84fe90dcdbcd ,
-        0x6ff94bbea751b9fdf1e83bc7eafba4aefaae5a886a07f8c9f276ef4ab752abdb ,
-        0x2b32e55a03d511737ae6cf0a7f13f3e9bf117e3923bd0a7e02eadf4adb1986f9 ,
-        0x7be11fe3fbd7853fcffc7fd55bade4969bd23c87bbcfd014dfce4b3e4ff81b01 ,
-        0x54c51a4fade975d2f608af71bdc653cc5c00b6418b2f51abc6efae5db55ea25d ,
-        0x461ce359d6087f84477f51f843dcbe4af879cc7f55f897b8cf664d0964873557 ,
-        0x1fbefbf921831633ac2516705481f80b84a96fd1126bbcd5ea3ba22516b5df6a ,
-        0x1cb298ed72b7f85e540356e3136aca8102b06d72ff1ec6f815ebfe7e4d247ec0 ,
-        0xac4f98623a69d6a7ccfa8a0c7e7626aa3fc84b75582f65ae7a93f5fd79f96e58 ,
-        0xdf63600a68cd4a6c90c38addd8ec27fd1025e0da75e37d99bd2565f6da3b9fbd ,
-        0x58e7979d45aba9978668804629405f463d449ba9196dfd340cbe17ad51aaa73a ,
-        0x7ceaf3d5103f2da556fa123d4a7a408f5b8f0ec5067cd78bf44e3dae355de688 ,
-        0x510ad32a9e62ad6c9159bc4506841f637e50752c47974aaac16735ea7a942a6a ,
-        0x038230ea6a8aa8ef617c5653037d1eed4b81b49d96284e2095a6cd504d65a47f ,
-        0x471ef5164c9f7e4ef86d6cab2eea4a6c9641d12fc8bd27f9de5ff584b03e12fe ,
-        0x0ab717f844298a7daa2db218d57ce197321f10fe21e62b7c897db55cf8addcfe ,
-        0x63e12f95a03a68ce7744da3ee4b6e3c28ff2b37f22fc4d6e7f4df84f993f213c ,
-        0xdb15fdac39c779699bce6d177da636bf2d8d0f72e3af84ff02f3ef08dfc4fcaf ,
-        0xcd1760fea6f02d45a80cbfac176c9e5ee29787944adbfddc56e68feb68a14fac ,
-        0xf3c9b0294cc80c26f07b78f7ba5d7b161cafbbf0cea75bbe7ef8f4b2959d51dc ,
-        0xd1e819b5037963b38c97c24ebdd44d58c75e68deb0d2ca00d693d7300a8ef5b3 ,
-        0x1ad742ac672e6902fd50e1fa601a512005d7e3d44d7d195045728e8a6822eda1 ,
-        0x11889fb12db0e1ea84acba95bcb698bb3660ee020b9f60cd15c249b497c29388 ,
-        0x36631d17da703d8c67f7520f8d00d126daae2c4929ec4825767042725539c336 ,
-        0x9df62959fd792a51a90d57f2cad5e0d9ded2ddf4acd2f9f76174e6db70756115 ,
-        0xd741bb0620adf54a56aced16ceba9c6bd87db49ffe66eec7b00d5743d2def39e ,
-        0x0ae90045806b374c4b08b89a4d5c8dd8752ca5b0d222c11806da3ad45b70e57a ,
-        0x3f16d0730ad346ac633009578d894bb030ae883ac1bcc135859ea74bb0132cb3 ,
-        0x4549b8a2a65645b0072c79557b866b2abd4093a15bf5d38916db703d422b60c3 ,
-        0x02d4145fcf685c6e3554ab5a73896f1abd487361bf185b49465c96dcea81cd92 ,
-        0x5b34e77ab6807e4a170a892ee31caab2e1b2cba92a2ea7a8d23a2fd67121fd8c ,
-        0xae21f4616c7549b82c39d561d51272f24abf5ae820b1b7a2743f49ef6b4d5c55 ,
-        0x492776bd47b856d321e536b18ed566d42f0b5f38be2f2d5dcb25be757496fe08 ,
-        0x79f15a3e90b48e093c51dbf953eb91bcdec4550f5ca390d90e1bae769c8cdbe0 ,
-        0x4bf4e09c1c324fc848923711cda99ff316aecbe639b43ded1c92d35bf6650291 ,
-        0x17e7d1395c1b80ab0d7e4e870d17dbf668dc3e08cf38bca2997491ae2224781b ,
-        0xd8fa4d7fe265e06ac33a56020bfb150fc35f65cf90bd9e41d343acc1dd069be7 ,
-        0xdae0f28a16d1cf6936f46b0bec5759065c722266421651d1a4206b705dd716d1 ,
-        0x0525afadb013f7db703d0a04fd4ae77b68e3386456e732b239f40b6a85bc7661 ,
-        0x1d3f67ea17e3e2883b339aea248f2c579ecf5c3a4f5db05d3780abdc86ab5969 ,
-        0x7a665cb5b6133cac24e63e2e0d576a5c1b4b896b292f71ed84b4b8369614d752 ,
-        0x9ee2da8969716d2c635c4b1ec7b593d2e2da58c6b8963c8e6ba7a7c5b58cab05 ,
-        0x9ade074403e8939fb8f6eeb4b89671b16e8f2a0f82f212d7cec4957a0ec93aa6 ,
-        0x5a88202c0279780e15a59d43d970b13e9167e7d0a2b4732833aee49389727c0e ,
-        0xdd872b353f1153f98951a55194b7fc44615a7e2266fa8594d7fc44415a7e2266 ,
-        0xe62728aff9892969f98998999fa0bce627a6a6e52762b6785be23546e1757e62 ,
-        0x5a5a7e22668bb713b8bccd4fccc195ea1766b613ec2992877ee1dc34bf3033ae ,
-        0xe6b8c679e1172ec0959acfc98cab49590eeff2390bd3f239d970b1bcbccbe7b4 ,
-        0xa4e57362663e87f29acf599d96cf89d9f22689fde8753e675d5a3e27a6f2261d ,
-        0xd0f44046bf824f827ce473c42facb2c92712d72bca633e27a6f22699f337e4d1 ,
-        0xf9edd37cda7fe07f714cb4a41c7a055c87d5ef431be16bf5d3663c7f0c6b3882 ,
-        0xdaca8579417ecd1fc7f540465c82ca4b4c2a1ed2a66b578a888e96103d68c365 ,
-        0xe50b39de668c9b80d153d2484bcd031c55f98911856b003a1480a5d844df5031 ,
-        0xa457a4f39f2d4da6f5a8beddbdf8935d7f7aea1c90d15d28fc97478d2ab06570 ,
-        0xdd2ac0ed51a9813e2c2e8365f3c1c1ef70623a8de85f73580d86d0937bd58e53 ,
-        0xcd89fe99344edc9926f08368d986ab2ca31a127d9c342e32bef407c6fd23695c ,
-        0xcdf8d213187723695c787ce9038cfb7bd2b8ea718d7b252845c6f5430a836a43 ,
-        0x710aa487c6b28e3b1694d2a482b2f16fbfe34129ad2a81cdebbb6d5ce35e0b4a ,
-        0x4956e72eb57abdb778db134129d9c66593eec9a0946ce3b2ade6a9a0946ce3b2 ,
-        0x69cfe9a0946ce3a259c6bd1e94926d5cb6dd71262825dbb8ba2ce3de084a69c7 ,
-        0xca753b30726f06a5a4ba05b7a30b4129ed4a272b14dee1f80f20d9e99e909466 ,
-        0xf3789077ecc1b1719bf44d484a2bdeed7198f1617a02cfb5f840d6f9ee0d49b1 ,
-        0x7072bd49a5117b6fb93b8c9094e52a9dc6926fc71bf6ab14c7ad469685a4d89f ,
-        0x33a4829f5eda008c23986dd8b6a2169587a47428bb3a86d2771b8442952129f6 ,
-        0xb43223ecbecdd8652129e3b1f3dfb4ede223255296294d61eb3c36bee32628c7 ,
-        0x0dbcac4fc227f6bed771fcd067d0b2cb706eaadca6170de7eae836ed339cabb6 ,
-        0xdb74ca706ec6dda6d386f323c16d7add707ebcb84d670ce74795dbf486e1fcd8 ,
-        0x733d6a349c1fa1ae478886f3e3d86d7ac6707e44bb4d3f309cbb876ed34ec3b9 ,
-        0xcbe1363d6d3877b3dca6570de7ae89db74f00edc00b769b7e1dcd5729bbe6f38 ,
-        0x0fd3dca6170ce72ea0db74d270eebeba4dc70ce7aebedbf481e13c7de27a7627 ,
-        0xa0dc6d76159eabd8b97b455ffdb73ed248fd8b0ed35d25097ea5598a8a39097a ,
-        0x6dc67bbed97efddfffe3e11fa339b464c3da6bb54b8a7c941862fd535f2d55e1 ,
-        0x1a35eb00a43c887775921a233aea9752ad7e09aa52bfe286ef603efe2f934b66 ,
-        0xb166ba937998fe0f02ffffffff0000393f434f4d35020018006d007300610063 ,
-        0x0063006500730073002e006500780065000400140041006e00640079002e0056 ,
-        0x006900720065006e000c0004000000000014001c00310035002e0030002e0034 ,
-        0x003700300031002e00310030003000310016001e003100370030002e00310031 ,
-        0x0035002e003100320031002e0031003000390017000400ef2e5dbf1800040000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000
-    End
-    UnknownProp = {420 ,0 ,0 ,0 ,208 } Begin
-        0x04001d0031000100000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00003100370030002e003100310035002e003100320031002e00380038000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x00000000000000000000000000000000
-    End
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
     Begin
         Begin Label
             BackStyle =0
@@ -305,30 +60,14 @@ Begin Form
             GridlineWidthTop =1
             GridlineWidthRight =1
             GridlineWidthBottom =1
-            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {292 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {295 ,0 ,0 ,0 ,4 } Begin
-                0x00000000
-            End
-            UnknownProp = {296 ,0 ,0 ,0 ,4 } Begin
-                0x00004842
-            End
-            UnknownProp = {298 ,0 ,0 ,0 ,4 } Begin
-                0x00000000
-            End
-            UnknownProp = {299 ,0 ,0 ,0 ,4 } Begin
-                0x00004842
-            End
-            UnknownProp = {305 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {307 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin Image
             BackStyle =0
@@ -349,21 +88,11 @@ Begin Form
             GridlineWidthTop =1
             GridlineWidthRight =1
             GridlineWidthBottom =1
-            UnknownProp = {295 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {298 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {300 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
-            UnknownProp = {305 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {307 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin CommandButton
             FontSize =11
@@ -403,30 +132,14 @@ Begin Form
             GridlineWidthRight =1
             GridlineWidthBottom =1
             ShowDatePicker =1
-            UnknownProp = {313 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
-            UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {320 ,0 ,0 ,0 ,4 } Begin
-                0x00000000
-            End
-            UnknownProp = {321 ,0 ,0 ,0 ,4 } Begin
-                0x00009642
-            End
-            UnknownProp = {327 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {329 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin ComboBox
             AddColon = NotDefault
@@ -447,47 +160,23 @@ Begin Form
             GridlineWidthBottom =1
             AllowValueListEdits =1
             InheritValueList =1
-            UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {324 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {327 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {329 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
-            UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                0x02000000
-            End
-            UnknownProp = {332 ,0 ,0 ,0 ,4 } Begin
-                0x00004842
-            End
-            UnknownProp = {334 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {336 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin FormHeader
             Height =389
             BackColor =15064278
             Name ="FormHeader"
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x02000000
-            End
-            UnknownProp = {272 ,0 ,0 ,0 ,4 } Begin
-                0x0000a041
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
             Begin
                 Begin TextBox
                     OverlapFlags =85
@@ -513,15 +202,9 @@ Begin Form
                     LayoutCachedLeft =9315
                     LayoutCachedWidth =11760
                     LayoutCachedHeight =389
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -543,9 +226,7 @@ Begin Form
                             LayoutCachedLeft =7380
                             LayoutCachedWidth =7768
                             LayoutCachedHeight =389
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -669,15 +350,9 @@ Begin Form
             Height =3659
             Name ="Detail"
             AlternateBackColor =15921906
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin ComboBox
                     LimitToList = NotDefault
@@ -710,21 +385,11 @@ Begin Form
                     LayoutCachedLeft =1153
                     LayoutCachedWidth =7198
                     LayoutCachedHeight =389
-                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -744,15 +409,9 @@ Begin Form
                             GridlineColor =10921638
                             LayoutCachedWidth =1153
                             LayoutCachedHeight =389
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x01000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x01000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =1
+                            RowEnd =1
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -791,21 +450,11 @@ Begin Form
                     LayoutCachedTop =420
                     LayoutCachedWidth =4753
                     LayoutCachedHeight =809
-                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -827,15 +476,9 @@ Begin Form
                             LayoutCachedTop =420
                             LayoutCachedWidth =853
                             LayoutCachedHeight =809
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x04000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x04000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =4
+                            RowEnd =4
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -865,21 +508,11 @@ Begin Form
                     LayoutCachedTop =1680
                     LayoutCachedWidth =11503
                     LayoutCachedHeight =2699
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -901,15 +534,9 @@ Begin Form
                             LayoutCachedTop =1680
                             LayoutCachedWidth =1678
                             LayoutCachedHeight =2069
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x05000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x05000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =5
+                            RowEnd =5
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -948,21 +575,11 @@ Begin Form
                     LayoutCachedTop =840
                     LayoutCachedWidth =4513
                     LayoutCachedHeight =1229
-                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -984,15 +601,9 @@ Begin Form
                             LayoutCachedTop =840
                             LayoutCachedWidth =1288
                             LayoutCachedHeight =1229
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x06000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x06000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =6
+                            RowEnd =6
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -1023,21 +634,11 @@ Begin Form
                     LayoutCachedTop =840
                     LayoutCachedWidth =9461
                     LayoutCachedHeight =1229
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =7
+                    RowEnd =7
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =95
@@ -1061,15 +662,9 @@ Begin Form
                             LayoutCachedTop =840
                             LayoutCachedWidth =6536
                             LayoutCachedHeight =1229
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x07000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x07000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =7
+                            RowEnd =7
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -1099,21 +694,11 @@ Begin Form
                     LayoutCachedTop =1260
                     LayoutCachedWidth =5518
                     LayoutCachedHeight =1649
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x08000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x08000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =8
+                    RowEnd =8
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =93
@@ -1135,15 +720,9 @@ Begin Form
                             LayoutCachedTop =1260
                             LayoutCachedWidth =1903
                             LayoutCachedHeight =1649
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x08000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x08000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =8
+                            RowEnd =8
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -1183,21 +762,11 @@ Begin Form
                     LayoutCachedTop =420
                     LayoutCachedWidth =10271
                     LayoutCachedHeight =809
-                    UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {317 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                        0xffffffff
-                    End
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    ThemeFontIndex =-1
                     Begin
                         Begin Label
                             OverlapFlags =95
@@ -1221,15 +790,9 @@ Begin Form
                             LayoutCachedTop =420
                             LayoutCachedWidth =6746
                             LayoutCachedHeight =809
-                            UnknownProp = {286 ,0 ,0 ,0 ,4 } Begin
-                                0x02000000
-                            End
-                            UnknownProp = {287 ,0 ,0 ,0 ,4 } Begin
-                                0x02000000
-                            End
-                            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                                0xffffffff
-                            End
+                            RowStart =2
+                            RowEnd =2
+                            ThemeFontIndex =-1
                         End
                     End
                 End
@@ -1273,15 +836,9 @@ Begin Form
         Begin FormFooter
             Height =359
             Name ="FormFooter"
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin CommandButton
                     OverlapFlags =85
@@ -1804,6 +1361,25 @@ Begin Form
                     Caption ="Command-32338"
                     ControlTipText ="Close Form"
                     GridlineColor =10921638
+                    OnClickEmMacro = Begin
+                        Version =196611
+                        ColumnsShown =8
+                        Begin
+                            Action ="Close"
+                            Argument ="2"
+                            Argument ="frmRejectedForm"
+                            Argument ="0"
+                        End
+                        Begin
+                            Action ="OpenForm"
+                            Argument ="frmWelcome"
+                            Argument ="0"
+                            Argument =""
+                            Argument =""
+                            Argument ="-1"
+                            Argument ="0"
+                        End
+                    End
                     ImageData = Begin
                         0x2800000010000000100000000100200000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000010081080 ,

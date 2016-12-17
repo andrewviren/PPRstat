@@ -3,8 +3,8 @@ Option =0
 Where ="(((tblActivitySchedule.EndDate)>=Date()) AND ((tblProgram.IsActive)=Yes))"
 Begin InputTables
     Name ="tblDaySortNormal"
-    Name ="tblActivityType"
     Name ="tblFacility"
+    Name ="tblActivityType"
     Name ="tblProgram"
     Name ="tblActivitySchedule"
     Name ="tblActivityScheduleDays"
@@ -30,24 +30,24 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblActivitySchedule"
-    Expression ="tblProgram.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblProgram.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -129,12 +129,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1352
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1336
-    Bottom =513
+    Right =1309
+    Bottom =496
     Left =0
     Top =0
     ColumnsShown =539

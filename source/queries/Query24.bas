@@ -2,9 +2,9 @@
 Option =0
 Where ="(((tblPermit.ReplacedBy) Is Null))"
 Begin InputTables
+    Name ="qryPermitIDs_duplicate"
     Name ="tblDuplicatePermitIDs"
     Name ="tblPermit"
-    Name ="qryPermitIDs_duplicate"
 End
 Begin OutputColumns
     Expression ="tblPermit.ReplacedBy"
@@ -12,7 +12,7 @@ End
 Begin Joins
     LeftTable ="tblDuplicatePermitIDs"
     RightTable ="tblPermit"
-    Expression ="tblDuplicatePermitIDs.ActivityID = tblPermit.ActivityID"
+    Expression ="tblDuplicatePermitIDs.ActivityID=tblPermit.ActivityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -36,12 +36,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1232
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1216
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =539

@@ -25,10 +25,10 @@ Sub EnforcePermitBusinessRules( _
     Dim strTest As String
     Dim strSQL As String
     Dim qry As QueryDef
-    Dim Db As Database
+    Dim db As Database
     Dim rs As DAO.Recordset
     
-    Set Db = CurrentDb()
+    Set db = CurrentDb()
     
     'dateStartDate = MainForm.sbfrmActivitySchedule.Form!txtStartDate.Value
     'dateEndDate = MainForm.sbfrmActivitySchedule.Form!txtEndDate.Value

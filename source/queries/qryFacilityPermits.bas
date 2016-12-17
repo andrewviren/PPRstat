@@ -24,11 +24,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =2
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"

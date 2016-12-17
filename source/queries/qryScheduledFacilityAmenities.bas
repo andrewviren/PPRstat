@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -42,12 +42,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =624
+    Right =1309
+    Bottom =607
     Left =0
     Top =0
     ColumnsShown =539

@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblFacility"
     Name ="tblStaffTitle"
+    Name ="tblFacility"
     Name ="tblStaff"
 End
 Begin OutputColumns
@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblStaff"
-    Expression ="tblFacility.FacilityID = tblStaff.AssignedFacilityID"
+    Expression ="tblFacility.FacilityID=tblStaff.AssignedFacilityID"
     Flag =1
     LeftTable ="tblStaffTitle"
     RightTable ="tblStaff"
-    Expression ="tblStaffTitle.ID = tblStaff.StaffTitleID"
+    Expression ="tblStaffTitle.ID=tblStaff.StaffTitleID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -42,12 +42,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1563
-    Bottom =839
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1547
-    Bottom =547
+    Right =1309
+    Bottom =530
     Left =0
     Top =0
     ColumnsShown =539

@@ -29,25 +29,17 @@ Begin
         dbText "Name" ="tblPermit.PublishID"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="CountOfPublishID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblPermit.Issuer"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =863
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =543

@@ -15,17 +15,17 @@ End
 Begin Joins
     LeftTable ="tblPermitCheck"
     RightTable ="tblCheck"
-    Expression ="tblPermitCheck.CheckID = tblCheck.ID"
+    Expression ="tblPermitCheck.CheckID=tblCheck.ID"
     Flag =1
     LeftTable ="tblPermitCheck"
     RightTable ="tblPermit"
-    Expression ="tblPermitCheck.PermitID = tblPermit.PublishID"
+    Expression ="tblPermitCheck.PermitID=tblPermit.PublishID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
 dbByte "RecordsetType" ="0"
-dbBoolean "OrderByOn" ="0"
+dbBoolean "OrderByOn" ="-1"
 dbByte "Orientation" ="0"
 dbByte "DefaultView" ="2"
 dbBoolean "FilterOnLoad" ="0"
@@ -116,12 +116,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =835
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =401
+    Right =1309
+    Bottom =384
     Left =0
     Top =0
     ColumnsShown =539

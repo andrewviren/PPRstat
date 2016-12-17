@@ -2,8 +2,8 @@
 Name ="tblSwitchOldOutdoorPermitPublishIDBack"
 Option =0
 Begin InputTables
-    Name ="qryOutdoorPermits"
     Name ="tblDuplicatePermitIDs"
+    Name ="qryOutdoorPermits"
     Name ="tblPermit"
 End
 Begin OutputColumns
@@ -16,11 +16,11 @@ End
 Begin Joins
     LeftTable ="tblDuplicatePermitIDs"
     RightTable ="qryOutdoorPermits"
-    Expression ="tblDuplicatePermitIDs.ActivityID = qryOutdoorPermits.ActivityID"
+    Expression ="tblDuplicatePermitIDs.ActivityID=qryOutdoorPermits.ActivityID"
     Flag =1
     LeftTable ="qryOutdoorPermits"
     RightTable ="tblPermit"
-    Expression ="qryOutdoorPermits.PublishID = tblPermit.PublishID"
+    Expression ="qryOutdoorPermits.PublishID=tblPermit.PublishID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -75,12 +75,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =539

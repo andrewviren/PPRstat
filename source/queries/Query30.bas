@@ -11,7 +11,7 @@ End
 Begin Joins
     LeftTable ="qrySchoolsPermittedFY2015"
     RightTable ="SchoolsPermitted2013"
-    Expression ="qrySchoolsPermittedFY2015.SchoolName = SchoolsPermitted2013.SchoolName"
+    Expression ="qrySchoolsPermittedFY2015.SchoolName=SchoolsPermitted2013.SchoolName"
     Flag =2
 End
 Begin Groups
@@ -34,21 +34,17 @@ Begin
         dbText "Name" ="qrySchoolsPermittedFY2015.SchoolName"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="SchoolsPermitted2013.SchoolName"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1184
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1168
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =543

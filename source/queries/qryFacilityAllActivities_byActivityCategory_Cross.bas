@@ -1,10 +1,12 @@
 ﻿Operation =6
 Option =0
 Begin InputTables
-    Name ="qryFacilityAllActivities_byActivityCategory"
     Name ="Clusters"
+    Name ="qryFacilityAllActivities_byActivityCategory"
 End
 Begin OutputColumns
+    Alias ="FirstOfProgsConcat"
+    Expression ="First(qryFacilityAllActivities_byActivityCategory.ProgsConcat)"
     Expression ="Clusters.LeadClusterFacility"
     GroupLevel =2
     Expression ="Clusters.FacilityName"
@@ -13,13 +15,11 @@ Begin OutputColumns
         "etic\",\"Camps\",\"Cultural\",\"Educational\",\"Environmental/Outdoor\",\"Other\""
         ")"
     GroupLevel =1
-    Alias ="FirstOfProgsConcat"
-    Expression ="First(qryFacilityAllActivities_byActivityCategory.ProgsConcat)"
 End
 Begin Joins
     LeftTable ="Clusters"
     RightTable ="qryFacilityAllActivities_byActivityCategory"
-    Expression ="Clusters.FacilityName = qryFacilityAllActivities_byActivityCategory.FacilityName"
+    Expression ="Clusters.FacilityName=qryFacilityAllActivities_byActivityCategory.FacilityName"
     Flag =2
 End
 Begin Groups

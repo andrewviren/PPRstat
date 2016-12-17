@@ -18,19 +18,19 @@ End
 Begin Joins
     LeftTable ="qryPublishIDconflicts"
     RightTable ="tblPermitConflictExceptions"
-    Expression ="qryPublishIDconflicts.ConflictsWith=tblPermitConflictExceptions.ConflictWith"
-    Flag =2
-    LeftTable ="qryPublishIDconflicts"
-    RightTable ="tblPermitConflictExceptions"
     Expression ="qryPublishIDconflicts.PublishID=tblPermitConflictExceptions.PublishID"
     Flag =2
     LeftTable ="qryPublishIDconflicts"
-    RightTable ="tblPermitConflictExceptions_1"
-    Expression ="qryPublishIDconflicts.ConflictsWith=tblPermitConflictExceptions_1.PublishID"
+    RightTable ="tblPermitConflictExceptions"
+    Expression ="qryPublishIDconflicts.ConflictsWith=tblPermitConflictExceptions.ConflictWith"
     Flag =2
     LeftTable ="qryPublishIDconflicts"
     RightTable ="tblPermitConflictExceptions_1"
     Expression ="qryPublishIDconflicts.PublishID=tblPermitConflictExceptions_1.ConflictWith"
+    Flag =2
+    LeftTable ="qryPublishIDconflicts"
+    RightTable ="tblPermitConflictExceptions_1"
+    Expression ="qryPublishIDconflicts.ConflictsWith=tblPermitConflictExceptions_1.PublishID"
     Flag =2
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -64,12 +64,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =462
+    Right =1309
+    Bottom =445
     Left =0
     Top =0
     ColumnsShown =539

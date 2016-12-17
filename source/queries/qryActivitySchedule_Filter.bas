@@ -29,12 +29,12 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
 End
 Begin Groups

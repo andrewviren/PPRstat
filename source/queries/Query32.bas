@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblAge"
     RightTable ="tblProgram"
-    Expression ="tblAge.AgeLow = tblProgram.AgeLow"
+    Expression ="tblAge.AgeHigh=tblProgram.AgeHigh"
     Flag =1
     LeftTable ="tblAge"
     RightTable ="tblProgram"
-    Expression ="tblAge.AgeHigh = tblProgram.AgeHigh"
+    Expression ="tblAge.AgeLow=tblProgram.AgeLow"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -44,12 +44,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =562
+    Right =1309
+    Bottom =545
     Left =0
     Top =0
     ColumnsShown =579

@@ -38,13 +38,13 @@ End
 Begin Joins
     LeftTable ="tblLocations_Usage_Dates_Days"
     RightTable ="PPR_to_SDP_out"
-    Expression ="tblLocations_Usage_Dates_Days.LocUsageInputEmpID = PPR_to_SDP_out.LocUsageInputE"
-        "mpID"
+    Expression ="tblLocations_Usage_Dates_Days.LocUsageInputDateTime=PPR_to_SDP_out.LocUsageInput"
+        "DateTime"
     Flag =1
     LeftTable ="tblLocations_Usage_Dates_Days"
     RightTable ="PPR_to_SDP_out"
-    Expression ="tblLocations_Usage_Dates_Days.LocUsageInputDateTime = PPR_to_SDP_out.LocUsageInp"
-        "utDateTime"
+    Expression ="tblLocations_Usage_Dates_Days.LocUsageInputEmpID=PPR_to_SDP_out.LocUsageInputEmp"
+        "ID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"

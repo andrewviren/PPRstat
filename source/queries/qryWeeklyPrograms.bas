@@ -21,15 +21,15 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblActivitySchedule"
-    Expression ="tblProgram.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblProgram.ActivityID=tblActivitySchedule.ActivityID"
     Flag =2
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 Begin Groups
@@ -84,12 +84,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1359
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1343
-    Bottom =257
+    Right =1309
+    Bottom =240
     Left =0
     Top =0
     ColumnsShown =543

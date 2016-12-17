@@ -18,7 +18,7 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =2
 End
 Begin OrderBy
@@ -52,10 +52,6 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="tblFacility.PoliceDistrict"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblFacility.FacilityName"
         dbInteger "ColumnWidth" ="1965"
         dbBoolean "ColumnHidden" ="0"
@@ -86,23 +82,7 @@ Begin
         dbBoolean "ColumnHidden" ="0"
     End
     Begin
-        dbText "Name" ="Expr1003"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1004"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1002"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblFacility.FacilityType"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblProgram.FacilityID"
         dbLong "AggregateType" ="-1"
     End
 End
@@ -110,12 +90,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =835
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =528
+    Right =1309
+    Bottom =511
     Left =0
     Top =0
     ColumnsShown =543

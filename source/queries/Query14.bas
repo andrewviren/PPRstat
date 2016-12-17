@@ -78,22 +78,22 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =547
+    Right =1309
+    Bottom =530
     Left =0
     Top =0
     ColumnsShown =539
     Begin
-        Left =318
-        Top =30
-        Right =494
-        Bottom =311
+        Left =565
+        Top =74
+        Right =709
+        Bottom =218
         Top =0
-        Name ="tblFacilityAmenities"
+        Name ="tblAmenityType"
         Name =""
     End
     Begin
@@ -106,21 +106,12 @@ Begin
         Name =""
     End
     Begin
-        Left =565
-        Top =74
-        Right =709
-        Bottom =218
+        Left =318
+        Top =30
+        Right =494
+        Bottom =311
         Top =0
-        Name ="tblAmenityType"
-        Name =""
-    End
-    Begin
-        Left =538
-        Top =307
-        Right =734
-        Bottom =505
-        Top =0
-        Name ="tblActivityScheduleAmenity"
+        Name ="tblFacilityAmenities"
         Name =""
     End
     Begin
@@ -130,6 +121,15 @@ Begin
         Bottom =292
         Top =0
         Name ="tblActivitySchedule"
+        Name =""
+    End
+    Begin
+        Left =538
+        Top =307
+        Right =734
+        Bottom =505
+        Top =0
+        Name ="tblActivityScheduleAmenity"
         Name =""
     End
 End

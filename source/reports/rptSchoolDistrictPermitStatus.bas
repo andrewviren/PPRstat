@@ -26,342 +26,108 @@ Begin Report
         0x010000006801000000000000a10700000100000001000000
     End
     FilterOnLoad =0
+    DatasheetBackColor12 =16777215
     FitToPage =1
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =16053492
     DatasheetGridlinesColor12 =15062992
     FitToScreen =1
-    UnknownProp = {419 ,0 ,0 ,0 ,7092 } Begin
-        0x5800520058003900430039003300340045003500370031003200320036002000 ,
-        0x5000530000000000000000000000000000000000000000000000000000000000 ,
-        0x01040006dc00d81a53ff010202000100ea0a6f08640001000f00580201000100 ,
-        0x5802030000004c00650074007400650072000000000000000000000000000000 ,
-        0x0000000000002200290000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000010000000000000004000000 ,
-        0x0200000001000000000000000000000000000000000000000000000050524956 ,
-        0xe210000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000180000000000102710271027 ,
-        0x000010270000000000000000c000940300000000000000000000000000000000 ,
-        0x00000000000000000300000000000000441710005c4b03006843040000000000 ,
-        0x000000000100010000000000000000000000000000000000bd4d6b0105000000 ,
-        0xff000100ff000000040000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x01000000000000000000000000000000c0000000534d544a000000001000b000 ,
-        0x5800650072006f007800200057006f0072006b00430065006e00740072006500 ,
-        0x2000350038003700350020005000530000004c656164696e6745646765000050 ,
-        0x61676553697a65004c65747465720050616765526567696f6e00004475706c65 ,
-        0x78004e6f6e65005265736f6c7574696f6e003630307836303064706900000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000044170000314e5258010000000c170000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000439a4791090001005a0a1000000001000720e71420030000 ,
-        0x00004d534346000000003d0a0000000000002c00000000000000030101000100 ,
-        0x0000393000005200000001000100773700000000000000000000000000002f2f ,
-        0x556e636f6d707265737365642d446174612f2f0063be3631e3097737434bc55b ,
-        0x7d701557153fbbef01095fa52528dd4078e43d483090262f2f5fe85893d00025 ,
-        0xc490c411472a1342284848423e6862c7ca1ffea57fb40e6365b050a86da1ceb3 ,
-        0x54b07c945a05823238536da75351c70ee35499d18e8c5875c68afa3bf7ecbeb7 ,
-        0xef0bde32fbf6dd9d9b7bf6ecbd777f7beeb9f77c24696a6eefba5e14f0114a53 ,
-        0xf3dab6a6e6ceb6420d373388364d655e679b1ec2bd4efeb74bd05480f611f7d0 ,
-        0x57083b380f4da5d0cb990e0b7d76119a1aa1bb991f117a07d38f08ddbe04cd97 ,
-        0x4017d2469d54f5913e220fbb3e8e665cbd8f8b3e1127bf293d3e988fe629413b ,
-        0x8704ed5492675fe667fbd23ffb2d3ffbaea2a7685445fa33c2f72f407350e8c6 ,
-        0x85680e091d60fe61f5faadcc3922ec0aee7245bd425b6dbe427f509e1de0affc ,
-        0x053fd3a8c2fe7af42db6fa3eaeabbe1b4ad1ec053d5dbeee6de9566e757b59a6 ,
-        0xdc6ca0396e4ecff479a16f613efdd742af61a457414f41fb1be19d6398bf13fa ,
-        0x117e7e5de88b4cff5b7dd53ae6dc127631779fa329ba83977ca1d03703684a34 ,
-        0x9e5ad3eb85f730af7183c653cc5d0cb2518b2d519bc6dfae5db53ea243469ce0 ,
-        0x5936097d9c477f56e863ccdf20f442a6bf28f44bdc67a7a604b2d79aab1ff77e ,
-        0x7ec990458c6af1051c5720fe0c61eabbb4f81aefb6fa8e69f1451db098c316b1 ,
-        0x479e96dc8f66d0623ea6a61c2c00d92ecfef638c5fb09e1fd644e247ccf69429 ,
-        0xa6d3667bc66cdf95c1cfce45f37bf9a84eeba3cc556fb6ee9f977bc3ba8f8228 ,
-        0xa04debb0417ea0c8ed2d7ed28f511cae5d37de93d95b9366afbbfbd94b74fed8 ,
-        0x79b491fa689806699c02f479b4c3b4935ac01ba051d07de0d65203d5e3a7be48 ,
-        0x0df1d32a6aa3cfd17ad2037aecf4e85464c077bd48efd2635ad36d8e18a7306d ,
-        0xe02936cb1699c75b6450e809a68754c70a74a9a41afcac46db805a45ed401046 ,
-        0x5b4d11751fc6cf6a6aa44f82bf0a483b68a5a2045279ca0cd5b48cf46fc8abde ,
-        0xc0d1a75f107a84cfaa4bba129b75a0e893f2ec717ef6173d2eac1b42bfcbfc02 ,
-        0x9f2845894ff1224bd12c127a15d301a11f647a852fbeafd608bd9bf9df13fa72 ,
-        0x199aa3e67cc785f701f34e0a3dceeffe91d0b798ffaad0ff65fa94d07caee8e7 ,
-        0xcd392e0a6f36f32ef94c6d7e53989f66e62f85fe0cd3bf12ba99e9b7cc0f60fa ,
-        0x96d0ad45680cbfac17ce3cbdcc2f2f2917de03cc5be68fe968a14f4ee71b55a6 ,
-        0x3021331c8193387f2a06fff3d6135fd5d66817abd79f5dbdae8b4d8a464fab1d ,
-        0xc81b9b65bc0afd5eea21ac631f346f54696500ebc96b580b8af5b31a5729d633 ,
-        0x97650a7d47e17a7f16512009d7a3d443fd695045728e8a682a3d4363103f635b ,
-        0x6cc3d50559f52879ed32776dc0dc05163ec19a2b84d3e82085a711edc43a96da ,
-        0x703d8477f7512f8d01d10edaa34e92729c2395d8c171c955e50cdb6c3aa464f5 ,
-        0xa79944e5365c892b5783777b5beea56795cebf874367910d573756710bb46b10 ,
-        0xd2daaa64c5da6ee1accfb9862da7c3f457733f866db81a13f69ef7a5908e5004 ,
-        0xb80ee0680901578b89ab09bb8ea514565a2418c3405b8f7617ae5cefc7027a4e ,
-        0x61da8e750c26e0aa31710916c6155116cc1b5c33e879ba8c738265b6240157ad ,
-        0xa95511ec014b5ed59ee19a492fd074e856c36ca2a5365c0fd35a9c61016a8ead ,
-        0x676d4c6e3554a7b8b9c4378b5ea40538bf185b595a5c96dc1a80cd925b6dcef5 ,
-        0x6c31fd84260b89aec00e55d970d9e554159353add23a2fd6b1947e4ad710fa30 ,
-        0xb6fa045c969ceab16a713979a55fad7494d85b51ba9fa0f77526aeaa048bdde0 ,
-        0x11ae8d744cb94dac637569f5cbc2178eed4b4bd772896f0b9da73f405ebc969f ,
-        0x4a58c7389e5a9bfda9f3485e3fc6d5005ce390d95e1bae0e58c611f812bdb093 ,
-        0xc3a6858c247813b539f573dec075c5b4437b52ec90586fd99771445ed8a30bb8 ,
-        0xb601573bfc9c4e1b2e3edb6b63e783d08cc3ab32972ed15584046f02db80e94f ,
-        0x7c1fb8dab18e95c0c27ec543f057d93364af67c8f4106bf0b4d1e6b936babca2 ,
-        0x45f4339a0ffdda85f36b591a5c6211d3218ba868529035baae6b4b6852c96b37 ,
-        0xce89076cb8d603c180d2f95eda9e85ccea5d46564c3fa736c86b3fd6f113a67e ,
-        0x312e8eb8d3a3a94ef0c872e5f92ca08bd48db3eb267055d870b5284d4f8fabce ,
-        0x66c1c34a62eee3d27025c7b5d1a4b896f212d74e49896ba309712de529ae9d9a ,
-        0x12d746d3c6b5e4715c3b2d25ae8da68d6bc9e3b876764a5ccbb85aa1e9fd4034 ,
-        0x883ef9896bef4d896b1917ebf6b8f220282f71ed5c5cc97648d631f98408e244 ,
-        0x200fed50518a1dca848bf5893cb3434b52ec507a5c899689726c8796e34ace4f ,
-        0x44557e625c6914e52d3f5198929f889a7e21e5353f5190929f889af909ca6b7e ,
-        0x62464a7e226ae62728aff9899929f989a82dde96788d51789d9f9895929f88da ,
-        0xe2ed382e6ff313c5b892fdc2f4e7047b8ae4a15fb820c52f4c8fab25a6715ef8 ,
-        0x858b7125e773d2e36a56278777f99cd2947c4e265c2c2feff239ad29f99ca899 ,
-        0xcfa1bce67336a6e473a2b6bc497c3f7a9dcfd99292cf89aabc4927343d90d6af ,
-        0x604b908f7c8ef8855536f944627a4579cce74455de247dfe86bcb2df082093e3 ,
-        0xc757545c3ba6f25f837877001ab683bea2620faf8ace7fee329db6a2f97acfd2 ,
-        0x8ff6fff1c90b4046f7a0f25fac34a98088c1f5a8c0a8578594fd34a1c0b2da71 ,
-        0xd0341a9f4e23fa6731ffda6b183db9575d56307c18f78f847162069b410f8133 ,
-        0x822bddd2f831eec3847191ecc2668cfb7bc2b89aecc25a8cbb99302e9c5dd889 ,
-        0x717f4b18579dd5b897835265dc00a430a45c730e9d7b6922e3b81341a9cdca99 ,
-        0xdf9ab53a9c0c4a6d53894f5edf91acc6bd1a949aa8cedd6af5fa6ef3b5a78252 ,
-        0x338dcb24ddd341a999c6655acd3341a999c665d29eb341a999c6d56618f75a50 ,
-        0x6aa6719976c7b9a0d44ce3ea338c7b3d28b5032bd783fd3a90ed711e949a6c4e ,
-        0xee542683523b944eae5078476389f3cce5be90d41633ed2fdfd84b3bef14f687 ,
-        0xa4b6e1db1e45783a4a8fe1bd161dc838dffd21a9164e6e77a8f453df6d778711 ,
-        0x92ba46a56158f21df8c201151adf6ee4b29054fb7b8695d3dc47db80710cb38d ,
-        0xda56d42a1521a99dea5c9d40edbf0342299521a9f6742423ecb9c3d8d521a9d9 ,
-        0x9cf34fd876f1f132a9ab95a6f0e93c919db9098ab98175fe287ceae03b9d278f ,
-        0x7d0c9cfd86f3a3caedf2a2e15c1ddd2e870ce7aaed763963383fc6dd2e670de7 ,
-        0x26c1edf29ae1dcbcb85dce19ce4d95dbe575c3b9d9733dda309c9b50d7230bc3 ,
-        0xb93976bb3c6d3837d16e976f1bcedd43b7cb3ec3b9cbe17679ca70ee66b95d7e ,
-        0x6838774ddc2e47efc20d70bb1c309cbb5a6e976f19cec334b7cb0b867317d0ed ,
-        0x72da70eebeba5d4e18ce5d7db7cbfb86f3f489ebd99d8072b7d955786ec5be03 ,
-        0x6bfb1bbe764323f5af1d5cee298bd3ebcc5a54c2c9b36b73def1cdf7ebfffa1f ,
-        0x0fff10ecd0ca6d9bafd5ad2cf2517c88f5cf607554856bdc6c0390f210bed549 ,
-        0x6a8ce815bfd46af51b842af5dbbff05dccc7ff9d70d9acd64c77330f97ff0302 ,
-        0xffffffff00003777434f4d35020018006d007300610063006300650073007300 ,
-        0x2e006500780065000400140041006e00640079002e0056006900720065006e00 ,
-        0x060018006d0073006100630063006500730073002e006500780065000c000400 ,
-        0x0000000014001c00310034002e0030002e0037003000310035002e0031003000 ,
-        0x3000300016001e003100370030002e003100310035002e003100320031002e00 ,
-        0x31003000390017000400e2559db3180004000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000000000000000000000000000000000000000
-    End
-    UnknownProp = {420 ,0 ,0 ,0 ,130 } Begin
-        0x04000d0020000000770069006e00730070006f006f006c000000580052005800 ,
-        0x3900430039003300340045003500370031003200320036002000500053000000 ,
-        0x58005f003100370030005f003100310035005f003100320031005f0034003300 ,
-        0x0000000000000000000000000000000000000000000000000000000000000000 ,
-        0x0000
-    End
     Begin
         Begin Label
             BackStyle =0
             FontSize =11
             FontName ="Calibri"
-            UnknownProp = {291 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {292 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {295 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {298 ,0 ,0 ,0 ,4 } Begin
-                0x02000000
-            End
-            UnknownProp = {299 ,0 ,0 ,0 ,4 } Begin
-                0x00007042
-            End
-            UnknownProp = {305 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {307 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
-        End
-        Begin Line
-            BorderLineStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            ForeThemeColorIndex =2
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin Image
             OldBorderStyle =0
-            BorderLineStyle =0
             SizeMode =3
             PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
         End
         Begin TextBox
             FELineBreak = NotDefault
-            BorderLineStyle =0
             LabelX =-1800
             FontSize =11
             FontName ="Calibri"
             AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             ShowDatePicker =0
-            UnknownProp = {313 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {316 ,0 ,0 ,0 ,4 } Begin
-                0x03000000
-            End
-            UnknownProp = {318 ,0 ,0 ,0 ,4 } Begin
-                0x0000b442
-            End
-            UnknownProp = {319 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {320 ,0 ,0 ,0 ,4 } Begin
-                0x02000000
-            End
-            UnknownProp = {322 ,0 ,0 ,0 ,4 } Begin
-                0x00004842
-            End
-            UnknownProp = {327 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {329 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin ComboBox
-            BorderLineStyle =0
             LabelX =-1800
             FontSize =11
             FontName ="Calibri"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
             AllowValueListEdits =1
             InheritValueList =1
-            UnknownProp = {323 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {324 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {327 ,0 ,0 ,0 ,4 } Begin
-                0x03000000
-            End
-            UnknownProp = {329 ,0 ,0 ,0 ,4 } Begin
-                0x0000b442
-            End
-            UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                0x02000000
-            End
-            UnknownProp = {332 ,0 ,0 ,0 ,4 } Begin
-                0x00004842
-            End
-            UnknownProp = {334 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {336 ,0 ,0 ,0 ,4 } Begin
-                0x00008242
-            End
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
         End
         Begin BreakLevel
             GroupHeader = NotDefault
@@ -393,15 +159,9 @@ Begin Report
         Begin PageHeader
             Height =1134
             Name ="PageHeaderSection"
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin TextBox
                     DecimalPlaces =0
@@ -445,7 +205,7 @@ Begin Report
                     Height =1134
                     Name ="Auto_Logo0"
                     PictureData = Begin
-                        0x0e00000000000000010000006c0000000000000000000000bd0000004c000000 ,
+                        0x0e000000f912462b010000006c0000000000000000000000bd0000004c000000 ,
                         0x000000000000000089100000b706000020454d4600000100a45b000011000000 ,
                         0x01000000000000000000000000000000a00500008403000040010000c8000000 ,
                         0x00000000000000000000000000e20400400d0300460000005c2d0000502d0000 ,
@@ -1234,15 +994,9 @@ Begin Report
             Height =0
             Name ="GroupHeader0"
             AlternateBackColor =15921906
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
         End
         Begin BreakHeader
             KeepTogether = NotDefault
@@ -1251,15 +1005,9 @@ Begin Report
             BreakLevel =1
             Name ="GroupHeader1"
             AlternateBackColor =15921906
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
         End
         Begin BreakHeader
             KeepTogether = NotDefault
@@ -1307,20 +1055,26 @@ Begin Report
             BreakLevel =3
             Name ="GroupHeader3"
             AlternateBackColor =15921906
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin Line
                     Top =420
                     Width =14400
                     Name ="Line25"
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
                     LayoutCachedTop =420
                     LayoutCachedWidth =14400
                     LayoutCachedHeight =420
@@ -1357,24 +1111,15 @@ Begin Report
                     Name ="StartTime_Label"
                     Caption ="StartTime"
                     Tag ="DetachedLabel"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =6705
                     LayoutCachedTop =60
                     LayoutCachedWidth =7755
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x03000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x03000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     TextAlign =1
@@ -1388,24 +1133,15 @@ Begin Report
                     Name ="EndTime_Label"
                     Caption ="EndTime"
                     Tag ="DetachedLabel"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =7815
                     LayoutCachedTop =60
                     LayoutCachedWidth =8895
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     TextAlign =1
@@ -1419,24 +1155,15 @@ Begin Report
                     Name ="PermitStartDate_Label"
                     Caption ="StartDate"
                     Tag ="DetachedLabel"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =4140
                     LayoutCachedTop =60
                     LayoutCachedWidth =5325
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     TextAlign =1
@@ -1450,18 +1177,13 @@ Begin Report
                     Name ="PermitID_Label"
                     Caption ="Reference#"
                     Tag ="DetachedLabel"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =2940
                     LayoutCachedTop =60
                     LayoutCachedWidth =4080
                     LayoutCachedHeight =405
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     Left =8955
@@ -1474,24 +1196,15 @@ Begin Report
                     Name ="OrganizationID_Label"
                     Caption ="OrganizationID"
                     Tag ="DetachedLabel"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =8955
                     LayoutCachedTop =60
                     LayoutCachedWidth =11355
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     TextAlign =1
@@ -1504,24 +1217,15 @@ Begin Report
                     ForeColor =13995605
                     Name ="Label27"
                     Caption ="EndDate"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =5385
                     LayoutCachedTop =60
                     LayoutCachedWidth =6645
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     Left =12915
@@ -1533,24 +1237,15 @@ Begin Report
                     ForeColor =13995605
                     Name ="Label34"
                     Caption ="Status"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =12915
                     LayoutCachedTop =60
                     LayoutCachedWidth =14475
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin Label
                     Left =11415
@@ -1562,24 +1257,15 @@ Begin Report
                     ForeColor =13995605
                     Name ="Label36"
                     Caption ="DayPhone"
-                    GroupTable =1
                     GridlineColor =10921638
                     LayoutCachedLeft =11415
                     LayoutCachedTop =60
                     LayoutCachedWidth =12855
                     LayoutCachedHeight =405
-                    UnknownProp = {288 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {289 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {290 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
                 End
             End
         End
@@ -1589,15 +1275,9 @@ Begin Report
             Height =382
             Name ="Detail"
             AlternateBackColor =15921906
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin TextBox
                     OldBorderStyle =0
@@ -1614,7 +1294,6 @@ Begin Report
                     Name ="StartTime"
                     ControlSource ="StartTime"
                     Format ="Medium Time"
-                    GroupTable =1
                     GridlineColor =10921638
                     ShowDatePicker =1
 
@@ -1622,24 +1301,12 @@ Begin Report
                     LayoutCachedTop =30
                     LayoutCachedWidth =7755
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x03000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x03000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -1656,7 +1323,6 @@ Begin Report
                     Name ="EndTime"
                     ControlSource ="EndTime"
                     Format ="Medium Time"
-                    GroupTable =1
                     GridlineColor =10921638
                     ShowDatePicker =1
 
@@ -1664,24 +1330,12 @@ Begin Report
                     LayoutCachedTop =30
                     LayoutCachedWidth =8895
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x04000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =4
+                    ColumnEnd =4
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -1696,7 +1350,6 @@ Begin Report
                     ForeColor =4138256
                     Name ="PermitStartDate"
                     ControlSource ="StartDate"
-                    GroupTable =1
                     GridlineColor =10921638
                     ShowDatePicker =1
 
@@ -1704,24 +1357,12 @@ Begin Report
                     LayoutCachedTop =30
                     LayoutCachedWidth =5325
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -1736,25 +1377,16 @@ Begin Report
                     ForeColor =4138256
                     Name ="PermitID"
                     ControlSource ="LocUsageID"
-                    GroupTable =1
                     GridlineColor =10921638
 
                     LayoutCachedLeft =2940
                     LayoutCachedTop =30
                     LayoutCachedWidth =4080
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     CanGrow = NotDefault
@@ -1770,31 +1402,18 @@ Begin Report
                     ForeColor =4138256
                     Name ="OrganizationID"
                     ControlSource ="OrganizationName"
-                    GroupTable =1
                     GridlineColor =10921638
 
                     LayoutCachedLeft =8955
                     LayoutCachedTop =30
                     LayoutCachedWidth =11355
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x05000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =5
+                    ColumnEnd =5
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -1809,7 +1428,6 @@ Begin Report
                     ForeColor =4138256
                     Name ="PermitEndDate"
                     ControlSource ="EndDate"
-                    GroupTable =1
                     GridlineColor =10921638
                     ShowDatePicker =1
 
@@ -1817,24 +1435,12 @@ Begin Report
                     LayoutCachedTop =30
                     LayoutCachedWidth =6645
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x02000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =1
+                    GroupTable =1
                 End
                 Begin TextBox
                     CanGrow = NotDefault
@@ -1878,38 +1484,25 @@ Begin Report
                         0x2200520065007100750065007300740065006400220000000000220043006f00 ,
                         0x6e006600690072006d0065006400220000000000
                     End
-                    GroupTable =1
                     GridlineColor =10921638
 
                     LayoutCachedLeft =12915
                     LayoutCachedTop =30
                     LayoutCachedWidth =14475
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x07000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {323 ,0 ,0 ,0 ,140 } Begin
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =7
+                    ColumnEnd =7
+                    LayoutGroup =1
+                    ConditionalFormat14 = Begin
                         0x010002000000000000000200000001010000ff000000ffffff000b0000002200 ,
                         0x5200650071007500650073007400650064002200000000000000000000000000 ,
                         0x0000000000000000000000000002000000010000000072bc00ffffff000b0000 ,
                         0x00220043006f006e006600690072006d00650064002200000000000000000000 ,
                         0x000000000000000000000000
                     End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    GroupTable =1
                 End
                 Begin TextBox
                     OldBorderStyle =0
@@ -1923,46 +1516,27 @@ Begin Report
                     Name ="DayPhone"
                     ControlSource ="DayPhone"
                     InputMask ="!\\(999\") \"000\\-0000;;_"
-                    GroupTable =1
                     GridlineColor =10921638
 
                     LayoutCachedLeft =11415
                     LayoutCachedTop =30
                     LayoutCachedWidth =12855
                     LayoutCachedHeight =360
-                    UnknownProp = {308 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {309 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {310 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {311 ,0 ,0 ,0 ,4 } Begin
-                        0x06000000
-                    End
-                    UnknownProp = {312 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
-                    UnknownProp = {330 ,0 ,0 ,0 ,4 } Begin
-                        0x01000000
-                    End
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =6
+                    ColumnEnd =6
+                    LayoutGroup =1
+                    GroupTable =1
                 End
             End
         End
         Begin PageFooter
             Height =390
             Name ="PageFooterSection"
-            UnknownProp = {268 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
-            UnknownProp = {270 ,0 ,0 ,0 ,4 } Begin
-                0x0000be42
-            End
-            UnknownProp = {271 ,0 ,0 ,0 ,4 } Begin
-                0x01000000
-            End
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
             Begin
                 Begin TextBox
                     OldBorderStyle =0

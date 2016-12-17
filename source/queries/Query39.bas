@@ -23,31 +23,17 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Expr2"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblStaff.EmployeeNumber"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1000"
-        dbInteger "ColumnWidth" ="4215"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1517
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =565
+    Right =1309
+    Bottom =548
     Left =0
     Top =0
     ColumnsShown =539

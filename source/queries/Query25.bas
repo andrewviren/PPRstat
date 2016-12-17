@@ -10,7 +10,7 @@ End
 Begin Joins
     LeftTable ="tblDuplicatePermitIDs"
     RightTable ="tblPermit"
-    Expression ="tblDuplicatePermitIDs.ActivityID = tblPermit.ActivityID"
+    Expression ="tblDuplicatePermitIDs.ActivityID=tblPermit.ActivityID"
     Flag =1
 End
 Begin OrderBy
@@ -33,21 +33,17 @@ Begin
         dbInteger "ColumnWidth" ="2400"
         dbBoolean "ColumnHidden" ="0"
     End
-    Begin
-        dbText "Name" ="tblPermit.DateTimeEntered"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =502
+    Right =1309
+    Bottom =485
     Left =0
     Top =0
     ColumnsShown =539

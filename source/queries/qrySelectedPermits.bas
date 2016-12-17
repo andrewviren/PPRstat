@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
-Where ="(((tblActivitySchedule.StartDate)<=[Forms]![frmWelcome]![txtDateEnd]) AND ((tblA"
-    "ctivitySchedule.EndDate)>=[Forms]![frmWelcome]![txtDateStart]) AND ((tblPermit.P"
-    "ublishID)>=[Forms]![frmWelcome].[txtPermitStart] And (tblPermit.PublishID)<=[for"
-    "ms]![frmwelcome].[txtPermitEnd]))"
+Where ="(((tblPermit.PublishID)>=Forms!frmWelcome.txtPermitStart And (tblPermit.PublishI"
+    "D)<=forms!frmwelcome.txtPermitEnd) And ((tblActivitySchedule.StartDate)<=Forms!f"
+    "rmWelcome!txtDateEnd) And ((tblActivitySchedule.EndDate)>=Forms!frmWelcome!txtDa"
+    "teStart))"
 Begin InputTables
     Name ="tblPermit"
     Name ="qryOutdoorPermits"
@@ -25,15 +25,15 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="qryOutdoorPermits"
-    Expression ="tblPermit.ActivityID = qryOutdoorPermits.ActivityID"
+    Expression ="tblPermit.ActivityID=qryOutdoorPermits.ActivityID"
     Flag =1
     LeftTable ="qryOutdoorPermits"
     RightTable ="tblFacility"
-    Expression ="qryOutdoorPermits.FacilityID = tblFacility.FacilityID"
+    Expression ="qryOutdoorPermits.FacilityID=tblFacility.FacilityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
 End
 Begin OrderBy
@@ -99,12 +99,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1517
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =228
+    Right =1309
+    Bottom =211
     Left =0
     Top =0
     ColumnsShown =539

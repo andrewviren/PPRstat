@@ -1,7 +1,7 @@
 Option Explicit
 Public Function UpdateAttendanceMonth(MyForm As Form, YearInput As String, MonthInput As String)
     
-    Dim Db As DAO.Database
+    Dim db As DAO.Database
     Dim rs As Recordset
     Dim ctl As Control
 
@@ -20,8 +20,8 @@ Public Function UpdateAttendanceMonth(MyForm As Form, YearInput As String, Month
     Next ctl
 
     'Open tblASPDates with scheduled dates and compare to months dates
-    Set Db = CurrentDb()
-    Set rs = Db.OpenRecordset("tblAfterSchoolDateExceptions", dbOpenDynaset)
+    Set db = CurrentDb()
+    Set rs = db.OpenRecordset("tblAfterSchoolDateExceptions", dbOpenDynaset)
     
     If rs.EOF Then
         MsgBox "The Recordset is empty."

@@ -2,14 +2,14 @@
 Option =0
 Where ="(((tblAmenityType.AmenityTypeName)=\"Gymnasium\"))"
 Begin InputTables
+    Name ="tblAmenityType"
+    Name ="tblFacilityAmenities"
+    Name ="tblFacility"
     Name ="SchoolsPermitted2013"
     Name ="tblPermit"
     Name ="tblSchool"
-    Name ="tblFacility"
-    Name ="tblActivityScheduleAmenity"
-    Name ="tblAmenityType"
-    Name ="tblFacilityAmenities"
     Name ="tblActivitySchedule"
+    Name ="tblActivityScheduleAmenity"
 End
 Begin OutputColumns
     Expression ="tblFacility.PlanningAnalysisSection"
@@ -24,34 +24,34 @@ Begin OutputColumns
     Expression ="tblFacility.ContactPhone"
 End
 Begin Joins
+    LeftTable ="tblAmenityType"
+    RightTable ="tblFacilityAmenities"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="SchoolsPermitted2013"
     RightTable ="tblSchool"
-    Expression ="SchoolsPermitted2013.SchoolName = tblSchool.SchoolName"
+    Expression ="SchoolsPermitted2013.SchoolName=tblSchool.SchoolName"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
-    Flag =1
-    LeftTable ="tblAmenityType"
-    RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 Begin OrderBy
@@ -128,12 +128,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =867
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =498
+    Right =1309
+    Bottom =481
     Left =0
     Top =0
     ColumnsShown =543

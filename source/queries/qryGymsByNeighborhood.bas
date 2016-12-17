@@ -17,11 +17,11 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblFacility.FacilityID = tblFacilityAmenities.FacilityID"
+    Expression ="tblFacility.FacilityID=tblFacilityAmenities.FacilityID"
     Flag =1
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
     Flag =1
 End
 Begin OrderBy
@@ -81,12 +81,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1184
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1168
-    Bottom =578
+    Right =1309
+    Bottom =561
     Left =0
     Top =0
     ColumnsShown =543

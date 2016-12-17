@@ -3,8 +3,8 @@ Option =0
 Where ="(((tblActivitySchedule.StartDate)<=#11/3/2014#))"
 Begin InputTables
     Name ="tblPermit"
-    Name ="tblSchool"
     Name ="tblActivitySchedule"
+    Name ="tblSchool"
 End
 Begin OutputColumns
     Expression ="tblSchool.SchoolName"
@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
 End
 Begin Groups
@@ -43,12 +43,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =905
-    Bottom =562
+    Right =1309
+    Bottom =545
     Left =0
     Top =0
     ColumnsShown =543

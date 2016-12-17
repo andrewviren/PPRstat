@@ -2,8 +2,8 @@
 Option =0
 Begin InputTables
     Name ="tblPermit"
-    Name ="tblCheck"
     Name ="tblPermitCheck"
+    Name ="tblCheck"
 End
 Begin OutputColumns
     Expression ="tblPermit.ActivityID"
@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblPermitCheck"
-    Expression ="tblPermit.PublishID = tblPermitCheck.PermitID"
+    Expression ="tblPermit.PublishID=tblPermitCheck.PermitID"
     Flag =1
     LeftTable ="tblPermitCheck"
     RightTable ="tblCheck"
-    Expression ="tblPermitCheck.CheckID = tblCheck.ID"
+    Expression ="tblPermitCheck.CheckID=tblCheck.ID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -43,12 +43,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1276
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1260
-    Bottom =564
+    Right =1309
+    Bottom =547
     Left =0
     Top =0
     ColumnsShown =539

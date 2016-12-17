@@ -4,9 +4,9 @@ Where ="(((qryActivitySchedule_FYYSQ.EndFiscalYear)=2014) AND ((tblActivitySched
     "DayNumber) Not In (1,7)) AND ((tblActivityScheduleDays.EndTime)>#12/30/1899 20:0"
     ":0#))"
 Begin InputTables
+    Name ="qryActivitySchedule_FYYSQ"
     Name ="tblPermit"
     Name ="tblSchool"
-    Name ="qryActivitySchedule_FYYSQ"
     Name ="tblActivityScheduleDays"
 End
 Begin OutputColumns
@@ -15,16 +15,16 @@ End
 Begin Joins
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblPermit"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityID = tblPermit.ActivityID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityID=tblPermit.ActivityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblActivityScheduleDays"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleDays.ActivityS"
-        "cheduleID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID=tblActivityScheduleDays.ActivitySch"
+        "eduleID"
     Flag =1
 End
 Begin Groups
@@ -50,12 +50,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1276
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1260
-    Bottom =564
+    Right =1309
+    Bottom =547
     Left =0
     Top =0
     ColumnsShown =543

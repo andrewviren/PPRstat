@@ -20,10 +20,10 @@ Begin Form
     Width =8640
     DatasheetFontHeight =11
     ItemSuffix =69
-    Left =7785
-    Top =2835
-    Right =7785
-    Bottom =2835
+    Left =6045
+    Top =2490
+    Right =6045
+    Bottom =2490
     RecSrcDt = Begin
         0x94bd1bf74f3ee440
     End
@@ -1106,7 +1106,7 @@ Private Sub txtFiscalYear_AfterUpdate()
     txtDateTo.Value = "6/30/" & txtFiscalYear.Value
 End Sub
 Private Sub txtYear_AfterUpdate()
-    Dim response As Integer
+    Dim Response As Integer
         
     If txtYear.Value < 2009 Then
         respnse = MsgBox("Sorry we only have information after 2009", vbOKOnly, "Please change the date")

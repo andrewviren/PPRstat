@@ -2,9 +2,9 @@
 Option =0
 Having ="(((tblFacility.FacilityType) Not In (\"Older Adults Center\",\"ballfield\")))"
 Begin InputTables
+    Name ="tblStaff"
     Name ="tblFacility"
     Name ="tblProgram"
-    Name ="tblStaff"
 End
 Begin OutputColumns
     Expression ="tblFacility.FacilityName"
@@ -17,11 +17,11 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin Groups
@@ -79,12 +79,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1106
-    Bottom =856
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1090
-    Bottom =599
+    Right =1309
+    Bottom =582
     Left =0
     Top =0
     ColumnsShown =543

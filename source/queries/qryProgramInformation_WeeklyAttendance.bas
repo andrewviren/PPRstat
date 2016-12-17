@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblProgram"
-    Name ="tblActivityType"
     Name ="tblFacility"
+    Name ="tblActivityType"
+    Name ="tblProgram"
 End
 Begin OutputColumns
     Expression ="tblFacility.District"
@@ -18,11 +18,11 @@ End
 Begin Joins
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -66,12 +66,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =835
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =444
+    Right =1309
+    Bottom =427
     Left =0
     Top =0
     ColumnsShown =539

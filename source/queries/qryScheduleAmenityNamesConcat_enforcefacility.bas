@@ -22,14 +22,14 @@ Begin Joins
     RightTable ="qrySelectedPermits"
     Expression ="tblFacilityAmenities.FacilityID=qrySelectedPermits.FacilityID"
     Flag =1
-    LeftTable ="tblFacilityAmenities"
-    RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
-    Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
     Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
         "leID"
+    Flag =1
+    LeftTable ="tblFacilityAmenities"
+    RightTable ="tblActivityScheduleAmenity"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -58,12 +58,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =326
+    Right =1309
+    Bottom =309
     Left =0
     Top =0
     ColumnsShown =539

@@ -30,32 +30,32 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblActivitySchedule"
-    Expression ="tblProgram.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblProgram.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivitySchedule_MostRecent"
-    Expression ="tblActivitySchedule.EndDate = qryActivitySchedule_MostRecent.MaxOfEndDate"
+    Expression ="tblActivitySchedule.ActivityID=qryActivitySchedule_MostRecent.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivitySchedule_MostRecent"
-    Expression ="tblActivitySchedule.StartDate = qryActivitySchedule_MostRecent.MaxOfStartDate"
+    Expression ="tblActivitySchedule.StartDate=qryActivitySchedule_MostRecent.MaxOfStartDate"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivitySchedule_MostRecent"
-    Expression ="tblActivitySchedule.ActivityID = qryActivitySchedule_MostRecent.ActivityID"
+    Expression ="tblActivitySchedule.EndDate=qryActivitySchedule_MostRecent.MaxOfEndDate"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 Begin Groups
@@ -138,25 +138,17 @@ Begin
         dbText "Name" ="FacilitatorsSelect"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Sheet11.[Training Date Attending]"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="rsvps20150218.Facility"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1359
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1343
-    Bottom =295
+    Right =1309
+    Bottom =278
     Left =0
     Top =0
     ColumnsShown =543

@@ -20,10 +20,10 @@ Begin Form
     GridY =24
     DatasheetFontHeight =11
     ItemSuffix =2
-    Left =7785
-    Top =2835
-    Right =7785
-    Bottom =2835
+    Left =6045
+    Top =2490
+    Right =6045
+    Bottom =2490
     RecSrcDt = Begin
         0x1297a71cf33ee440
     End

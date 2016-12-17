@@ -1,8 +1,8 @@
 ﻿Operation =4
 Option =0
 Begin InputTables
-    Name ="tblActivityScheduleAmenity"
     Name ="tbWhackest"
+    Name ="tblActivityScheduleAmenity"
 End
 Begin OutputColumns
     Name ="tblActivityScheduleAmenity.AmenityID"
@@ -11,7 +11,7 @@ End
 Begin Joins
     LeftTable ="tbWhackest"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tbWhackest.ScheduleID = tblActivityScheduleAmenity.ActivityScheduleID"
+    Expression ="tbWhackest.ScheduleID=tblActivityScheduleAmenity.ActivityScheduleID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -65,12 +65,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1232
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1216
-    Bottom =546
+    Right =1309
+    Bottom =529
     Left =0
     Top =0
     ColumnsShown =579

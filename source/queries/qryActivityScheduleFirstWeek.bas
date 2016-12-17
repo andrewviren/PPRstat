@@ -24,22 +24,22 @@ End
 Begin Joins
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivitySchedule_Filter"
-    Expression ="tblActivitySchedule.ActivityScheduleID = qryActivitySchedule_Filter.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=qryActivitySchedule_Filter.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"

@@ -3,10 +3,10 @@ Option =0
 Where ="(((qryActivitySchedule_FYYSQ.EndFiscalYear)=2014) AND ((tblActivityType.Activity"
     "TypeName)=\"baseball\" Or (tblActivityType.ActivityTypeName)=\"tee ball\"))"
 Begin InputTables
-    Name ="tblPermitActivityType"
-    Name ="tblPermit"
-    Name ="qryActivitySchedule_FYYSQ"
     Name ="tblActivityType"
+    Name ="tblPermit"
+    Name ="tblPermitActivityType"
+    Name ="qryActivitySchedule_FYYSQ"
 End
 Begin OutputColumns
     Alias ="CountOfPublishID"
@@ -20,15 +20,15 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblPermitActivityType"
-    Expression ="tblPermit.ActivityType = tblPermitActivityType.PermitActivityType"
+    Expression ="tblPermit.ActivityType=tblPermitActivityType.PermitActivityType"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="qryActivitySchedule_FYYSQ"
-    Expression ="tblPermit.ActivityID = qryActivitySchedule_FYYSQ.ActivityID"
+    Expression ="tblPermit.ActivityID=qryActivitySchedule_FYYSQ.ActivityID"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblPermitActivityType"
-    Expression ="tblActivityType.ID = tblPermitActivityType.ActivityType"
+    Expression ="tblActivityType.ID=tblPermitActivityType.ActivityType"
     Flag =1
 End
 Begin Groups
@@ -46,43 +46,15 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="tblPermit.ActivityType"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblPermit.PublishID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.EndFiscalYear"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivityType.ActivityTypeName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblPermit.ExpectedGroupSizeMax"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="SumOfExpectedGroupSizeMax"
         dbInteger "ColumnWidth" ="3240"
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tblPermitActivityType.ActivityType"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="CountOfPublishID"
         dbInteger "ColumnWidth" ="1485"
         dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblPermit.ExpectedGroupSizeMin"
         dbLong "AggregateType" ="-1"
     End
     Begin
@@ -98,12 +70,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =516
+    Right =1309
+    Bottom =499
     Left =0
     Top =0
     ColumnsShown =543

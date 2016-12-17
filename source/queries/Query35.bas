@@ -3,9 +3,9 @@ Option =0
 Having ="(((tblActivitySchedule.StartDate)<#12/31/2014#) AND ((tblActivitySchedule.EndDat"
     "e)>#1/1/2014#) AND ((tblActivityType.Category)=\"athletic\"))"
 Begin InputTables
-    Name ="tblActivitySchedule"
     Name ="tblActivityType"
     Name ="tblProgram"
+    Name ="tblActivitySchedule"
     Name ="qryWeeklyAttendanceSumWeekCount"
 End
 Begin OutputColumns
@@ -19,15 +19,15 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblActivitySchedule"
-    Expression ="tblProgram.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblProgram.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblProgram"
     RightTable ="qryWeeklyAttendanceSumWeekCount"
-    Expression ="tblProgram.ActivityID = qryWeeklyAttendanceSumWeekCount.ActivityID"
+    Expression ="tblProgram.ActivityID=qryWeeklyAttendanceSumWeekCount.ActivityID"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
 End
 Begin Groups
@@ -75,12 +75,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =543

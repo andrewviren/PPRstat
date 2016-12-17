@@ -35,24 +35,15 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =513
+    Right =1309
+    Bottom =496
     Left =0
     Top =0
     ColumnsShown =539
-    Begin
-        Left =334
-        Top =259
-        Right =478
-        Bottom =403
-        Top =0
-        Name ="tblActivityType"
-        Name =""
-    End
     Begin
         Left =359
         Top =63
@@ -60,6 +51,15 @@ Begin
         Bottom =207
         Top =0
         Name ="tblFacility"
+        Name =""
+    End
+    Begin
+        Left =334
+        Top =259
+        Right =478
+        Bottom =403
+        Top =0
+        Name ="tblActivityType"
         Name =""
     End
     Begin

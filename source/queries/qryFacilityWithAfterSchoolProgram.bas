@@ -15,11 +15,11 @@ End
 Begin Joins
     LeftTable ="tblETOparticipants"
     RightTable ="tblFacility"
-    Expression ="tblETOparticipants.[Program Name] = tblFacility.FacilityName"
+    Expression ="tblETOparticipants.[Program Name]=tblFacility.FacilityName"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 Begin OrderBy
@@ -68,12 +68,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =730
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =714
-    Bottom =258
+    Right =1309
+    Bottom =241
     Left =0
     Top =0
     ColumnsShown =543

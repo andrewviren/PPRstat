@@ -16,15 +16,15 @@ End
 Begin Joins
     LeftTable ="tblActivityApproval"
     RightTable ="tblPermit"
-    Expression ="tblActivityApproval.ActivityID = tblPermit.ActivityID"
+    Expression ="tblActivityApproval.ActivityID=tblPermit.ActivityID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblActivityApproval"
-    Expression ="tblStaff.EmployeeNumber = tblActivityApproval.StaffApprover"
+    Expression ="tblStaff.EmployeeNumber=tblActivityApproval.StaffApprover"
     Flag =1
 End
 Begin Groups
@@ -68,12 +68,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1184
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1168
-    Bottom =513
+    Right =1309
+    Bottom =496
     Left =0
     Top =0
     ColumnsShown =543

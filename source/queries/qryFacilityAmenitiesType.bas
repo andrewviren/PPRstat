@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblFacilityAmenities"
     Name ="tblAmenityType"
+    Name ="tblFacilityAmenities"
 End
 Begin OutputColumns
     Expression ="tblAmenityType.*"
@@ -11,7 +11,7 @@ End
 Begin Joins
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"

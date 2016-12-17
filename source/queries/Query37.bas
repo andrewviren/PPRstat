@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblFacility"
     Name ="tblStaff"
+    Name ="tblFacility"
     Name ="tblProgram"
 End
 Begin OutputColumns
@@ -14,11 +14,11 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin Groups
@@ -63,12 +63,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =784
-    Bottom =860
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =768
-    Bottom =599
+    Right =1309
+    Bottom =582
     Left =0
     Top =0
     ColumnsShown =543

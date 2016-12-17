@@ -3,7 +3,7 @@ Sub AuditChangesNew(MyForm As Form, IDField As String)
     'On Error GoTo AuditChanges_Err
     'Declare all variables'
     '*********************'
-    Dim Db As DAO.Database
+    Dim db As DAO.Database
     Dim rst As DAO.Recordset
     Dim ctl As Control
     Dim dateNow As Date
@@ -23,8 +23,8 @@ Sub AuditChangesNew(MyForm As Form, IDField As String)
     
     'Set all varables'
     '****************'
-    Set Db = CurrentDb
-    Set rst = Db.OpenRecordset("tblAuditTrail", dbOpenDynaset)
+    Set db = CurrentDb
+    Set rst = db.OpenRecordset("tblAuditTrail", dbOpenDynaset)
     dateNow = Now()
     strUserID = Forms!frmWelcome.cmbUserName
 

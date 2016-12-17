@@ -17,11 +17,11 @@ End
 Begin Joins
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblProgram"
     RightTable ="qryActivitySchedule_FYYSQ"
-    Expression ="tblProgram.ActivityID = qryActivitySchedule_FYYSQ.ActivityID"
+    Expression ="tblProgram.ActivityID=qryActivitySchedule_FYYSQ.ActivityID"
     Flag =1
 End
 Begin Groups
@@ -43,18 +43,6 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="tblActivityType.ActivityTypeName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivitySchedule.EndDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.EndFiscalYear"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblProgram.ProgramID"
         dbLong "AggregateType" ="-1"
     End
@@ -66,25 +54,17 @@ Begin
         dbText "Name" ="tblProgram.AgeHigh"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.StartYear"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.StartFiscalYear"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =543

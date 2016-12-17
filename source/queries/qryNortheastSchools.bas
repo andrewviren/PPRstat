@@ -2,9 +2,9 @@
 Option =0
 Where ="(((tblSchool.PlanningArea)=\"Northeast\"))"
 Begin InputTables
+    Name ="tblFacility"
     Name ="tblPermit"
     Name ="tblSchool"
-    Name ="tblFacility"
 End
 Begin OutputColumns
     Expression ="tblSchool.SchoolName"
@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
-    Expression ="tblFacility.FacilityID = tblPermit.FacilityID"
+    Expression ="tblFacility.FacilityID=tblPermit.FacilityID"
     Flag =1
 End
 Begin Groups
@@ -37,53 +37,17 @@ Begin
         dbText "Name" ="tblSchool.SchoolName"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="tblActivitySchedule.EndDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivityScheduleDays.EndTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="MinOfStartTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivitySchedule.StartDate"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivityScheduleDays.StartTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblSchool.PlanningArea"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.StartFiscalYear"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="MaxOfEndTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivityScheduleDays.DayNumber"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =616
+    Right =1309
+    Bottom =599
     Left =0
     Top =0
     ColumnsShown =543

@@ -26,13 +26,13 @@ Begin Joins
     Flag =1
     LeftTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
     RightTable ="qryActivityScheduleDateOpenTimeSlots"
-    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.DateOpenTimeSlots=qryActivitySch"
-        "eduleDateOpenTimeSlots.DateOpenTimeSlots"
+    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.AmenityID=qryActivityScheduleDat"
+        "eOpenTimeSlots.AmenityID"
     Flag =1
     LeftTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
     RightTable ="qryActivityScheduleDateOpenTimeSlots"
-    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.AmenityID=qryActivityScheduleDat"
-        "eOpenTimeSlots.AmenityID"
+    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.DateOpenTimeSlots=qryActivitySch"
+        "eduleDateOpenTimeSlots.DateOpenTimeSlots"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblPermit"
@@ -70,42 +70,15 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =547
+    Right =1309
+    Bottom =530
     Left =0
     Top =0
     ColumnsShown =539
-    Begin
-        Left =334
-        Top =89
-        Right =478
-        Bottom =233
-        Top =0
-        Name ="qryActivityScheduleDateOpenTimeSlots"
-        Name =""
-    End
-    Begin
-        Left =594
-        Top =4
-        Right =738
-        Bottom =148
-        Top =0
-        Name ="tblActivitySchedule"
-        Name =""
-    End
-    Begin
-        Left =788
-        Top =2
-        Right =932
-        Bottom =146
-        Top =0
-        Name ="tblPermit"
-        Name =""
-    End
     Begin
         Left =962
         Top =235
@@ -122,6 +95,33 @@ Begin
         Bottom =186
         Top =0
         Name ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
+        Name =""
+    End
+    Begin
+        Left =788
+        Top =2
+        Right =932
+        Bottom =146
+        Top =0
+        Name ="tblPermit"
+        Name =""
+    End
+    Begin
+        Left =334
+        Top =89
+        Right =478
+        Bottom =233
+        Top =0
+        Name ="qryActivityScheduleDateOpenTimeSlots"
+        Name =""
+    End
+    Begin
+        Left =594
+        Top =4
+        Right =738
+        Bottom =148
+        Top =0
+        Name ="tblActivitySchedule"
         Name =""
     End
 End

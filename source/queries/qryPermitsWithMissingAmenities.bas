@@ -1,7 +1,7 @@
 ﻿Operation =1
 Option =0
-Where ="(((tblActivityScheduleAmenity.ActivityScheduleID) Is Null) AND ((tblPermit.Issue"
-    "r)=\"DG\") AND ((tblPermit.DateTimeEntered) Like \"*2015*\"))"
+Where ="(((tblPermit.Issuer)=\"DG\") AND ((tblPermit.DateTimeEntered) Like \"*2015*\") A"
+    "ND ((tblActivityScheduleAmenity.ActivityScheduleID) Is Null))"
 Begin InputTables
     Name ="tblPermit"
     Name ="tblActivitySchedule"
@@ -15,12 +15,12 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =2
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -46,21 +46,17 @@ Begin
         dbText "Name" ="tblPermit.DateTimeEntered"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="tblActivityScheduleAmenity.ActivityScheduleID"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1001
-    Bottom =616
+    Right =1309
+    Bottom =599
     Left =0
     Top =0
     ColumnsShown =539

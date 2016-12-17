@@ -24,73 +24,7 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="Expr1"
-        dbLong "AggregateType" ="-1"
-        dbInteger "ColumnWidth" ="4125"
-        dbBoolean "ColumnHidden" ="0"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.EmployeeNumber"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.MiddleInitial"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.LastName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.Status"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.FirstName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.DateTimeEntered"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.Suffix"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.Full Name"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.FullTime"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.CityEmail"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.DateTimeModified"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.AssignedFacilityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.StaffTitleID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryAssignedStaff.tblStaff.PermanentSeasonal"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="[qryAssignedStaff].EmployeeNumber"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1000"
         dbLong "AggregateType" ="-1"
     End
     Begin
@@ -105,21 +39,17 @@ Begin
         dbText "Name" ="qryAssignedStaff.[Full Name]"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Expr2"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1517
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =582
+    Right =1309
+    Bottom =565
     Left =0
     Top =0
     ColumnsShown =539

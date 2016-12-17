@@ -12,11 +12,11 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="qryActivitySchedule_FYYSQ"
-    Expression ="tblPermit.ActivityID = qryActivitySchedule_FYYSQ.ActivityID"
+    Expression ="tblPermit.ActivityID=qryActivitySchedule_FYYSQ.ActivityID"
     Flag =1
     LeftTable ="tblSchool"
     RightTable ="tblPermit"
-    Expression ="tblSchool.FacilityID = tblPermit.SchoolID"
+    Expression ="tblSchool.FacilityID=tblPermit.SchoolID"
     Flag =1
 End
 Begin Groups
@@ -38,21 +38,17 @@ Begin
         dbText "Name" ="tblSchool.SchoolName"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.StartFiscalYear"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1184
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =545
+    Right =1309
+    Bottom =528
     Left =0
     Top =0
     ColumnsShown =543

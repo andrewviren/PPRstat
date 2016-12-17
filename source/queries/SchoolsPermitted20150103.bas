@@ -4,49 +4,49 @@ Where ="(((tblDaySortNormal.DayName)=\"Saturday\") AND ((tblActivitySchedule.End
     "1/3/2015#) AND ((tblActivitySchedule.StartDate)<=#1/3/2015#))"
 Having ="(((tblPermit.SchoolReferenceNumber) Is Not Null))"
 Begin InputTables
-    Name ="tblSchool"
-    Name ="tblPermit"
     Name ="tblDaySortNormal"
+    Name ="tblAmenityType"
+    Name ="tblFacilityAmenities"
+    Name ="tblPermit"
+    Name ="tblSchool"
     Name ="tblActivitySchedule"
     Name ="tblActivityScheduleAmenity"
     Name ="tblActivityScheduleDays"
-    Name ="tblAmenityType"
-    Name ="tblFacilityAmenities"
 End
 Begin OutputColumns
     Expression ="tblSchool.SchoolName"
     Expression ="tblPermit.SchoolReferenceNumber"
 End
 Begin Joins
+    LeftTable ="tblAmenityType"
+    RightTable ="tblFacilityAmenities"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblSchool"
-    Expression ="tblPermit.SchoolID = tblSchool.FacilityID"
+    Expression ="tblPermit.SchoolID=tblSchool.FacilityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="tblActivitySchedule"
-    Expression ="tblPermit.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblPermit.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleAmenity.ActivitySche"
-        "duleID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleAmenity.ActivitySchedu"
+        "leID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
-    Flag =1
-    LeftTable ="tblAmenityType"
-    RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 Begin Groups
@@ -78,12 +78,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =545
+    Right =1309
+    Bottom =528
     Left =0
     Top =0
     ColumnsShown =543

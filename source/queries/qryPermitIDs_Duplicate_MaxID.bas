@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="qryPermitIDs_duplicate"
     Name ="tblPermit"
+    Name ="qryPermitIDs_duplicate"
 End
 Begin OutputColumns
     Expression ="tblPermit.PublishID"
@@ -12,7 +12,7 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="qryPermitIDs_duplicate"
-    Expression ="tblPermit.PublishID = qryPermitIDs_duplicate.PublishID"
+    Expression ="tblPermit.PublishID=qryPermitIDs_duplicate.PublishID"
     Flag =1
 End
 Begin Groups
@@ -45,12 +45,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =545
+    Right =1309
+    Bottom =528
     Left =0
     Top =0
     ColumnsShown =543

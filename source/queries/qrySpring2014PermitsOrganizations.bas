@@ -4,13 +4,13 @@ Where ="(((tblAmenityType.AmenityTypeName) Like \"*ball*\") AND ((qryActivitySch
     "YSQ.StartYear)=2014) AND ((qryActivitySchedule_FYYSQ.StartSeason) In (\"winter\""
     ",\"spring\")))"
 Begin InputTables
+    Name ="tblAmenityType"
+    Name ="tblFacilityAmenities"
+    Name ="tblActivityScheduleAmenity"
+    Name ="tblFacility"
     Name ="tblPermit"
     Name ="qryActivitySchedule_FYYSQ"
-    Name ="tblFacilityAmenities"
-    Name ="tblFacility"
     Name ="qryOutdoorPermits"
-    Name ="tblAmenityType"
-    Name ="tblActivityScheduleAmenity"
 End
 Begin OutputColumns
     Expression ="tblFacility.FacilityName"
@@ -18,30 +18,30 @@ Begin OutputColumns
     Expression ="tblPermit.OrganizationName"
 End
 Begin Joins
+    LeftTable ="tblAmenityType"
+    RightTable ="tblFacilityAmenities"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
+    Flag =1
     LeftTable ="tblPermit"
     RightTable ="qryActivitySchedule_FYYSQ"
-    Expression ="tblPermit.ActivityID = qryActivitySchedule_FYYSQ.ActivityID"
+    Expression ="tblPermit.ActivityID=qryActivitySchedule_FYYSQ.ActivityID"
     Flag =1
     LeftTable ="tblPermit"
     RightTable ="qryOutdoorPermits"
-    Expression ="tblPermit.ActivityID = qryOutdoorPermits.ActivityID"
+    Expression ="tblPermit.ActivityID=qryOutdoorPermits.ActivityID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="qryOutdoorPermits"
-    Expression ="tblFacility.FacilityID = qryOutdoorPermits.FacilityID"
+    Expression ="tblFacility.FacilityID=qryOutdoorPermits.FacilityID"
     Flag =1
     LeftTable ="tblActivityScheduleAmenity"
     RightTable ="qryActivitySchedule_FYYSQ"
-    Expression ="tblActivityScheduleAmenity.ActivityScheduleID = qryActivitySchedule_FYYSQ.Activi"
-        "tyScheduleID"
-    Flag =1
-    LeftTable ="tblAmenityType"
-    RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblActivityScheduleAmenity.ActivityScheduleID=qryActivitySchedule_FYYSQ.Activity"
+        "ScheduleID"
     Flag =1
     LeftTable ="tblFacilityAmenities"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblFacilityAmenities.AmenityID = tblActivityScheduleAmenity.AmenityID"
+    Expression ="tblFacilityAmenities.AmenityID=tblActivityScheduleAmenity.AmenityID"
     Flag =1
 End
 Begin Groups
@@ -85,12 +85,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =579
+    Right =1309
+    Bottom =562
     Left =0
     Top =0
     ColumnsShown =543

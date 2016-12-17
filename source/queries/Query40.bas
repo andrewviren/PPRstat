@@ -1,14 +1,14 @@
 ﻿Operation =1
 Option =0
-Where ="(((tblAmenityType.AmenityTypeName) Like \"*gym*\")) OR (((tblAmenityType.Amenity"
-    "TypeName) Like \"*gym*\"))"
-Having ="(((tblFacility.PlanningAnalysisSection) Like \"*bridesburg*\")) OR (((tblFacilit"
-    "y.PlanningAnalysisSection)=\"lower north philadelphia\"))"
+Where ="(((tblAmenityType.AmenityTypeName) Like \"*gym*\" Or (tblAmenityType.AmenityType"
+    "Name) Like \"*gym*\"))"
+Having ="(((tblFacility.PlanningAnalysisSection) Like \"*bridesburg*\" Or (tblFacility.Pl"
+    "anningAnalysisSection)=\"lower north philadelphia\"))"
 Begin InputTables
+    Name ="tblStaff"
+    Name ="tblAmenityType"
     Name ="tblFacility"
     Name ="tblFacilityAmenities"
-    Name ="tblAmenityType"
-    Name ="tblStaff"
 End
 Begin OutputColumns
     Expression ="tblFacility.FacilityName"
@@ -22,15 +22,15 @@ End
 Begin Joins
     LeftTable ="tblFacility"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblFacility.FacilityID = tblFacilityAmenities.FacilityID"
+    Expression ="tblFacility.FacilityID=tblFacilityAmenities.FacilityID"
     Flag =1
     LeftTable ="tblAmenityType"
     RightTable ="tblFacilityAmenities"
-    Expression ="tblAmenityType.AmenityTypeID = tblFacilityAmenities.AmenityTypeID"
+    Expression ="tblAmenityType.AmenityTypeID=tblFacilityAmenities.AmenityTypeID"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin Groups
@@ -96,12 +96,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1544
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1528
-    Bottom =617
+    Right =1309
+    Bottom =600
     Left =0
     Top =0
     ColumnsShown =543

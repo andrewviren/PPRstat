@@ -29,12 +29,11 @@ End
 Begin Joins
     LeftTable ="PPR_to_SDP_out"
     RightTable ="PPR_to_SDP_Dates_out"
-    Expression ="PPR_to_SDP_out.LocUsageInputDateTime = PPR_to_SDP_Dates_out.LocUsageInputDateTim"
-        "e"
+    Expression ="PPR_to_SDP_out.LocUsageInputEmpID=PPR_to_SDP_Dates_out.LocUsageInputEmpID"
     Flag =1
     LeftTable ="PPR_to_SDP_out"
     RightTable ="PPR_to_SDP_Dates_out"
-    Expression ="PPR_to_SDP_out.LocUsageInputEmpID = PPR_to_SDP_Dates_out.LocUsageInputEmpID"
+    Expression ="PPR_to_SDP_out.LocUsageInputDateTime=PPR_to_SDP_Dates_out.LocUsageInputDateTime"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -158,12 +157,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =388
+    Right =1309
+    Bottom =371
     Left =0
     Top =0
     ColumnsShown =539

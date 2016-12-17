@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
+    Name ="tblStaff"
     Name ="REACH2014"
     Name ="tblFacility"
-    Name ="tblStaff"
 End
 Begin OutputColumns
     Expression ="tblFacility.District"
@@ -15,11 +15,11 @@ End
 Begin Joins
     LeftTable ="REACH2014"
     RightTable ="tblFacility"
-    Expression ="REACH2014.Name = tblFacility.FacilityName"
+    Expression ="REACH2014.Name=tblFacility.FacilityName"
     Flag =1
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -55,12 +55,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =539

@@ -2,13 +2,13 @@
 Option =0
 Where ="(((tblActivitySchedule.EndDate) Like \"*2014*\"))"
 Begin InputTables
-    Name ="tblRedFlag"
-    Name ="tblProgram"
+    Name ="tblDaySortNormal"
     Name ="tblFacility"
     Name ="tblActivityType"
+    Name ="tblProgram"
+    Name ="tblRedFlag"
     Name ="tblActivitySchedule"
     Name ="tblActivityScheduleDays"
-    Name ="tblDaySortNormal"
 End
 Begin OutputColumns
     Expression ="tblFacility.District"
@@ -24,28 +24,28 @@ End
 Begin Joins
     LeftTable ="tblProgram"
     RightTable ="tblRedFlag"
-    Expression ="tblProgram.ProgramID = tblRedFlag.ProgramID"
+    Expression ="tblProgram.ProgramID=tblRedFlag.ProgramID"
     Flag =1
     LeftTable ="tblProgram"
     RightTable ="tblActivitySchedule"
-    Expression ="tblProgram.ActivityID = tblActivitySchedule.ActivityID"
+    Expression ="tblProgram.ActivityID=tblActivitySchedule.ActivityID"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblActivitySchedule.ActivityScheduleID = tblActivityScheduleDays.ActivitySchedul"
-        "eID"
+    Expression ="tblActivitySchedule.ActivityScheduleID=tblActivityScheduleDays.ActivityScheduleI"
+        "D"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 Begin OrderBy
@@ -117,12 +117,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =347
+    Right =1309
+    Bottom =330
     Left =0
     Top =0
     ColumnsShown =543

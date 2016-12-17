@@ -12,8 +12,8 @@ End
 Begin Joins
     LeftTable ="tblWhereAmenitiesAreWhack"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="tblWhereAmenitiesAreWhack.ScheduledAmenityID = tblActivityScheduleAmenity.Schedu"
-        "ledAmenityID"
+    Expression ="tblWhereAmenitiesAreWhack.ScheduledAmenityID=tblActivityScheduleAmenity.Schedule"
+        "dAmenityID"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -63,12 +63,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1408
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =771

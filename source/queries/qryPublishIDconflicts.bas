@@ -27,23 +27,23 @@ End
 Begin Joins
     LeftTable ="qryActivityScheduleDateOpenTimeSlots"
     RightTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
-    Expression ="qryActivityScheduleDateOpenTimeSlots.AmenityID=tblActivityScheduleDateOpenTimeSl"
-        "ots_Overbooked.AmenityID"
-    Flag =1
-    LeftTable ="qryActivityScheduleDateOpenTimeSlots"
-    RightTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
     Expression ="qryActivityScheduleDateOpenTimeSlots.DateOpenTimeSlots=tblActivityScheduleDateOp"
         "enTimeSlots_Overbooked.DateOpenTimeSlots"
     Flag =1
-    LeftTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
-    RightTable ="qryActivityScheduleDateOpenTimeSlots_1"
-    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.AmenityID=qryActivityScheduleDat"
-        "eOpenTimeSlots_1.AmenityID"
+    LeftTable ="qryActivityScheduleDateOpenTimeSlots"
+    RightTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
+    Expression ="qryActivityScheduleDateOpenTimeSlots.AmenityID=tblActivityScheduleDateOpenTimeSl"
+        "ots_Overbooked.AmenityID"
     Flag =1
     LeftTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
     RightTable ="qryActivityScheduleDateOpenTimeSlots_1"
     Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.DateOpenTimeSlots=qryActivitySch"
         "eduleDateOpenTimeSlots_1.DateOpenTimeSlots"
+    Flag =1
+    LeftTable ="tblActivityScheduleDateOpenTimeSlots_Overbooked"
+    RightTable ="qryActivityScheduleDateOpenTimeSlots_1"
+    Expression ="tblActivityScheduleDateOpenTimeSlots_Overbooked.AmenityID=qryActivityScheduleDat"
+        "eOpenTimeSlots_1.AmenityID"
     Flag =1
     LeftTable ="qryActivityScheduleDateOpenTimeSlots"
     RightTable ="tblActivitySchedule"
@@ -121,12 +121,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1161
-    Bottom =809
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1145
-    Bottom =377
+    Right =1309
+    Bottom =360
     Left =0
     Top =0
     ColumnsShown =543

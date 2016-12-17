@@ -1,9 +1,9 @@
 ﻿Operation =1
 Option =0
-Having ="(((tblProgram.IsActive)=Yes) AND ((tblFacility.FacilityName)=\"mcdevitt\") AND ("
-    "(tblFacility.District)=[Forms]![frmExportWeeklies]![txtDistrict]) AND ((qryActiv"
-    "itySchedule_PastYear_MostRecent.StartDate)<=Date()) AND ((qryActivitySchedule_Pa"
-    "stYear_MostRecent.EndDate)>=Date()-365))"
+Having ="(((tblProgram.IsActive)=Yes) And ((tblFacility.FacilityName)=\"mcdevitt\") And ("
+    "(tblFacility.District)=Forms!frmExportWeeklies!txtDistrict) And ((qryActivitySch"
+    "edule_PastYear_MostRecent.StartDate)<=Date()) And ((qryActivitySchedule_PastYear"
+    "_MostRecent.EndDate)>=Date()-365))"
 Begin InputTables
     Name ="tblFacility"
     Name ="tblActivityType"
@@ -31,20 +31,20 @@ End
 Begin Joins
     LeftTable ="tblActivityScheduleDays"
     RightTable ="qryActivitySchedule_PastYear_MostRecent"
-    Expression ="tblActivityScheduleDays.ActivityScheduleID = qryActivitySchedule_PastYear_MostRe"
-        "cent.ActivityScheduleID"
+    Expression ="tblActivityScheduleDays.ActivityScheduleID=qryActivitySchedule_PastYear_MostRece"
+        "nt.ActivityScheduleID"
     Flag =1
     LeftTable ="qryActivitySchedule_PastYear_MostRecent"
     RightTable ="tblProgram"
-    Expression ="qryActivitySchedule_PastYear_MostRecent.ActivityID = tblProgram.ActivityID"
+    Expression ="qryActivitySchedule_PastYear_MostRecent.ActivityID=tblProgram.ActivityID"
     Flag =1
     LeftTable ="tblActivityType"
     RightTable ="tblProgram"
-    Expression ="tblActivityType.ID = tblProgram.ActivityTypeID"
+    Expression ="tblActivityType.ID=tblProgram.ActivityTypeID"
     Flag =1
     LeftTable ="tblFacility"
     RightTable ="tblProgram"
-    Expression ="tblFacility.FacilityID = tblProgram.FacilityID"
+    Expression ="tblFacility.FacilityID=tblProgram.FacilityID"
     Flag =1
 End
 Begin Groups
@@ -132,12 +132,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1105
-    Bottom =839
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1089
-    Bottom =388
+    Right =1309
+    Bottom =371
     Left =0
     Top =0
     ColumnsShown =543

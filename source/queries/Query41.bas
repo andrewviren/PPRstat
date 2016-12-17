@@ -8,6 +8,7 @@ Begin OutputColumns
     Expression ="Nz(StringFromGUID([qryAssignedStaff].AssignedFacilityID))"
     Expression ="qryAssignedStaff.EmployeeNumber"
     Expression ="qryAssignedStaff.[Full Name]"
+    Alias ="Expr2"
     Expression ="StringFromGUID([qryAssignedStaff].[AssignedFacilityID])"
 End
 Begin OrderBy
@@ -50,26 +51,19 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="StringFromGUID([qryAssignedStaff].[AssignedFacilityID])"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1003"
-        dbInteger "ColumnWidth" ="4335"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
+        dbText "Name" ="Expr2"
     End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1517
-    Bottom =861
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =599
+    Right =1309
+    Bottom =582
     Left =0
     Top =0
     ColumnsShown =543

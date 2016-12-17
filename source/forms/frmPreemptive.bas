@@ -20,10 +20,10 @@ Begin Form
     Width =3720
     DatasheetFontHeight =11
     ItemSuffix =3
-    Left =7785
-    Top =2835
-    Right =7785
-    Bottom =2835
+    Left =6045
+    Top =2490
+    Right =6045
+    Bottom =2490
     RecSrcDt = Begin
         0x8cf1c36ded3ee440
     End
@@ -285,10 +285,10 @@ Private Sub cmdNext_Click()
     Dim dialogCorrectlyFilled As Variant
     Dim dialogFormNotes As Variant
     Dim strCurrentForm As String
-    Dim Db As Database
+    Dim db As Database
     Dim strSQL As String
     
-    Set Db = CurrentDb
+    Set db = CurrentDb
     'strFormName(0) = Screen.ActiveForm.Name
     'strSQL = "INSERT INTO FormResolution (FormDatabaseName, FacilityID, User, TimeStarted, TimeEnded, Resolution) VALUES " _
     '             & "('" & strFormName(0) & "', '" & gblFacilityID(0) & "', '" & strUser(0) & "', '" & strFormStart(0) & "', '" & Now() & "', '" _

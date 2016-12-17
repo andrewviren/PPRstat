@@ -12,7 +12,7 @@ End
 Begin Joins
     LeftTable ="qrySchoolsPermitted2014"
     RightTable ="SchoolsPermitted2013"
-    Expression ="qrySchoolsPermitted2014.SchoolName = SchoolsPermitted2013.SchoolName"
+    Expression ="qrySchoolsPermitted2014.SchoolName=SchoolsPermitted2013.SchoolName"
     Flag =2
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -37,21 +37,17 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Expr1000"
-        dbLong "AggregateType" ="-1"
-    End
 End
 Begin
     State =0
     Left =0
     Top =0
-    Right =1424
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =905
-    Bottom =302
+    Right =1309
+    Bottom =285
     Left =0
     Top =0
     ColumnsShown =539

@@ -1,11 +1,11 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="tblActivityScheduleAmenity"
-    Name ="tblActivityScheduleDays"
     Name ="tblDaySortNormal"
-    Name ="qryFacilityAmenitiesType"
     Name ="qryActivitySchedule_FYYSQ"
+    Name ="tblActivityScheduleDays"
+    Name ="qryFacilityAmenitiesType"
+    Name ="tblActivityScheduleAmenity"
 End
 Begin OutputColumns
     Expression ="tblDaySortNormal.DayName"
@@ -16,23 +16,23 @@ Begin OutputColumns
     Expression ="qryActivitySchedule_FYYSQ.*"
 End
 Begin Joins
-    LeftTable ="qryFacilityAmenitiesType"
-    RightTable ="tblActivityScheduleAmenity"
-    Expression ="qryFacilityAmenitiesType.AmenityID = tblActivityScheduleAmenity.AmenityID"
-    Flag =3
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblActivityScheduleDays"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleDays.ActivityS"
-        "cheduleID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID=tblActivityScheduleDays.ActivitySch"
+        "eduleID"
     Flag =1
+    LeftTable ="qryFacilityAmenitiesType"
+    RightTable ="tblActivityScheduleAmenity"
+    Expression ="qryFacilityAmenitiesType.AmenityID=tblActivityScheduleAmenity.AmenityID"
+    Flag =3
     LeftTable ="qryActivitySchedule_FYYSQ"
     RightTable ="tblActivityScheduleAmenity"
-    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID = tblActivityScheduleAmenity.Activi"
-        "tyScheduleID"
+    Expression ="qryActivitySchedule_FYYSQ.ActivityScheduleID=tblActivityScheduleAmenity.Activity"
+        "ScheduleID"
     Flag =1
     LeftTable ="tblDaySortNormal"
     RightTable ="tblActivityScheduleDays"
-    Expression ="tblDaySortNormal.DayNumberSunday = tblActivityScheduleDays.DayNumber"
+    Expression ="tblDaySortNormal.DayNumberSunday=tblActivityScheduleDays.DayNumber"
     Flag =1
 End
 dbBoolean "ReturnsRecords" ="-1"
@@ -62,35 +62,11 @@ Begin
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tblActivitySchedule.EndDate"
-        dbInteger "ColumnWidth" ="1200"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivitySchedule.StartDate"
-        dbInteger "ColumnWidth" ="1290"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="tblActivitySchedule.ActivityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="tblDaySortNormal.DayNumberMonday"
         dbLong "AggregateType" ="-1"
     End
     Begin
-        dbText "Name" ="tblFacilityAmenities.AmenityName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="qryFacilityAmenitiesType.AmenityName"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="qryActivitySchedule_FYYSQ.ActivityID"
         dbLong "AggregateType" ="-1"
     End
 End

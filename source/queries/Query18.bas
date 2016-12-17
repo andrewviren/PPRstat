@@ -7,12 +7,12 @@ End
 Begin OutputColumns
     Expression ="tblFacility.District"
     Alias ="#Surveys"
-    Expression ="Count(tblStaff.[EmployeeNumber])"
+    Expression ="Count(tblStaff.EmployeeNumber)"
 End
 Begin Joins
     LeftTable ="tblStaff"
     RightTable ="tblFacility"
-    Expression ="tblStaff.EmployeeNumber = tblFacility.FacilitySupervisor"
+    Expression ="tblStaff.EmployeeNumber=tblFacility.FacilitySupervisor"
     Flag =1
 End
 Begin Groups
@@ -42,12 +42,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1276
-    Bottom =840
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =955
-    Bottom =596
+    Right =1309
+    Bottom =579
     Left =0
     Top =0
     ColumnsShown =543

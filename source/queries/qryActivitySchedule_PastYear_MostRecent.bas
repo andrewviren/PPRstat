@@ -1,8 +1,8 @@
 ﻿Operation =1
 Option =0
 Begin InputTables
-    Name ="qryActivity_PastYear_MostRecent"
     Name ="tblActivitySchedule"
+    Name ="qryActivity_PastYear_MostRecent"
 End
 Begin OutputColumns
     Expression ="tblActivitySchedule.ActivityScheduleID"
@@ -17,15 +17,15 @@ End
 Begin Joins
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivity_PastYear_MostRecent"
-    Expression ="tblActivitySchedule.ActivityID = qryActivity_PastYear_MostRecent.ActivityID"
+    Expression ="tblActivitySchedule.EndDate=qryActivity_PastYear_MostRecent.MaxOfEndDate"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivity_PastYear_MostRecent"
-    Expression ="tblActivitySchedule.StartDate = qryActivity_PastYear_MostRecent.MaxOfStartDate"
+    Expression ="tblActivitySchedule.StartDate=qryActivity_PastYear_MostRecent.MaxOfStartDate"
     Flag =1
     LeftTable ="tblActivitySchedule"
     RightTable ="qryActivity_PastYear_MostRecent"
-    Expression ="tblActivitySchedule.EndDate = qryActivity_PastYear_MostRecent.MaxOfEndDate"
+    Expression ="tblActivitySchedule.ActivityID=qryActivity_PastYear_MostRecent.ActivityID"
     Flag =1
 End
 Begin Groups

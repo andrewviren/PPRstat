@@ -24,16 +24,6 @@ dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 Begin
     Begin
-        dbText "Name" ="qryAssignedStaff.AssignedFacilityID"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
-        dbText "Name" ="Expr1"
-        dbInteger "ColumnWidth" ="7110"
-        dbBoolean "ColumnHidden" ="0"
-        dbLong "AggregateType" ="-1"
-    End
-    Begin
         dbText "Name" ="strFacilityID"
         dbInteger "ColumnWidth" ="4185"
         dbBoolean "ColumnHidden" ="0"
@@ -60,12 +50,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =555
-    Bottom =839
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1501
-    Bottom =254
+    Right =1309
+    Bottom =237
     Left =0
     Top =0
     ColumnsShown =539

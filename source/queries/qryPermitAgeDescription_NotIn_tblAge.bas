@@ -3,8 +3,8 @@ Name ="tblAge"
 Option =0
 Where ="(((tblAge.AgeText) Is Null))"
 Begin InputTables
-    Name ="tblAge"
     Name ="tblPermit"
+    Name ="tblAge"
 End
 Begin OutputColumns
     Name ="AgeText"
@@ -13,7 +13,7 @@ End
 Begin Joins
     LeftTable ="tblPermit"
     RightTable ="tblAge"
-    Expression ="tblPermit.AgeGroupText = tblAge.AgeText"
+    Expression ="tblPermit.AgeGroupText=tblAge.AgeText"
     Flag =2
 End
 Begin Groups
@@ -42,12 +42,12 @@ Begin
     State =0
     Left =0
     Top =0
-    Right =1516
-    Bottom =841
+    Right =1325
+    Bottom =852
     Left =-1
     Top =-1
-    Right =1500
-    Bottom =595
+    Right =1309
+    Bottom =578
     Left =0
     Top =0
     ColumnsShown =655
